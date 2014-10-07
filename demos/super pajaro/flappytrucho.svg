@@ -1,0 +1,1929 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="512"
+   height="512"
+   id="svg2985"
+   version="1.1"
+   inkscape:version="0.48.3.1 r9886"
+   sodipodi:docname="flappytrucho.svg"
+   inkscape:export-filename="/home/cabral/programacion/juego/svn-superjuego/demos/super pajaro/imagenes.png"
+   inkscape:export-xdpi="90"
+   inkscape:export-ydpi="90">
+  <defs
+     id="defs2987">
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient4192">
+      <stop
+         style="stop-color:#ffff00;stop-opacity:1"
+         offset="0"
+         id="stop4194" />
+      <stop
+         style="stop-color:#ff0000;stop-opacity:1"
+         offset="1"
+         id="stop4196" />
+    </linearGradient>
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient4192"
+       id="radialGradient4198"
+       cx="67.603256"
+       cy="424.65106"
+       fx="67.603256"
+       fy="424.65106"
+       r="38.721238"
+       gradientTransform="matrix(1.1274108,0.00273117,-0.00263386,1.0872406,-13.308319,-41.157085)"
+       gradientUnits="userSpaceOnUse" />
+    <filter
+       inkscape:collect="always"
+       id="filter4204"
+       x="-0.095795006"
+       width="1.19159"
+       y="-0.10122991"
+       height="1.2024598">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="2.9848362"
+         id="feGaussianBlur4206" />
+    </filter>
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1.0175781"
+     inkscape:cx="95.247117"
+     inkscape:cy="234.39147"
+     inkscape:current-layer="layer1"
+     inkscape:document-units="px"
+     showgrid="false"
+     inkscape:window-width="1364"
+     inkscape:window-height="695"
+     inkscape:window-x="0"
+     inkscape:window-y="25"
+     inkscape:window-maximized="1"
+     showguides="true"
+     inkscape:guide-bbox="true"
+     inkscape:snap-global="false">
+    <sodipodi:guide
+       orientation="1,0"
+       position="0,511.12286"
+       id="guide3808" />
+    <inkscape:grid
+       type="xygrid"
+       id="grid3812"
+       units="in"
+       empspacing="5"
+       visible="true"
+       enabled="true"
+       snapvisiblegridlinesonly="true" />
+    <sodipodi:guide
+       orientation="0,1"
+       position="-32.659919,448.20527"
+       id="guide3834" />
+    <sodipodi:guide
+       orientation="0,1"
+       position="27.100784,480.17029"
+       id="guide3836" />
+    <sodipodi:guide
+       orientation="1,0"
+       position="126.47032,458.62864"
+       id="guide3840" />
+    <sodipodi:guide
+       orientation="1,0"
+       position="233.48367,136.19881"
+       id="guide3842" />
+  </sodipodi:namedview>
+  <metadata
+     id="metadata2990">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     id="layer1"
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     transform="translate(0,32)"
+     style="display:inline">
+    <path
+       sodipodi:type="arc"
+       style="color:#000000;fill:#2c5aa0;stroke:#000000;stroke-width:6.4967742;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       id="path3793"
+       sodipodi:cx="87.164703"
+       sodipodi:cy="253.18922"
+       sodipodi:rx="50.655926"
+       sodipodi:ry="41.528732"
+       d="m 137.82063,253.18922 a 50.655926,41.528732 0 1 1 -101.311852,0 50.655926,41.528732 0 1 1 101.311852,0 z"
+       transform="matrix(0.42020086,0,0,0.42020086,-5.1191453,-106.51562)"
+       inkscape:export-filename="/home/cabral/programacion/juego/svn-superjuego/demos/super pajaro/pajaro01.png"
+       inkscape:export-xdpi="89.120003"
+       inkscape:export-ydpi="89.120003" />
+    <path
+       sodipodi:type="arc"
+       style="color:#000000;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       id="path3795"
+       sodipodi:cx="95.379173"
+       sodipodi:cy="236.76028"
+       sodipodi:rx="16.885309"
+       sodipodi:ry="15.05987"
+       d="m 112.26448,236.76028 a 16.885309,15.05987 0 1 1 -33.770616,0 16.885309,15.05987 0 1 1 33.770616,0 z"
+       transform="matrix(0.42020086,0,0,0.42020086,-5.1191453,-106.51562)"
+       inkscape:export-filename="/home/cabral/programacion/juego/svn-superjuego/demos/super pajaro/pajaro01.png"
+       inkscape:export-xdpi="89.120003"
+       inkscape:export-ydpi="89.120003" />
+    <path
+       sodipodi:type="arc"
+       style="color:#000000;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       id="path3797"
+       sodipodi:cx="127.32436"
+       sodipodi:cy="238.12936"
+       sodipodi:rx="14.147151"
+       sodipodi:ry="15.51623"
+       d="m 141.47151,238.12936 a 14.147151,15.51623 0 1 1 -28.2943,0 14.147151,15.51623 0 1 1 28.2943,0 z"
+       transform="matrix(0.42020086,0,0,0.39225834,-5.1191453,-99.428111)"
+       inkscape:export-filename="/home/cabral/programacion/juego/svn-superjuego/demos/super pajaro/pajaro01.png"
+       inkscape:export-xdpi="89.120003"
+       inkscape:export-ydpi="89.120003" />
+    <path
+       sodipodi:type="arc"
+       style="color:#000000;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       id="path3799"
+       sodipodi:cx="92.641022"
+       sodipodi:cy="239.9548"
+       sodipodi:rx="4.1072373"
+       sodipodi:ry="3.6508775"
+       d="m 96.748259,239.9548 a 4.1072373,3.6508775 0 1 1 -8.214475,0 4.1072373,3.6508775 0 1 1 8.214475,0 z"
+       transform="matrix(0.42020086,0,0,0.42020086,-4.9273833,-107.85795)"
+       inkscape:export-filename="/home/cabral/programacion/juego/svn-superjuego/demos/super pajaro/pajaro01.png"
+       inkscape:export-xdpi="89.120003"
+       inkscape:export-ydpi="89.120003" />
+    <path
+       transform="matrix(0.37767538,0,0,0.37235969,14.832646,-95.323541)"
+       d="m 96.748259,239.9548 a 4.1072373,3.6508775 0 1 1 -8.214475,0 4.1072373,3.6508775 0 1 1 8.214475,0 z"
+       sodipodi:ry="3.6508775"
+       sodipodi:rx="4.1072373"
+       sodipodi:cy="239.9548"
+       sodipodi:cx="92.641022"
+       id="path3801"
+       style="color:#000000;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       sodipodi:type="arc"
+       inkscape:export-filename="/home/cabral/programacion/juego/svn-superjuego/demos/super pajaro/pajaro01.png"
+       inkscape:export-xdpi="89.120003"
+       inkscape:export-ydpi="89.120003" />
+    <path
+       sodipodi:type="arc"
+       style="color:#000000;fill:#ff7f2a;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       id="path3803"
+       sodipodi:cx="119.56624"
+       sodipodi:cy="268.70544"
+       sodipodi:rx="33.770618"
+       sodipodi:ry="13.690791"
+       d="m 153.33686,268.70544 a 33.770618,13.690791 0 1 1 -67.54124,0 33.770618,13.690791 0 1 1 67.54124,0 z"
+       transform="matrix(0.42020086,0,0,0.46910325,-4.3520943,-120.13702)"
+       inkscape:export-filename="/home/cabral/programacion/juego/svn-superjuego/demos/super pajaro/pajaro01.png"
+       inkscape:export-xdpi="89.120003"
+       inkscape:export-ydpi="89.120003" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:2.04746246;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       d="m 45.394337,6.2028996 14.139042,-0.19177"
+       id="path3805"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/cabral/programacion/juego/svn-superjuego/demos/super pajaro/pajaro01.png"
+       inkscape:export-xdpi="89.120003"
+       inkscape:export-ydpi="89.120003" />
+    <path
+       style="color:#000000;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:4.43954086;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       d="m 434.61876,171.23977 c -15.82427,0 -28.64892,9.83454 -28.64892,21.96648 0,1.20213 0.12763,2.36495 0.36996,3.51463 -14.43678,2.61998 -25.20364,12.87566 -25.20364,25.13428 0,10.52302 7.95096,19.55273 19.3305,23.56194 -1.9623,2.43533 -3.09843,5.32104 -3.09843,8.41663 0,8.70334 8.99345,15.76962 20.07043,15.76962 8.88031,0 16.39166,-4.53845 19.02991,-10.82138 4.62143,2.0216 9.83519,3.19092 15.35341,3.19092 14.58386,0 27.02709,-7.9555 32.02481,-19.16864 9.33659,-0.64808 16.6714,-7.42542 16.6714,-15.70026 0,-4.76818 -2.43621,-9.0415 -6.28935,-11.93126 1.58986,-2.52437 2.47412,-5.26696 2.47412,-8.13916 0,-12.27135 -15.93487,-22.23016 -35.70131,-22.42893 -4.36351,-7.86029 -14.53726,-13.36487 -26.38289,-13.36487 z"
+       id="path3866"
+       inkscape:export-filename="/home/cabral/programacion/juego/svn-superjuego/demos/super pajaro/nube.png"
+       inkscape:export-xdpi="89.760002"
+       inkscape:export-ydpi="89.760002"
+       inkscape:connector-curvature="0" />
+    <path
+       sodipodi:type="arc"
+       style="color:#000000;fill:#2c5aa0;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:4.38618755;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       id="path3909"
+       sodipodi:cx="61.312057"
+       sodipodi:cy="257.34042"
+       sodipodi:rx="18.070923"
+       sodipodi:ry="14.521276"
+       d="M 77.668118,263.51474 A 18.070923,14.521276 0 1 1 66.691466,243.47747"
+       transform="matrix(0.67240787,-0.11686256,0.09718986,0.55921443,-50.968418,-131.55151)"
+       sodipodi:start="0.43917258"
+       sodipodi:end="5.0146538"
+       sodipodi:open="true"
+       inkscape:export-filename="/home/cabral/programacion/juego/svn-superjuego/demos/super pajaro/pajaro01.png"
+       inkscape:export-xdpi="89.120003"
+       inkscape:export-ydpi="89.120003" />
+    <path
+       transform="matrix(0.42020086,0,0,0.42020086,59.200214,-106.50583)"
+       d="m 137.82063,253.18922 a 50.655926,41.528732 0 1 1 -101.311852,0 50.655926,41.528732 0 1 1 101.311852,0 z"
+       sodipodi:ry="41.528732"
+       sodipodi:rx="50.655926"
+       sodipodi:cy="253.18922"
+       sodipodi:cx="87.164703"
+       id="path3911"
+       style="color:#000000;fill:#2c5aa0;stroke:#000000;stroke-width:6.4967742;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       sodipodi:type="arc"
+       inkscape:export-filename="/home/cabral/programacion/juego/svn-superjuego/demos/super pajaro/pajaro02.png"
+       inkscape:export-xdpi="88.57"
+       inkscape:export-ydpi="88.57" />
+    <path
+       style="fill:#000000;stroke:none"
+       d="m 75.404062,6.1111474 5.734894,5.8850796 c 3.008575,-0.0748 7.753889,-2.98052 10.782759,-7.4267396 z"
+       id="path3927"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cccc"
+       inkscape:export-filename="/home/cabral/programacion/juego/svn-superjuego/demos/super pajaro/pajaro02.png"
+       inkscape:export-xdpi="88.57"
+       inkscape:export-ydpi="88.57" />
+    <path
+       transform="matrix(0.42020086,0,0,0.42020086,59.200214,-106.50583)"
+       d="m 112.26448,236.76028 a 16.885309,15.05987 0 1 1 -33.770616,0 16.885309,15.05987 0 1 1 33.770616,0 z"
+       sodipodi:ry="15.05987"
+       sodipodi:rx="16.885309"
+       sodipodi:cy="236.76028"
+       sodipodi:cx="95.379173"
+       id="path3913"
+       style="color:#000000;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       sodipodi:type="arc"
+       inkscape:export-filename="/home/cabral/programacion/juego/svn-superjuego/demos/super pajaro/pajaro02.png"
+       inkscape:export-xdpi="88.57"
+       inkscape:export-ydpi="88.57" />
+    <path
+       transform="matrix(0.42020086,0,0,0.39225834,59.200214,-99.418349)"
+       d="m 141.47151,238.12936 a 14.147151,15.51623 0 1 1 -28.2943,0 14.147151,15.51623 0 1 1 28.2943,0 z"
+       sodipodi:ry="15.51623"
+       sodipodi:rx="14.147151"
+       sodipodi:cy="238.12936"
+       sodipodi:cx="127.32436"
+       id="path3915"
+       style="color:#000000;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       sodipodi:type="arc"
+       inkscape:export-filename="/home/cabral/programacion/juego/svn-superjuego/demos/super pajaro/pajaro02.png"
+       inkscape:export-xdpi="88.57"
+       inkscape:export-ydpi="88.57" />
+    <path
+       transform="matrix(0.42020086,0,0,0.42020086,59.391977,-107.84818)"
+       d="m 96.748259,239.9548 a 4.1072373,3.6508775 0 1 1 -8.214475,0 4.1072373,3.6508775 0 1 1 8.214475,0 z"
+       sodipodi:ry="3.6508775"
+       sodipodi:rx="4.1072373"
+       sodipodi:cy="239.9548"
+       sodipodi:cx="92.641022"
+       id="path3917"
+       style="color:#000000;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       sodipodi:type="arc"
+       inkscape:export-filename="/home/cabral/programacion/juego/svn-superjuego/demos/super pajaro/pajaro02.png"
+       inkscape:export-xdpi="88.57"
+       inkscape:export-ydpi="88.57" />
+    <path
+       sodipodi:type="arc"
+       style="color:#000000;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       id="path3919"
+       sodipodi:cx="92.641022"
+       sodipodi:cy="239.9548"
+       sodipodi:rx="4.1072373"
+       sodipodi:ry="3.6508775"
+       d="m 96.748259,239.9548 a 4.1072373,3.6508775 0 1 1 -8.214475,0 4.1072373,3.6508775 0 1 1 8.214475,0 z"
+       transform="matrix(0.37767538,0,0,0.37235969,79.152007,-95.313769)"
+       inkscape:export-filename="/home/cabral/programacion/juego/svn-superjuego/demos/super pajaro/pajaro02.png"
+       inkscape:export-xdpi="88.57"
+       inkscape:export-ydpi="88.57" />
+    <path
+       transform="matrix(0.42020086,0,0,0.46910325,59.967266,-120.12725)"
+       d="m 153.33686,268.70544 a 33.770618,13.690791 0 1 1 -67.54124,0 33.770618,13.690791 0 1 1 67.54124,0 z"
+       sodipodi:ry="13.690791"
+       sodipodi:rx="33.770618"
+       sodipodi:cy="268.70544"
+       sodipodi:cx="119.56624"
+       id="path3921"
+       style="color:#000000;fill:#ff7f2a;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       sodipodi:type="arc"
+       inkscape:export-filename="/home/cabral/programacion/juego/svn-superjuego/demos/super pajaro/pajaro02.png"
+       inkscape:export-xdpi="88.57"
+       inkscape:export-ydpi="88.57" />
+    <path
+       inkscape:connector-curvature="0"
+       id="path3923"
+       d="m 103.98759,6.2126574 c 6.03087,-0.73714 9.86824,-0.17928 19.86516,-0.19176"
+       style="fill:none;stroke:#000000;stroke-width:2.04746246;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       sodipodi:nodetypes="cc"
+       inkscape:export-filename="/home/cabral/programacion/juego/svn-superjuego/demos/super pajaro/pajaro02.png"
+       inkscape:export-xdpi="88.57"
+       inkscape:export-ydpi="88.57" />
+    <path
+       sodipodi:end="4.7954328"
+       sodipodi:start="0.43917258"
+       transform="matrix(0.67240787,-0.07782676,0.09718986,0.37241911,13.350943,-88.671863)"
+       d="M 77.568095,263.51474 A 17.960413,14.521276 0 1 1 62.801845,242.86919"
+       sodipodi:ry="14.521276"
+       sodipodi:rx="17.960413"
+       sodipodi:cy="257.34042"
+       sodipodi:cx="61.312057"
+       id="path3925"
+       style="color:#000000;fill:#2c5aa0;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:5.71548367;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       sodipodi:type="arc"
+       sodipodi:open="true"
+       inkscape:export-filename="/home/cabral/programacion/juego/svn-superjuego/demos/super pajaro/pajaro02.png"
+       inkscape:export-xdpi="88.57"
+       inkscape:export-ydpi="88.57" />
+    <g
+       id="g3785"
+       transform="translate(-40.246036,-0.7265839)">
+      <path
+         inkscape:export-ydpi="89.760002"
+         inkscape:export-xdpi="89.760002"
+         inkscape:export-filename="/home/cabral/programacion/juego/svn-superjuego/demos/super pajaro/tuboabajo.png"
+         sodipodi:nodetypes="ccccccccc"
+         style="color:#000000;fill:#55d400;fill-opacity:1;stroke:none;stroke-width:5.12840223;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+         d="m 295.23222,478.72441 0,-450.181557 -18.98401,0 0,-57.814099 102.16625,0 0,57.814099 -17.94175,0 0,450.181557 z"
+         id="path3015"
+         inkscape:connector-curvature="0" />
+      <rect
+         transform="scale(1,-1)"
+         style="color:#000000;fill:#44aa00;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:4;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+         id="rect3015"
+         width="28.170757"
+         height="55.111942"
+         x="348.30902"
+         y="-28.567492"
+         inkscape:export-filename="/home/cabral/programacion/juego/svn-superjuego/demos/super pajaro/tuboabajo.png"
+         inkscape:export-xdpi="89.760002"
+         inkscape:export-ydpi="89.760002" />
+      <rect
+         transform="scale(1,-1)"
+         y="-477.38376"
+         x="336.69775"
+         height="451.37689"
+         width="21.639425"
+         id="rect3017"
+         style="color:#000000;fill:#44aa00;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:4;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+         inkscape:export-filename="/home/cabral/programacion/juego/svn-superjuego/demos/super pajaro/tuboabajo.png"
+         inkscape:export-xdpi="89.760002"
+         inkscape:export-ydpi="89.760002" />
+      <rect
+         transform="scale(1,-1)"
+         y="-27.209877"
+         x="278.31198"
+         height="55.758762"
+         width="22.362495"
+         id="rect3019"
+         style="color:#000000;fill:#99ff55;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:4;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+         inkscape:export-filename="/home/cabral/programacion/juego/svn-superjuego/demos/super pajaro/tuboabajo.png"
+         inkscape:export-xdpi="89.760002"
+         inkscape:export-ydpi="89.760002" />
+      <rect
+         transform="scale(1,-1)"
+         style="color:#000000;fill:#99ff55;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:4;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+         id="rect3021"
+         width="14.540437"
+         height="451.21997"
+         x="296.69946"
+         y="-476.57996"
+         inkscape:export-filename="/home/cabral/programacion/juego/svn-superjuego/demos/super pajaro/tuboabajo.png"
+         inkscape:export-xdpi="89.760002"
+         inkscape:export-ydpi="89.760002" />
+      <path
+         inkscape:connector-curvature="0"
+         id="path3023"
+         d="m 295.23222,478.72441 0,-450.181557 -18.98401,0 0,-57.814099 102.16625,0 0,57.814099 -17.94175,0 0,450.181557 z"
+         style="color:#000000;fill:none;stroke:#000000;stroke-width:4.0043478;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+         sodipodi:nodetypes="ccccccccc"
+         inkscape:export-filename="/home/cabral/programacion/juego/svn-superjuego/demos/super pajaro/tuboabajo.png"
+         inkscape:export-xdpi="89.760002"
+         inkscape:export-ydpi="89.760002" />
+    </g>
+    <g
+       id="g3793"
+       transform="matrix(1,0,0,-1,-146.24604,448.72658)">
+      <path
+         inkscape:connector-curvature="0"
+         id="path3796"
+         d="m 295.23222,478.72441 0,-450.181557 -18.98401,0 0,-57.814099 102.16625,0 0,57.814099 -17.94175,0 0,450.181557 z"
+         style="color:#000000;fill:#55d400;fill-opacity:1;stroke:none;stroke-width:5.12840223;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+         sodipodi:nodetypes="ccccccccc"
+         inkscape:export-filename="/home/cabral/programacion/juego/svn-superjuego/demos/super pajaro/tuboabajo.png"
+         inkscape:export-xdpi="89.760002"
+         inkscape:export-ydpi="89.760002" />
+      <rect
+         inkscape:export-ydpi="89.760002"
+         inkscape:export-xdpi="89.760002"
+         inkscape:export-filename="/home/cabral/programacion/juego/svn-superjuego/demos/super pajaro/tuboabajo.png"
+         y="-28.567492"
+         x="348.30902"
+         height="55.111942"
+         width="28.170757"
+         id="rect3798"
+         style="color:#000000;fill:#44aa00;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:4;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+         transform="scale(1,-1)" />
+      <rect
+         inkscape:export-ydpi="89.760002"
+         inkscape:export-xdpi="89.760002"
+         inkscape:export-filename="/home/cabral/programacion/juego/svn-superjuego/demos/super pajaro/tuboabajo.png"
+         style="color:#000000;fill:#44aa00;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:4;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+         id="rect3800"
+         width="21.639425"
+         height="451.37689"
+         x="336.69775"
+         y="-477.38376"
+         transform="scale(1,-1)" />
+      <rect
+         inkscape:export-ydpi="89.760002"
+         inkscape:export-xdpi="89.760002"
+         inkscape:export-filename="/home/cabral/programacion/juego/svn-superjuego/demos/super pajaro/tuboabajo.png"
+         style="color:#000000;fill:#99ff55;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:4;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+         id="rect3802"
+         width="22.362495"
+         height="55.758762"
+         x="278.31198"
+         y="-27.209877"
+         transform="scale(1,-1)" />
+      <rect
+         inkscape:export-ydpi="89.760002"
+         inkscape:export-xdpi="89.760002"
+         inkscape:export-filename="/home/cabral/programacion/juego/svn-superjuego/demos/super pajaro/tuboabajo.png"
+         y="-476.57996"
+         x="296.69946"
+         height="451.21997"
+         width="14.540437"
+         id="rect3804"
+         style="color:#000000;fill:#99ff55;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:4;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+         transform="scale(1,-1)" />
+      <path
+         inkscape:export-ydpi="89.760002"
+         inkscape:export-xdpi="89.760002"
+         inkscape:export-filename="/home/cabral/programacion/juego/svn-superjuego/demos/super pajaro/tuboabajo.png"
+         sodipodi:nodetypes="ccccccccc"
+         style="color:#000000;fill:none;stroke:#000000;stroke-width:4.0043478;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+         d="m 295.23222,478.72441 0,-450.181557 -18.98401,0 0,-57.814099 102.16625,0 0,57.814099 -17.94175,0 0,450.181557 z"
+         id="path3806"
+         inkscape:connector-curvature="0" />
+    </g>
+    <rect
+       style="color:#000000;fill:#ffccaa;stroke:#000000;stroke-width:4;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       id="rect3844"
+       width="66.817986"
+       height="157.22873"
+       x="443.7388"
+       y="320.8367" />
+    <rect
+       style="color:#000000;fill:#ac9393;stroke:#000000;stroke-width:4;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       id="rect3846"
+       width="56.989475"
+       height="84.505791"
+       x="384.74133"
+       y="393.52444" />
+    <rect
+       style="color:#000000;fill:#ffffff;stroke:#000000;stroke-width:3.43085814;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       id="rect3848"
+       width="11.379122"
+       height="11.379122"
+       x="450.78644"
+       y="330.34116" />
+    <rect
+       y="330.34116"
+       x="470.78644"
+       height="11.379122"
+       width="11.379122"
+       id="rect3850"
+       style="color:#000000;fill:#ffffff;stroke:#000000;stroke-width:3.43085814;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+    <rect
+       style="color:#000000;fill:#ffffff;stroke:#000000;stroke-width:3.43085814;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       id="rect3852"
+       width="11.379122"
+       height="11.379122"
+       x="490.78644"
+       y="330.34116" />
+    <rect
+       y="350.34116"
+       x="450.78644"
+       height="11.379122"
+       width="11.379122"
+       id="rect3854"
+       style="color:#000000;fill:#ffffff;stroke:#000000;stroke-width:3.43085814;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+    <rect
+       style="color:#000000;fill:#ffffff;stroke:#000000;stroke-width:3.43085814;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       id="rect3856"
+       width="11.379122"
+       height="11.379122"
+       x="470.78644"
+       y="350.34116" />
+    <rect
+       y="350.34116"
+       x="490.78644"
+       height="11.379122"
+       width="11.379122"
+       id="rect3858"
+       style="color:#000000;fill:#ffffff;stroke:#000000;stroke-width:3.43085814;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+    <rect
+       style="color:#000000;fill:#ffffff;stroke:#000000;stroke-width:3.43085814;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       id="rect3860"
+       width="11.379122"
+       height="11.379122"
+       x="450.78644"
+       y="350.34116" />
+    <rect
+       y="350.34116"
+       x="470.78644"
+       height="11.379122"
+       width="11.379122"
+       id="rect3862"
+       style="color:#000000;fill:#ffffff;stroke:#000000;stroke-width:3.43085814;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+    <rect
+       style="color:#000000;fill:#ffffff;stroke:#000000;stroke-width:3.43085814;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       id="rect3864"
+       width="11.379122"
+       height="11.379122"
+       x="490.78644"
+       y="350.34116" />
+    <rect
+       y="370.34116"
+       x="450.78644"
+       height="11.379122"
+       width="11.379122"
+       id="rect3872"
+       style="color:#000000;fill:#ffffff;stroke:#000000;stroke-width:3.43085814;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+    <rect
+       style="color:#000000;fill:#ffffff;stroke:#000000;stroke-width:3.43085814;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       id="rect3874"
+       width="11.379122"
+       height="11.379122"
+       x="470.78644"
+       y="370.34116" />
+    <rect
+       y="370.34116"
+       x="490.78644"
+       height="11.379122"
+       width="11.379122"
+       id="rect3876"
+       style="color:#000000;fill:#ffffff;stroke:#000000;stroke-width:3.43085814;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+    <rect
+       style="color:#000000;fill:#ffffff;stroke:#000000;stroke-width:3.43085814;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       id="rect3878"
+       width="11.379122"
+       height="11.379122"
+       x="450.78644"
+       y="390.34116" />
+    <rect
+       y="390.34116"
+       x="470.78644"
+       height="11.379122"
+       width="11.379122"
+       id="rect3880"
+       style="color:#000000;fill:#ffffff;stroke:#000000;stroke-width:3.43085814;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+    <rect
+       style="color:#000000;fill:#ffffff;stroke:#000000;stroke-width:3.43085814;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       id="rect3882"
+       width="11.379122"
+       height="11.379122"
+       x="490.78644"
+       y="390.34116" />
+    <rect
+       y="390.34116"
+       x="450.78644"
+       height="11.379122"
+       width="11.379122"
+       id="rect3884"
+       style="color:#000000;fill:#ffffff;stroke:#000000;stroke-width:3.43085814;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+    <rect
+       style="color:#000000;fill:#ffffff;stroke:#000000;stroke-width:3.43085814;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       id="rect3886"
+       width="11.379122"
+       height="11.379122"
+       x="470.78644"
+       y="390.34116" />
+    <rect
+       y="390.34116"
+       x="490.78644"
+       height="11.379122"
+       width="11.379122"
+       id="rect3888"
+       style="color:#000000;fill:#ffffff;stroke:#000000;stroke-width:3.43085814;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+    <rect
+       style="color:#000000;fill:#ffffff;stroke:#000000;stroke-width:3.43085814;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       id="rect3890"
+       width="11.379122"
+       height="11.379122"
+       x="450.78644"
+       y="410.34116" />
+    <rect
+       y="410.34116"
+       x="470.78644"
+       height="11.379122"
+       width="11.379122"
+       id="rect3892"
+       style="color:#000000;fill:#ffffff;stroke:#000000;stroke-width:3.43085814;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+    <rect
+       style="color:#000000;fill:#ffffff;stroke:#000000;stroke-width:3.43085814;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       id="rect3894"
+       width="11.379122"
+       height="11.379122"
+       x="490.78644"
+       y="410.34116" />
+    <rect
+       y="430.34116"
+       x="450.78644"
+       height="11.379122"
+       width="11.379122"
+       id="rect3896"
+       style="color:#000000;fill:#ffffff;stroke:#000000;stroke-width:3.43085814;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+    <rect
+       style="color:#000000;fill:#ffffff;stroke:#000000;stroke-width:3.43085814;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       id="rect3898"
+       width="11.379122"
+       height="11.379122"
+       x="470.78644"
+       y="430.34116" />
+    <rect
+       y="430.34116"
+       x="490.78644"
+       height="11.379122"
+       width="11.379122"
+       id="rect3900"
+       style="color:#000000;fill:#ffffff;stroke:#000000;stroke-width:3.43085814;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+    <rect
+       style="color:#000000;fill:#ffffff;stroke:#000000;stroke-width:3.43085814;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       id="rect3902"
+       width="11.379122"
+       height="11.379122"
+       x="450.78644"
+       y="430.34116" />
+    <rect
+       y="430.34116"
+       x="470.78644"
+       height="11.379122"
+       width="11.379122"
+       id="rect3904"
+       style="color:#000000;fill:#ffffff;stroke:#000000;stroke-width:3.43085814;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+    <rect
+       style="color:#000000;fill:#ffffff;stroke:#000000;stroke-width:3.43085814;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       id="rect3906"
+       width="11.379122"
+       height="11.379122"
+       x="490.78644"
+       y="430.34116" />
+    <rect
+       style="color:#000000;fill:#afe9dd;stroke:#000000;stroke-width:4;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       id="rect3908"
+       width="32.429943"
+       height="23.094049"
+       x="463.35507"
+       y="485.4664"
+       transform="translate(0,-32)" />
+    <path
+       style="fill:#ffffff;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 479.57006,485.95777 0,22.60269"
+       id="path3912"
+       inkscape:connector-curvature="0"
+       transform="translate(0,-32)" />
+    <rect
+       style="color:#000000;fill:#000000;stroke:#000000;stroke-width:4;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       id="rect3920"
+       width="10.318618"
+       height="48.644913"
+       x="389.65067"
+       y="430.43378"
+       transform="translate(0,-32)" />
+    <rect
+       y="398.43378"
+       x="407.65067"
+       height="48.644913"
+       width="10.318618"
+       id="rect3922"
+       style="color:#000000;fill:#000000;stroke:#000000;stroke-width:4;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+    <rect
+       style="color:#000000;fill:#000000;stroke:#000000;stroke-width:4;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       id="rect3924"
+       width="10.318618"
+       height="48.644913"
+       x="425.33972"
+       y="398.43378" />
+    <rect
+       style="color:#000000;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:4;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       id="rect3926"
+       width="24.568138"
+       height="19.163147"
+       x="401.93475"
+       y="490.8714"
+       transform="translate(0,-32)" />
+    <text
+       xml:space="preserve"
+       style="font-size:37.72541809px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Nominal BRK;-inkscape-font-specification:Nominal BRK"
+       x="381.4129"
+       y="194.2382"
+       id="text3058"
+       sodipodi:linespacing="125%"
+       transform="matrix(0.96243145,-0.27152477,0.27152477,0.96243145,0,0)"><tspan
+         sodipodi:role="line"
+         id="tspan3060"
+         x="381.4129"
+         y="194.2382">SUPER</tspan><tspan
+         sodipodi:role="line"
+         x="381.4129"
+         y="241.39497"
+         id="tspan3062">PAJARO</tspan></text>
+    <text
+       transform="matrix(0.96243145,-0.27152477,0.27152477,0.96243145,0,0)"
+       sodipodi:linespacing="125%"
+       id="text3064"
+       y="191.95822"
+       x="376.95071"
+       style="font-size:37.72541808999999802px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-opacity:1;font-family:Nominal BRK;-inkscape-font-specification:Nominal BRK"
+       xml:space="preserve"><tspan
+         y="191.95822"
+         x="376.95071"
+         id="tspan3066"
+         sodipodi:role="line"
+         style="fill:#ffffff;stroke-width:1">SUPER</tspan><tspan
+         id="tspan3068"
+         y="239.11499"
+         x="376.95071"
+         sodipodi:role="line"
+         style="fill:#ffffff;stroke-width:1">PAJARO</tspan></text>
+    <path
+       inkscape:export-ydpi="89.120003"
+       inkscape:export-xdpi="89.120003"
+       inkscape:export-filename="/home/cabral/programacion/juego/svn-superjuego/demos/super pajaro/pajaro01.png"
+       transform="matrix(0.42020086,0,0,0.42020086,-5.1191453,-44.51562)"
+       d="m 137.82063,253.18922 a 50.655926,41.528732 0 1 1 -101.311852,0 50.655926,41.528732 0 1 1 101.311852,0 z"
+       sodipodi:ry="41.528732"
+       sodipodi:rx="50.655926"
+       sodipodi:cy="253.18922"
+       sodipodi:cx="87.164703"
+       id="path3887"
+       style="color:#000000;fill:#ff0000;stroke:#000000;stroke-width:6.49677419999999994;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       sodipodi:type="arc" />
+    <path
+       inkscape:export-ydpi="89.120003"
+       inkscape:export-xdpi="89.120003"
+       inkscape:export-filename="/home/cabral/programacion/juego/svn-superjuego/demos/super pajaro/pajaro01.png"
+       transform="matrix(0.42020086,0,0,0.42020086,-5.1191453,-44.51562)"
+       d="m 112.26448,236.76028 a 16.885309,15.05987 0 1 1 -33.770616,0 16.885309,15.05987 0 1 1 33.770616,0 z"
+       sodipodi:ry="15.05987"
+       sodipodi:rx="16.885309"
+       sodipodi:cy="236.76028"
+       sodipodi:cx="95.379173"
+       id="path3889"
+       style="color:#000000;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       sodipodi:type="arc" />
+    <path
+       inkscape:export-ydpi="89.120003"
+       inkscape:export-xdpi="89.120003"
+       inkscape:export-filename="/home/cabral/programacion/juego/svn-superjuego/demos/super pajaro/pajaro01.png"
+       transform="matrix(0.42020086,0,0,0.39225834,-5.1191453,-37.428111)"
+       d="m 141.47151,238.12936 a 14.147151,15.51623 0 1 1 -28.2943,0 14.147151,15.51623 0 1 1 28.2943,0 z"
+       sodipodi:ry="15.51623"
+       sodipodi:rx="14.147151"
+       sodipodi:cy="238.12936"
+       sodipodi:cx="127.32436"
+       id="path3891"
+       style="color:#000000;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       sodipodi:type="arc" />
+    <path
+       inkscape:export-ydpi="89.120003"
+       inkscape:export-xdpi="89.120003"
+       inkscape:export-filename="/home/cabral/programacion/juego/svn-superjuego/demos/super pajaro/pajaro01.png"
+       transform="matrix(0.42020086,0,0,0.42020086,-4.9273833,-45.85795)"
+       d="m 96.748259,239.9548 a 4.1072373,3.6508775 0 1 1 -8.214475,0 4.1072373,3.6508775 0 1 1 8.214475,0 z"
+       sodipodi:ry="3.6508775"
+       sodipodi:rx="4.1072373"
+       sodipodi:cy="239.9548"
+       sodipodi:cx="92.641022"
+       id="path3893"
+       style="color:#000000;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       sodipodi:type="arc" />
+    <path
+       inkscape:export-ydpi="89.120003"
+       inkscape:export-xdpi="89.120003"
+       inkscape:export-filename="/home/cabral/programacion/juego/svn-superjuego/demos/super pajaro/pajaro01.png"
+       sodipodi:type="arc"
+       style="color:#000000;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       id="path3895"
+       sodipodi:cx="92.641022"
+       sodipodi:cy="239.9548"
+       sodipodi:rx="4.1072373"
+       sodipodi:ry="3.6508775"
+       d="m 96.748259,239.9548 a 4.1072373,3.6508775 0 1 1 -8.214475,0 4.1072373,3.6508775 0 1 1 8.214475,0 z"
+       transform="matrix(0.37767538,0,0,0.37235969,14.832646,-33.323541)" />
+    <path
+       inkscape:export-ydpi="89.120003"
+       inkscape:export-xdpi="89.120003"
+       inkscape:export-filename="/home/cabral/programacion/juego/svn-superjuego/demos/super pajaro/pajaro01.png"
+       transform="matrix(0.42020086,0,0,0.46910325,-4.3520943,-58.13702)"
+       d="m 153.33686,268.70544 a 33.770618,13.690791 0 1 1 -67.54124,0 33.770618,13.690791 0 1 1 67.54124,0 z"
+       sodipodi:ry="13.690791"
+       sodipodi:rx="33.770618"
+       sodipodi:cy="268.70544"
+       sodipodi:cx="119.56624"
+       id="path3897"
+       style="color:#000000;fill:#ff7f2a;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       sodipodi:type="arc" />
+    <path
+       inkscape:export-ydpi="89.120003"
+       inkscape:export-xdpi="89.120003"
+       inkscape:export-filename="/home/cabral/programacion/juego/svn-superjuego/demos/super pajaro/pajaro01.png"
+       inkscape:connector-curvature="0"
+       id="path3899"
+       d="M 45.394337,68.2029 59.533379,68.01113"
+       style="fill:none;stroke:#000000;stroke-width:2.04746246;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+    <path
+       inkscape:export-ydpi="89.120003"
+       inkscape:export-xdpi="89.120003"
+       inkscape:export-filename="/home/cabral/programacion/juego/svn-superjuego/demos/super pajaro/pajaro01.png"
+       sodipodi:open="true"
+       sodipodi:end="5.0146538"
+       sodipodi:start="0.43917258"
+       transform="matrix(0.67240787,-0.11686256,0.09718986,0.55921443,-50.968418,-69.55151)"
+       d="M 77.668118,263.51474 A 18.070923,14.521276 0 1 1 66.691466,243.47747"
+       sodipodi:ry="14.521276"
+       sodipodi:rx="18.070923"
+       sodipodi:cy="257.34042"
+       sodipodi:cx="61.312057"
+       id="path3901"
+       style="color:#000000;fill:#ff0000;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:4.38618754999999982;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       sodipodi:type="arc" />
+    <path
+       inkscape:export-ydpi="88.57"
+       inkscape:export-xdpi="88.57"
+       inkscape:export-filename="/home/cabral/programacion/juego/svn-superjuego/demos/super pajaro/pajaro02.png"
+       sodipodi:type="arc"
+       style="color:#000000;fill:#ff0000;stroke:#000000;stroke-width:6.49677419999999994;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       id="path3903"
+       sodipodi:cx="87.164703"
+       sodipodi:cy="253.18922"
+       sodipodi:rx="50.655926"
+       sodipodi:ry="41.528732"
+       d="m 137.82063,253.18922 a 50.655926,41.528732 0 1 1 -101.311852,0 50.655926,41.528732 0 1 1 101.311852,0 z"
+       transform="matrix(0.42020086,0,0,0.42020086,59.200214,-44.50583)" />
+    <path
+       inkscape:export-ydpi="88.57"
+       inkscape:export-xdpi="88.57"
+       inkscape:export-filename="/home/cabral/programacion/juego/svn-superjuego/demos/super pajaro/pajaro02.png"
+       sodipodi:nodetypes="cccc"
+       inkscape:connector-curvature="0"
+       id="path3905"
+       d="m 75.404062,68.111147 5.734894,5.88508 c 3.008575,-0.0748 7.753889,-2.98052 10.782759,-7.42674 z"
+       style="fill:#000000;stroke:none" />
+    <path
+       inkscape:export-ydpi="88.57"
+       inkscape:export-xdpi="88.57"
+       inkscape:export-filename="/home/cabral/programacion/juego/svn-superjuego/demos/super pajaro/pajaro02.png"
+       sodipodi:type="arc"
+       style="color:#000000;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       id="path3907"
+       sodipodi:cx="95.379173"
+       sodipodi:cy="236.76028"
+       sodipodi:rx="16.885309"
+       sodipodi:ry="15.05987"
+       d="m 112.26448,236.76028 a 16.885309,15.05987 0 1 1 -33.770616,0 16.885309,15.05987 0 1 1 33.770616,0 z"
+       transform="matrix(0.42020086,0,0,0.42020086,59.200214,-44.50583)" />
+    <path
+       inkscape:export-ydpi="88.57"
+       inkscape:export-xdpi="88.57"
+       inkscape:export-filename="/home/cabral/programacion/juego/svn-superjuego/demos/super pajaro/pajaro02.png"
+       sodipodi:type="arc"
+       style="color:#000000;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       id="path3910"
+       sodipodi:cx="127.32436"
+       sodipodi:cy="238.12936"
+       sodipodi:rx="14.147151"
+       sodipodi:ry="15.51623"
+       d="m 141.47151,238.12936 a 14.147151,15.51623 0 1 1 -28.2943,0 14.147151,15.51623 0 1 1 28.2943,0 z"
+       transform="matrix(0.42020086,0,0,0.39225834,59.200214,-37.418349)" />
+    <path
+       inkscape:export-ydpi="88.57"
+       inkscape:export-xdpi="88.57"
+       inkscape:export-filename="/home/cabral/programacion/juego/svn-superjuego/demos/super pajaro/pajaro02.png"
+       sodipodi:type="arc"
+       style="color:#000000;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       id="path3914"
+       sodipodi:cx="92.641022"
+       sodipodi:cy="239.9548"
+       sodipodi:rx="4.1072373"
+       sodipodi:ry="3.6508775"
+       d="m 96.748259,239.9548 a 4.1072373,3.6508775 0 1 1 -8.214475,0 4.1072373,3.6508775 0 1 1 8.214475,0 z"
+       transform="matrix(0.42020086,0,0,0.42020086,59.391977,-45.84818)" />
+    <path
+       inkscape:export-ydpi="88.57"
+       inkscape:export-xdpi="88.57"
+       inkscape:export-filename="/home/cabral/programacion/juego/svn-superjuego/demos/super pajaro/pajaro02.png"
+       transform="matrix(0.37767538,0,0,0.37235969,79.152007,-33.313769)"
+       d="m 96.748259,239.9548 a 4.1072373,3.6508775 0 1 1 -8.214475,0 4.1072373,3.6508775 0 1 1 8.214475,0 z"
+       sodipodi:ry="3.6508775"
+       sodipodi:rx="4.1072373"
+       sodipodi:cy="239.9548"
+       sodipodi:cx="92.641022"
+       id="path3916"
+       style="color:#000000;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       sodipodi:type="arc" />
+    <path
+       inkscape:export-ydpi="88.57"
+       inkscape:export-xdpi="88.57"
+       inkscape:export-filename="/home/cabral/programacion/juego/svn-superjuego/demos/super pajaro/pajaro02.png"
+       sodipodi:type="arc"
+       style="color:#000000;fill:#ff7f2a;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       id="path3918"
+       sodipodi:cx="119.56624"
+       sodipodi:cy="268.70544"
+       sodipodi:rx="33.770618"
+       sodipodi:ry="13.690791"
+       d="m 153.33686,268.70544 a 33.770618,13.690791 0 1 1 -67.54124,0 33.770618,13.690791 0 1 1 67.54124,0 z"
+       transform="matrix(0.42020086,0,0,0.46910325,59.967266,-58.12725)" />
+    <path
+       inkscape:export-ydpi="88.57"
+       inkscape:export-xdpi="88.57"
+       inkscape:export-filename="/home/cabral/programacion/juego/svn-superjuego/demos/super pajaro/pajaro02.png"
+       sodipodi:nodetypes="cc"
+       style="fill:none;stroke:#000000;stroke-width:2.04746246;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       d="m 103.98759,68.212657 c 6.03087,-0.73714 9.86824,-0.17928 19.86516,-0.19176"
+       id="path3920"
+       inkscape:connector-curvature="0" />
+    <path
+       inkscape:export-ydpi="88.57"
+       inkscape:export-xdpi="88.57"
+       inkscape:export-filename="/home/cabral/programacion/juego/svn-superjuego/demos/super pajaro/pajaro02.png"
+       sodipodi:open="true"
+       sodipodi:type="arc"
+       style="color:#000000;fill:#ff0000;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:5.71548367000000024;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       id="path3922"
+       sodipodi:cx="61.312057"
+       sodipodi:cy="257.34042"
+       sodipodi:rx="17.960413"
+       sodipodi:ry="14.521276"
+       d="M 77.568095,263.51474 A 17.960413,14.521276 0 1 1 62.801845,242.86919"
+       transform="matrix(0.67240787,-0.07782676,0.09718986,0.37241911,13.350943,-26.671863)"
+       sodipodi:start="0.43917258"
+       sodipodi:end="4.7954328" />
+    <path
+       sodipodi:type="arc"
+       style="color:#000000;fill:#ffff00;stroke:#000000;stroke-width:6.49677419999999994;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       id="path3929"
+       sodipodi:cx="87.164703"
+       sodipodi:cy="253.18922"
+       sodipodi:rx="50.655926"
+       sodipodi:ry="41.528732"
+       d="m 137.82063,253.18922 a 50.655926,41.528732 0 1 1 -101.311852,0 50.655926,41.528732 0 1 1 101.311852,0 z"
+       transform="matrix(0.42020086,0,0,0.42020086,-5.1191453,17.48438)"
+       inkscape:export-filename="/home/cabral/programacion/juego/svn-superjuego/demos/super pajaro/pajaro01.png"
+       inkscape:export-xdpi="89.120003"
+       inkscape:export-ydpi="89.120003" />
+    <path
+       sodipodi:type="arc"
+       style="color:#000000;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       id="path3931"
+       sodipodi:cx="95.379173"
+       sodipodi:cy="236.76028"
+       sodipodi:rx="16.885309"
+       sodipodi:ry="15.05987"
+       d="m 112.26448,236.76028 a 16.885309,15.05987 0 1 1 -33.770616,0 16.885309,15.05987 0 1 1 33.770616,0 z"
+       transform="matrix(0.42020086,0,0,0.42020086,-5.1191453,17.48438)"
+       inkscape:export-filename="/home/cabral/programacion/juego/svn-superjuego/demos/super pajaro/pajaro01.png"
+       inkscape:export-xdpi="89.120003"
+       inkscape:export-ydpi="89.120003" />
+    <path
+       sodipodi:type="arc"
+       style="color:#000000;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       id="path3933"
+       sodipodi:cx="127.32436"
+       sodipodi:cy="238.12936"
+       sodipodi:rx="14.147151"
+       sodipodi:ry="15.51623"
+       d="m 141.47151,238.12936 a 14.147151,15.51623 0 1 1 -28.2943,0 14.147151,15.51623 0 1 1 28.2943,0 z"
+       transform="matrix(0.42020086,0,0,0.39225834,-5.1191453,24.571889)"
+       inkscape:export-filename="/home/cabral/programacion/juego/svn-superjuego/demos/super pajaro/pajaro01.png"
+       inkscape:export-xdpi="89.120003"
+       inkscape:export-ydpi="89.120003" />
+    <path
+       sodipodi:type="arc"
+       style="color:#000000;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       id="path3935"
+       sodipodi:cx="92.641022"
+       sodipodi:cy="239.9548"
+       sodipodi:rx="4.1072373"
+       sodipodi:ry="3.6508775"
+       d="m 96.748259,239.9548 a 4.1072373,3.6508775 0 1 1 -8.214475,0 4.1072373,3.6508775 0 1 1 8.214475,0 z"
+       transform="matrix(0.42020086,0,0,0.42020086,-4.9273833,16.14205)"
+       inkscape:export-filename="/home/cabral/programacion/juego/svn-superjuego/demos/super pajaro/pajaro01.png"
+       inkscape:export-xdpi="89.120003"
+       inkscape:export-ydpi="89.120003" />
+    <path
+       transform="matrix(0.37767538,0,0,0.37235969,14.832646,28.676459)"
+       d="m 96.748259,239.9548 a 4.1072373,3.6508775 0 1 1 -8.214475,0 4.1072373,3.6508775 0 1 1 8.214475,0 z"
+       sodipodi:ry="3.6508775"
+       sodipodi:rx="4.1072373"
+       sodipodi:cy="239.9548"
+       sodipodi:cx="92.641022"
+       id="path3937"
+       style="color:#000000;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       sodipodi:type="arc"
+       inkscape:export-filename="/home/cabral/programacion/juego/svn-superjuego/demos/super pajaro/pajaro01.png"
+       inkscape:export-xdpi="89.120003"
+       inkscape:export-ydpi="89.120003" />
+    <path
+       sodipodi:type="arc"
+       style="color:#000000;fill:#ff7f2a;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       id="path3939"
+       sodipodi:cx="119.56624"
+       sodipodi:cy="268.70544"
+       sodipodi:rx="33.770618"
+       sodipodi:ry="13.690791"
+       d="m 153.33686,268.70544 a 33.770618,13.690791 0 1 1 -67.54124,0 33.770618,13.690791 0 1 1 67.54124,0 z"
+       transform="matrix(0.42020086,0,0,0.46910325,-4.3520943,3.86298)"
+       inkscape:export-filename="/home/cabral/programacion/juego/svn-superjuego/demos/super pajaro/pajaro01.png"
+       inkscape:export-xdpi="89.120003"
+       inkscape:export-ydpi="89.120003" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:2.04746246;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       d="m 45.394337,130.2029 14.139042,-0.19177"
+       id="path3941"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/cabral/programacion/juego/svn-superjuego/demos/super pajaro/pajaro01.png"
+       inkscape:export-xdpi="89.120003"
+       inkscape:export-ydpi="89.120003" />
+    <path
+       sodipodi:type="arc"
+       style="color:#000000;fill:#ffff00;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:4.38618754999999982;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       id="path3943"
+       sodipodi:cx="61.312057"
+       sodipodi:cy="257.34042"
+       sodipodi:rx="18.070923"
+       sodipodi:ry="14.521276"
+       d="M 77.668118,263.51474 A 18.070923,14.521276 0 1 1 66.691466,243.47747"
+       transform="matrix(0.67240787,-0.11686256,0.09718986,0.55921443,-50.968418,-7.55151)"
+       sodipodi:start="0.43917258"
+       sodipodi:end="5.0146538"
+       sodipodi:open="true"
+       inkscape:export-filename="/home/cabral/programacion/juego/svn-superjuego/demos/super pajaro/pajaro01.png"
+       inkscape:export-xdpi="89.120003"
+       inkscape:export-ydpi="89.120003" />
+    <path
+       transform="matrix(0.42020086,0,0,0.42020086,59.200214,17.49417)"
+       d="m 137.82063,253.18922 a 50.655926,41.528732 0 1 1 -101.311852,0 50.655926,41.528732 0 1 1 101.311852,0 z"
+       sodipodi:ry="41.528732"
+       sodipodi:rx="50.655926"
+       sodipodi:cy="253.18922"
+       sodipodi:cx="87.164703"
+       id="path3945"
+       style="color:#000000;fill:#ffff00;stroke:#000000;stroke-width:6.49677419999999994;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       sodipodi:type="arc"
+       inkscape:export-filename="/home/cabral/programacion/juego/svn-superjuego/demos/super pajaro/pajaro02.png"
+       inkscape:export-xdpi="88.57"
+       inkscape:export-ydpi="88.57" />
+    <path
+       style="fill:#000000;stroke:none"
+       d="m 75.404062,130.11115 5.734894,5.88508 c 3.008575,-0.0748 7.753889,-2.98052 10.782759,-7.42674 z"
+       id="path3947"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cccc"
+       inkscape:export-filename="/home/cabral/programacion/juego/svn-superjuego/demos/super pajaro/pajaro02.png"
+       inkscape:export-xdpi="88.57"
+       inkscape:export-ydpi="88.57" />
+    <path
+       transform="matrix(0.42020086,0,0,0.42020086,59.200214,17.49417)"
+       d="m 112.26448,236.76028 a 16.885309,15.05987 0 1 1 -33.770616,0 16.885309,15.05987 0 1 1 33.770616,0 z"
+       sodipodi:ry="15.05987"
+       sodipodi:rx="16.885309"
+       sodipodi:cy="236.76028"
+       sodipodi:cx="95.379173"
+       id="path3949"
+       style="color:#000000;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       sodipodi:type="arc"
+       inkscape:export-filename="/home/cabral/programacion/juego/svn-superjuego/demos/super pajaro/pajaro02.png"
+       inkscape:export-xdpi="88.57"
+       inkscape:export-ydpi="88.57" />
+    <path
+       transform="matrix(0.42020086,0,0,0.39225834,59.200214,24.581651)"
+       d="m 141.47151,238.12936 a 14.147151,15.51623 0 1 1 -28.2943,0 14.147151,15.51623 0 1 1 28.2943,0 z"
+       sodipodi:ry="15.51623"
+       sodipodi:rx="14.147151"
+       sodipodi:cy="238.12936"
+       sodipodi:cx="127.32436"
+       id="path3951"
+       style="color:#000000;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       sodipodi:type="arc"
+       inkscape:export-filename="/home/cabral/programacion/juego/svn-superjuego/demos/super pajaro/pajaro02.png"
+       inkscape:export-xdpi="88.57"
+       inkscape:export-ydpi="88.57" />
+    <path
+       transform="matrix(0.42020086,0,0,0.42020086,59.391977,16.15182)"
+       d="m 96.748259,239.9548 a 4.1072373,3.6508775 0 1 1 -8.214475,0 4.1072373,3.6508775 0 1 1 8.214475,0 z"
+       sodipodi:ry="3.6508775"
+       sodipodi:rx="4.1072373"
+       sodipodi:cy="239.9548"
+       sodipodi:cx="92.641022"
+       id="path3953"
+       style="color:#000000;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       sodipodi:type="arc"
+       inkscape:export-filename="/home/cabral/programacion/juego/svn-superjuego/demos/super pajaro/pajaro02.png"
+       inkscape:export-xdpi="88.57"
+       inkscape:export-ydpi="88.57" />
+    <path
+       sodipodi:type="arc"
+       style="color:#000000;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       id="path3955"
+       sodipodi:cx="92.641022"
+       sodipodi:cy="239.9548"
+       sodipodi:rx="4.1072373"
+       sodipodi:ry="3.6508775"
+       d="m 96.748259,239.9548 a 4.1072373,3.6508775 0 1 1 -8.214475,0 4.1072373,3.6508775 0 1 1 8.214475,0 z"
+       transform="matrix(0.37767538,0,0,0.37235969,79.152007,28.686231)"
+       inkscape:export-filename="/home/cabral/programacion/juego/svn-superjuego/demos/super pajaro/pajaro02.png"
+       inkscape:export-xdpi="88.57"
+       inkscape:export-ydpi="88.57" />
+    <path
+       transform="matrix(0.42020086,0,0,0.46910325,59.967266,3.87275)"
+       d="m 153.33686,268.70544 a 33.770618,13.690791 0 1 1 -67.54124,0 33.770618,13.690791 0 1 1 67.54124,0 z"
+       sodipodi:ry="13.690791"
+       sodipodi:rx="33.770618"
+       sodipodi:cy="268.70544"
+       sodipodi:cx="119.56624"
+       id="path3957"
+       style="color:#000000;fill:#ff7f2a;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       sodipodi:type="arc"
+       inkscape:export-filename="/home/cabral/programacion/juego/svn-superjuego/demos/super pajaro/pajaro02.png"
+       inkscape:export-xdpi="88.57"
+       inkscape:export-ydpi="88.57" />
+    <path
+       inkscape:connector-curvature="0"
+       id="path3959"
+       d="m 103.98759,130.21266 c 6.03087,-0.73714 9.86824,-0.17928 19.86516,-0.19176"
+       style="fill:none;stroke:#000000;stroke-width:2.04746246;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       sodipodi:nodetypes="cc"
+       inkscape:export-filename="/home/cabral/programacion/juego/svn-superjuego/demos/super pajaro/pajaro02.png"
+       inkscape:export-xdpi="88.57"
+       inkscape:export-ydpi="88.57" />
+    <path
+       sodipodi:end="4.7954328"
+       sodipodi:start="0.43917258"
+       transform="matrix(0.67240787,-0.07782676,0.09718986,0.37241911,13.350943,35.328137)"
+       d="M 77.568095,263.51474 A 17.960413,14.521276 0 1 1 62.801845,242.86919"
+       sodipodi:ry="14.521276"
+       sodipodi:rx="17.960413"
+       sodipodi:cy="257.34042"
+       sodipodi:cx="61.312057"
+       id="path3961"
+       style="color:#000000;fill:#ffff00;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:5.71548367000000024;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       sodipodi:type="arc"
+       sodipodi:open="true"
+       inkscape:export-filename="/home/cabral/programacion/juego/svn-superjuego/demos/super pajaro/pajaro02.png"
+       inkscape:export-xdpi="88.57"
+       inkscape:export-ydpi="88.57" />
+    <path
+       inkscape:export-ydpi="89.120003"
+       inkscape:export-xdpi="89.120003"
+       inkscape:export-filename="/home/cabral/programacion/juego/svn-superjuego/demos/super pajaro/pajaro01.png"
+       transform="matrix(0.42020086,0,0,0.42020086,-5.1191453,79.48438)"
+       d="m 137.82063,253.18922 a 50.655926,41.528732 0 1 1 -101.311852,0 50.655926,41.528732 0 1 1 101.311852,0 z"
+       sodipodi:ry="41.528732"
+       sodipodi:rx="50.655926"
+       sodipodi:cy="253.18922"
+       sodipodi:cx="87.164703"
+       id="path3967"
+       style="color:#000000;fill:#00ff00;stroke:#000000;stroke-width:6.49677419999999994;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       sodipodi:type="arc" />
+    <path
+       inkscape:export-ydpi="89.120003"
+       inkscape:export-xdpi="89.120003"
+       inkscape:export-filename="/home/cabral/programacion/juego/svn-superjuego/demos/super pajaro/pajaro01.png"
+       transform="matrix(0.42020086,0,0,0.42020086,-5.1191453,79.48438)"
+       d="m 112.26448,236.76028 a 16.885309,15.05987 0 1 1 -33.770616,0 16.885309,15.05987 0 1 1 33.770616,0 z"
+       sodipodi:ry="15.05987"
+       sodipodi:rx="16.885309"
+       sodipodi:cy="236.76028"
+       sodipodi:cx="95.379173"
+       id="path3969"
+       style="color:#000000;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       sodipodi:type="arc" />
+    <path
+       inkscape:export-ydpi="89.120003"
+       inkscape:export-xdpi="89.120003"
+       inkscape:export-filename="/home/cabral/programacion/juego/svn-superjuego/demos/super pajaro/pajaro01.png"
+       transform="matrix(0.42020086,0,0,0.39225834,-5.1191453,86.571889)"
+       d="m 141.47151,238.12936 a 14.147151,15.51623 0 1 1 -28.2943,0 14.147151,15.51623 0 1 1 28.2943,0 z"
+       sodipodi:ry="15.51623"
+       sodipodi:rx="14.147151"
+       sodipodi:cy="238.12936"
+       sodipodi:cx="127.32436"
+       id="path3971"
+       style="color:#000000;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       sodipodi:type="arc" />
+    <path
+       inkscape:export-ydpi="89.120003"
+       inkscape:export-xdpi="89.120003"
+       inkscape:export-filename="/home/cabral/programacion/juego/svn-superjuego/demos/super pajaro/pajaro01.png"
+       transform="matrix(0.42020086,0,0,0.42020086,-4.9273833,78.14205)"
+       d="m 96.748259,239.9548 a 4.1072373,3.6508775 0 1 1 -8.214475,0 4.1072373,3.6508775 0 1 1 8.214475,0 z"
+       sodipodi:ry="3.6508775"
+       sodipodi:rx="4.1072373"
+       sodipodi:cy="239.9548"
+       sodipodi:cx="92.641022"
+       id="path3973"
+       style="color:#000000;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       sodipodi:type="arc" />
+    <path
+       inkscape:export-ydpi="89.120003"
+       inkscape:export-xdpi="89.120003"
+       inkscape:export-filename="/home/cabral/programacion/juego/svn-superjuego/demos/super pajaro/pajaro01.png"
+       sodipodi:type="arc"
+       style="color:#000000;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       id="path3975"
+       sodipodi:cx="92.641022"
+       sodipodi:cy="239.9548"
+       sodipodi:rx="4.1072373"
+       sodipodi:ry="3.6508775"
+       d="m 96.748259,239.9548 a 4.1072373,3.6508775 0 1 1 -8.214475,0 4.1072373,3.6508775 0 1 1 8.214475,0 z"
+       transform="matrix(0.37767538,0,0,0.37235969,14.832646,90.67646)" />
+    <path
+       inkscape:export-ydpi="89.120003"
+       inkscape:export-xdpi="89.120003"
+       inkscape:export-filename="/home/cabral/programacion/juego/svn-superjuego/demos/super pajaro/pajaro01.png"
+       transform="matrix(0.42020086,0,0,0.46910325,-4.3520943,65.86298)"
+       d="m 153.33686,268.70544 a 33.770618,13.690791 0 1 1 -67.54124,0 33.770618,13.690791 0 1 1 67.54124,0 z"
+       sodipodi:ry="13.690791"
+       sodipodi:rx="33.770618"
+       sodipodi:cy="268.70544"
+       sodipodi:cx="119.56624"
+       id="path3977"
+       style="color:#000000;fill:#ff7f2a;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       sodipodi:type="arc" />
+    <path
+       inkscape:export-ydpi="89.120003"
+       inkscape:export-xdpi="89.120003"
+       inkscape:export-filename="/home/cabral/programacion/juego/svn-superjuego/demos/super pajaro/pajaro01.png"
+       inkscape:connector-curvature="0"
+       id="path3979"
+       d="m 45.394337,192.2029 14.139042,-0.19177"
+       style="fill:none;stroke:#000000;stroke-width:2.04746246;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+    <path
+       inkscape:export-ydpi="89.120003"
+       inkscape:export-xdpi="89.120003"
+       inkscape:export-filename="/home/cabral/programacion/juego/svn-superjuego/demos/super pajaro/pajaro01.png"
+       sodipodi:open="true"
+       sodipodi:end="5.0146538"
+       sodipodi:start="0.43917258"
+       transform="matrix(0.67240787,-0.11686256,0.09718986,0.55921443,-50.968418,54.44849)"
+       d="M 77.668118,263.51474 A 18.070923,14.521276 0 1 1 66.691466,243.47747"
+       sodipodi:ry="14.521276"
+       sodipodi:rx="18.070923"
+       sodipodi:cy="257.34042"
+       sodipodi:cx="61.312057"
+       id="path3981"
+       style="color:#000000;fill:#00ff00;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:4.38618754999999982;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       sodipodi:type="arc" />
+    <path
+       inkscape:export-ydpi="88.57"
+       inkscape:export-xdpi="88.57"
+       inkscape:export-filename="/home/cabral/programacion/juego/svn-superjuego/demos/super pajaro/pajaro02.png"
+       sodipodi:type="arc"
+       style="color:#000000;fill:#00ff00;stroke:#000000;stroke-width:6.49677419999999994;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       id="path3983"
+       sodipodi:cx="87.164703"
+       sodipodi:cy="253.18922"
+       sodipodi:rx="50.655926"
+       sodipodi:ry="41.528732"
+       d="m 137.82063,253.18922 a 50.655926,41.528732 0 1 1 -101.311852,0 50.655926,41.528732 0 1 1 101.311852,0 z"
+       transform="matrix(0.42020086,0,0,0.42020086,59.200214,79.49417)" />
+    <path
+       inkscape:export-ydpi="88.57"
+       inkscape:export-xdpi="88.57"
+       inkscape:export-filename="/home/cabral/programacion/juego/svn-superjuego/demos/super pajaro/pajaro02.png"
+       sodipodi:nodetypes="cccc"
+       inkscape:connector-curvature="0"
+       id="path3985"
+       d="m 75.404062,192.11115 5.734894,5.88508 c 3.008575,-0.0748 7.753889,-2.98052 10.782759,-7.42674 z"
+       style="fill:#000000;stroke:none" />
+    <path
+       inkscape:export-ydpi="88.57"
+       inkscape:export-xdpi="88.57"
+       inkscape:export-filename="/home/cabral/programacion/juego/svn-superjuego/demos/super pajaro/pajaro02.png"
+       sodipodi:type="arc"
+       style="color:#000000;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       id="path3987"
+       sodipodi:cx="95.379173"
+       sodipodi:cy="236.76028"
+       sodipodi:rx="16.885309"
+       sodipodi:ry="15.05987"
+       d="m 112.26448,236.76028 a 16.885309,15.05987 0 1 1 -33.770616,0 16.885309,15.05987 0 1 1 33.770616,0 z"
+       transform="matrix(0.42020086,0,0,0.42020086,59.200214,79.49417)" />
+    <path
+       inkscape:export-ydpi="88.57"
+       inkscape:export-xdpi="88.57"
+       inkscape:export-filename="/home/cabral/programacion/juego/svn-superjuego/demos/super pajaro/pajaro02.png"
+       sodipodi:type="arc"
+       style="color:#000000;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       id="path3989"
+       sodipodi:cx="127.32436"
+       sodipodi:cy="238.12936"
+       sodipodi:rx="14.147151"
+       sodipodi:ry="15.51623"
+       d="m 141.47151,238.12936 a 14.147151,15.51623 0 1 1 -28.2943,0 14.147151,15.51623 0 1 1 28.2943,0 z"
+       transform="matrix(0.42020086,0,0,0.39225834,59.200214,86.581651)" />
+    <path
+       inkscape:export-ydpi="88.57"
+       inkscape:export-xdpi="88.57"
+       inkscape:export-filename="/home/cabral/programacion/juego/svn-superjuego/demos/super pajaro/pajaro02.png"
+       sodipodi:type="arc"
+       style="color:#000000;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       id="path3991"
+       sodipodi:cx="92.641022"
+       sodipodi:cy="239.9548"
+       sodipodi:rx="4.1072373"
+       sodipodi:ry="3.6508775"
+       d="m 96.748259,239.9548 a 4.1072373,3.6508775 0 1 1 -8.214475,0 4.1072373,3.6508775 0 1 1 8.214475,0 z"
+       transform="matrix(0.42020086,0,0,0.42020086,59.391977,78.15182)" />
+    <path
+       inkscape:export-ydpi="88.57"
+       inkscape:export-xdpi="88.57"
+       inkscape:export-filename="/home/cabral/programacion/juego/svn-superjuego/demos/super pajaro/pajaro02.png"
+       transform="matrix(0.37767538,0,0,0.37235969,79.152007,90.68623)"
+       d="m 96.748259,239.9548 a 4.1072373,3.6508775 0 1 1 -8.214475,0 4.1072373,3.6508775 0 1 1 8.214475,0 z"
+       sodipodi:ry="3.6508775"
+       sodipodi:rx="4.1072373"
+       sodipodi:cy="239.9548"
+       sodipodi:cx="92.641022"
+       id="path3993"
+       style="color:#000000;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       sodipodi:type="arc" />
+    <path
+       inkscape:export-ydpi="88.57"
+       inkscape:export-xdpi="88.57"
+       inkscape:export-filename="/home/cabral/programacion/juego/svn-superjuego/demos/super pajaro/pajaro02.png"
+       sodipodi:type="arc"
+       style="color:#000000;fill:#ff7f2a;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       id="path3995"
+       sodipodi:cx="119.56624"
+       sodipodi:cy="268.70544"
+       sodipodi:rx="33.770618"
+       sodipodi:ry="13.690791"
+       d="m 153.33686,268.70544 a 33.770618,13.690791 0 1 1 -67.54124,0 33.770618,13.690791 0 1 1 67.54124,0 z"
+       transform="matrix(0.42020086,0,0,0.46910325,59.967266,65.87275)" />
+    <path
+       inkscape:export-ydpi="88.57"
+       inkscape:export-xdpi="88.57"
+       inkscape:export-filename="/home/cabral/programacion/juego/svn-superjuego/demos/super pajaro/pajaro02.png"
+       sodipodi:nodetypes="cc"
+       style="fill:none;stroke:#000000;stroke-width:2.04746246;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       d="m 103.98759,192.21266 c 6.03087,-0.73714 9.86824,-0.17928 19.86516,-0.19176"
+       id="path3997"
+       inkscape:connector-curvature="0" />
+    <path
+       inkscape:export-ydpi="88.57"
+       inkscape:export-xdpi="88.57"
+       inkscape:export-filename="/home/cabral/programacion/juego/svn-superjuego/demos/super pajaro/pajaro02.png"
+       sodipodi:open="true"
+       sodipodi:type="arc"
+       style="color:#000000;fill:#00ff00;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:5.71548367000000024;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       id="path3999"
+       sodipodi:cx="61.312057"
+       sodipodi:cy="257.34042"
+       sodipodi:rx="17.960413"
+       sodipodi:ry="14.521276"
+       d="M 77.568095,263.51474 A 17.960413,14.521276 0 1 1 62.801845,242.86919"
+       transform="matrix(0.67240787,-0.07782676,0.09718986,0.37241911,13.350943,97.32814)"
+       sodipodi:start="0.43917258"
+       sodipodi:end="4.7954328" />
+    <path
+       sodipodi:type="arc"
+       style="color:#000000;fill:#ff8080;stroke:#000000;stroke-width:6.49677419999999994;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       id="path4005"
+       sodipodi:cx="87.164703"
+       sodipodi:cy="253.18922"
+       sodipodi:rx="50.655926"
+       sodipodi:ry="41.528732"
+       d="m 137.82063,253.18922 a 50.655926,41.528732 0 1 1 -101.311852,0 50.655926,41.528732 0 1 1 101.311852,0 z"
+       transform="matrix(0.42020086,0,0,0.42020086,-5.1191453,141.48438)"
+       inkscape:export-filename="/home/cabral/programacion/juego/svn-superjuego/demos/super pajaro/pajaro01.png"
+       inkscape:export-xdpi="89.120003"
+       inkscape:export-ydpi="89.120003" />
+    <path
+       sodipodi:type="arc"
+       style="color:#000000;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       id="path4007"
+       sodipodi:cx="95.379173"
+       sodipodi:cy="236.76028"
+       sodipodi:rx="16.885309"
+       sodipodi:ry="15.05987"
+       d="m 112.26448,236.76028 a 16.885309,15.05987 0 1 1 -33.770616,0 16.885309,15.05987 0 1 1 33.770616,0 z"
+       transform="matrix(0.42020086,0,0,0.42020086,-5.1191453,141.48438)"
+       inkscape:export-filename="/home/cabral/programacion/juego/svn-superjuego/demos/super pajaro/pajaro01.png"
+       inkscape:export-xdpi="89.120003"
+       inkscape:export-ydpi="89.120003" />
+    <path
+       sodipodi:type="arc"
+       style="color:#000000;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       id="path4009"
+       sodipodi:cx="127.32436"
+       sodipodi:cy="238.12936"
+       sodipodi:rx="14.147151"
+       sodipodi:ry="15.51623"
+       d="m 141.47151,238.12936 a 14.147151,15.51623 0 1 1 -28.2943,0 14.147151,15.51623 0 1 1 28.2943,0 z"
+       transform="matrix(0.42020086,0,0,0.39225834,-5.1191453,148.57189)"
+       inkscape:export-filename="/home/cabral/programacion/juego/svn-superjuego/demos/super pajaro/pajaro01.png"
+       inkscape:export-xdpi="89.120003"
+       inkscape:export-ydpi="89.120003" />
+    <path
+       sodipodi:type="arc"
+       style="color:#000000;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       id="path4011"
+       sodipodi:cx="92.641022"
+       sodipodi:cy="239.9548"
+       sodipodi:rx="4.1072373"
+       sodipodi:ry="3.6508775"
+       d="m 96.748259,239.9548 a 4.1072373,3.6508775 0 1 1 -8.214475,0 4.1072373,3.6508775 0 1 1 8.214475,0 z"
+       transform="matrix(0.42020086,0,0,0.42020086,-4.9273833,140.14205)"
+       inkscape:export-filename="/home/cabral/programacion/juego/svn-superjuego/demos/super pajaro/pajaro01.png"
+       inkscape:export-xdpi="89.120003"
+       inkscape:export-ydpi="89.120003" />
+    <path
+       transform="matrix(0.37767538,0,0,0.37235969,14.832646,152.67646)"
+       d="m 96.748259,239.9548 a 4.1072373,3.6508775 0 1 1 -8.214475,0 4.1072373,3.6508775 0 1 1 8.214475,0 z"
+       sodipodi:ry="3.6508775"
+       sodipodi:rx="4.1072373"
+       sodipodi:cy="239.9548"
+       sodipodi:cx="92.641022"
+       id="path4013"
+       style="color:#000000;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       sodipodi:type="arc"
+       inkscape:export-filename="/home/cabral/programacion/juego/svn-superjuego/demos/super pajaro/pajaro01.png"
+       inkscape:export-xdpi="89.120003"
+       inkscape:export-ydpi="89.120003" />
+    <path
+       sodipodi:type="arc"
+       style="color:#000000;fill:#ff7f2a;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       id="path4015"
+       sodipodi:cx="119.56624"
+       sodipodi:cy="268.70544"
+       sodipodi:rx="33.770618"
+       sodipodi:ry="13.690791"
+       d="m 153.33686,268.70544 a 33.770618,13.690791 0 1 1 -67.54124,0 33.770618,13.690791 0 1 1 67.54124,0 z"
+       transform="matrix(0.42020086,0,0,0.46910325,-4.3520943,127.86298)"
+       inkscape:export-filename="/home/cabral/programacion/juego/svn-superjuego/demos/super pajaro/pajaro01.png"
+       inkscape:export-xdpi="89.120003"
+       inkscape:export-ydpi="89.120003" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:2.04746246;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       d="m 45.394337,254.2029 14.139042,-0.19177"
+       id="path4017"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/cabral/programacion/juego/svn-superjuego/demos/super pajaro/pajaro01.png"
+       inkscape:export-xdpi="89.120003"
+       inkscape:export-ydpi="89.120003" />
+    <path
+       sodipodi:type="arc"
+       style="color:#000000;fill:#ff8080;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:4.38618754999999982;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       id="path4019"
+       sodipodi:cx="61.312057"
+       sodipodi:cy="257.34042"
+       sodipodi:rx="18.070923"
+       sodipodi:ry="14.521276"
+       d="M 77.668118,263.51474 A 18.070923,14.521276 0 1 1 66.691466,243.47747"
+       transform="matrix(0.67240787,-0.11686256,0.09718986,0.55921443,-50.968418,116.44849)"
+       sodipodi:start="0.43917258"
+       sodipodi:end="5.0146538"
+       sodipodi:open="true"
+       inkscape:export-filename="/home/cabral/programacion/juego/svn-superjuego/demos/super pajaro/pajaro01.png"
+       inkscape:export-xdpi="89.120003"
+       inkscape:export-ydpi="89.120003" />
+    <path
+       transform="matrix(0.42020086,0,0,0.42020086,59.200214,141.49417)"
+       d="m 137.82063,253.18922 a 50.655926,41.528732 0 1 1 -101.311852,0 50.655926,41.528732 0 1 1 101.311852,0 z"
+       sodipodi:ry="41.528732"
+       sodipodi:rx="50.655926"
+       sodipodi:cy="253.18922"
+       sodipodi:cx="87.164703"
+       id="path4021"
+       style="color:#000000;fill:#ff8080;stroke:#000000;stroke-width:6.49677419999999994;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       sodipodi:type="arc"
+       inkscape:export-filename="/home/cabral/programacion/juego/svn-superjuego/demos/super pajaro/pajaro02.png"
+       inkscape:export-xdpi="88.57"
+       inkscape:export-ydpi="88.57" />
+    <path
+       style="fill:#000000;stroke:none"
+       d="m 75.404062,254.11115 5.734894,5.88508 c 3.008575,-0.0748 7.753889,-2.98052 10.782759,-7.42674 z"
+       id="path4023"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cccc"
+       inkscape:export-filename="/home/cabral/programacion/juego/svn-superjuego/demos/super pajaro/pajaro02.png"
+       inkscape:export-xdpi="88.57"
+       inkscape:export-ydpi="88.57" />
+    <path
+       transform="matrix(0.42020086,0,0,0.42020086,59.200214,141.49417)"
+       d="m 112.26448,236.76028 a 16.885309,15.05987 0 1 1 -33.770616,0 16.885309,15.05987 0 1 1 33.770616,0 z"
+       sodipodi:ry="15.05987"
+       sodipodi:rx="16.885309"
+       sodipodi:cy="236.76028"
+       sodipodi:cx="95.379173"
+       id="path4025"
+       style="color:#000000;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       sodipodi:type="arc"
+       inkscape:export-filename="/home/cabral/programacion/juego/svn-superjuego/demos/super pajaro/pajaro02.png"
+       inkscape:export-xdpi="88.57"
+       inkscape:export-ydpi="88.57" />
+    <path
+       transform="matrix(0.42020086,0,0,0.39225834,59.200214,148.58165)"
+       d="m 141.47151,238.12936 a 14.147151,15.51623 0 1 1 -28.2943,0 14.147151,15.51623 0 1 1 28.2943,0 z"
+       sodipodi:ry="15.51623"
+       sodipodi:rx="14.147151"
+       sodipodi:cy="238.12936"
+       sodipodi:cx="127.32436"
+       id="path4027"
+       style="color:#000000;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       sodipodi:type="arc"
+       inkscape:export-filename="/home/cabral/programacion/juego/svn-superjuego/demos/super pajaro/pajaro02.png"
+       inkscape:export-xdpi="88.57"
+       inkscape:export-ydpi="88.57" />
+    <path
+       transform="matrix(0.42020086,0,0,0.42020086,59.391977,140.15182)"
+       d="m 96.748259,239.9548 a 4.1072373,3.6508775 0 1 1 -8.214475,0 4.1072373,3.6508775 0 1 1 8.214475,0 z"
+       sodipodi:ry="3.6508775"
+       sodipodi:rx="4.1072373"
+       sodipodi:cy="239.9548"
+       sodipodi:cx="92.641022"
+       id="path4029"
+       style="color:#000000;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       sodipodi:type="arc"
+       inkscape:export-filename="/home/cabral/programacion/juego/svn-superjuego/demos/super pajaro/pajaro02.png"
+       inkscape:export-xdpi="88.57"
+       inkscape:export-ydpi="88.57" />
+    <path
+       sodipodi:type="arc"
+       style="color:#000000;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       id="path4031"
+       sodipodi:cx="92.641022"
+       sodipodi:cy="239.9548"
+       sodipodi:rx="4.1072373"
+       sodipodi:ry="3.6508775"
+       d="m 96.748259,239.9548 a 4.1072373,3.6508775 0 1 1 -8.214475,0 4.1072373,3.6508775 0 1 1 8.214475,0 z"
+       transform="matrix(0.37767538,0,0,0.37235969,79.152007,152.68623)"
+       inkscape:export-filename="/home/cabral/programacion/juego/svn-superjuego/demos/super pajaro/pajaro02.png"
+       inkscape:export-xdpi="88.57"
+       inkscape:export-ydpi="88.57" />
+    <path
+       transform="matrix(0.42020086,0,0,0.46910325,59.967266,127.87275)"
+       d="m 153.33686,268.70544 a 33.770618,13.690791 0 1 1 -67.54124,0 33.770618,13.690791 0 1 1 67.54124,0 z"
+       sodipodi:ry="13.690791"
+       sodipodi:rx="33.770618"
+       sodipodi:cy="268.70544"
+       sodipodi:cx="119.56624"
+       id="path4033"
+       style="color:#000000;fill:#ff7f2a;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       sodipodi:type="arc"
+       inkscape:export-filename="/home/cabral/programacion/juego/svn-superjuego/demos/super pajaro/pajaro02.png"
+       inkscape:export-xdpi="88.57"
+       inkscape:export-ydpi="88.57" />
+    <path
+       inkscape:connector-curvature="0"
+       id="path4035"
+       d="m 103.98759,254.21266 c 6.03087,-0.73714 9.86824,-0.17928 19.86516,-0.19176"
+       style="fill:none;stroke:#000000;stroke-width:2.04746246;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       sodipodi:nodetypes="cc"
+       inkscape:export-filename="/home/cabral/programacion/juego/svn-superjuego/demos/super pajaro/pajaro02.png"
+       inkscape:export-xdpi="88.57"
+       inkscape:export-ydpi="88.57" />
+    <path
+       sodipodi:end="4.7954328"
+       sodipodi:start="0.43917258"
+       transform="matrix(0.67240787,-0.07782676,0.09718986,0.37241911,13.350943,159.32814)"
+       d="M 77.568095,263.51474 A 17.960413,14.521276 0 1 1 62.801845,242.86919"
+       sodipodi:ry="14.521276"
+       sodipodi:rx="17.960413"
+       sodipodi:cy="257.34042"
+       sodipodi:cx="61.312057"
+       id="path4037"
+       style="color:#000000;fill:#ff8080;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:5.71548367000000024;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       sodipodi:type="arc"
+       sodipodi:open="true"
+       inkscape:export-filename="/home/cabral/programacion/juego/svn-superjuego/demos/super pajaro/pajaro02.png"
+       inkscape:export-xdpi="88.57"
+       inkscape:export-ydpi="88.57" />
+    <path
+       inkscape:export-ydpi="89.120003"
+       inkscape:export-xdpi="89.120003"
+       inkscape:export-filename="/home/cabral/programacion/juego/svn-superjuego/demos/super pajaro/pajaro01.png"
+       transform="matrix(0.42020086,0,0,0.42020086,-5.1191453,203.48438)"
+       d="m 137.82063,253.18922 a 50.655926,41.528732 0 1 1 -101.311852,0 50.655926,41.528732 0 1 1 101.311852,0 z"
+       sodipodi:ry="41.528732"
+       sodipodi:rx="50.655926"
+       sodipodi:cy="253.18922"
+       sodipodi:cx="87.164703"
+       id="path4043"
+       style="color:#000000;fill:#333333;stroke:#000000;stroke-width:6.49677419999999994;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       sodipodi:type="arc" />
+    <path
+       inkscape:export-ydpi="89.120003"
+       inkscape:export-xdpi="89.120003"
+       inkscape:export-filename="/home/cabral/programacion/juego/svn-superjuego/demos/super pajaro/pajaro01.png"
+       transform="matrix(0.42020086,0,0,0.42020086,-5.1191453,203.48438)"
+       d="m 112.26448,236.76028 a 16.885309,15.05987 0 1 1 -33.770616,0 16.885309,15.05987 0 1 1 33.770616,0 z"
+       sodipodi:ry="15.05987"
+       sodipodi:rx="16.885309"
+       sodipodi:cy="236.76028"
+       sodipodi:cx="95.379173"
+       id="path4045"
+       style="color:#000000;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       sodipodi:type="arc" />
+    <path
+       inkscape:export-ydpi="89.120003"
+       inkscape:export-xdpi="89.120003"
+       inkscape:export-filename="/home/cabral/programacion/juego/svn-superjuego/demos/super pajaro/pajaro01.png"
+       transform="matrix(0.42020086,0,0,0.39225834,-5.1191453,210.57189)"
+       d="m 141.47151,238.12936 a 14.147151,15.51623 0 1 1 -28.2943,0 14.147151,15.51623 0 1 1 28.2943,0 z"
+       sodipodi:ry="15.51623"
+       sodipodi:rx="14.147151"
+       sodipodi:cy="238.12936"
+       sodipodi:cx="127.32436"
+       id="path4047"
+       style="color:#000000;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       sodipodi:type="arc" />
+    <path
+       inkscape:export-ydpi="89.120003"
+       inkscape:export-xdpi="89.120003"
+       inkscape:export-filename="/home/cabral/programacion/juego/svn-superjuego/demos/super pajaro/pajaro01.png"
+       transform="matrix(0.42020086,0,0,0.42020086,-4.9273833,202.14205)"
+       d="m 96.748259,239.9548 a 4.1072373,3.6508775 0 1 1 -8.214475,0 4.1072373,3.6508775 0 1 1 8.214475,0 z"
+       sodipodi:ry="3.6508775"
+       sodipodi:rx="4.1072373"
+       sodipodi:cy="239.9548"
+       sodipodi:cx="92.641022"
+       id="path4049"
+       style="color:#000000;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       sodipodi:type="arc" />
+    <path
+       inkscape:export-ydpi="89.120003"
+       inkscape:export-xdpi="89.120003"
+       inkscape:export-filename="/home/cabral/programacion/juego/svn-superjuego/demos/super pajaro/pajaro01.png"
+       sodipodi:type="arc"
+       style="color:#000000;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       id="path4051"
+       sodipodi:cx="92.641022"
+       sodipodi:cy="239.9548"
+       sodipodi:rx="4.1072373"
+       sodipodi:ry="3.6508775"
+       d="m 96.748259,239.9548 a 4.1072373,3.6508775 0 1 1 -8.214475,0 4.1072373,3.6508775 0 1 1 8.214475,0 z"
+       transform="matrix(0.37767538,0,0,0.37235969,14.832646,214.67646)" />
+    <path
+       inkscape:export-ydpi="89.120003"
+       inkscape:export-xdpi="89.120003"
+       inkscape:export-filename="/home/cabral/programacion/juego/svn-superjuego/demos/super pajaro/pajaro01.png"
+       transform="matrix(0.42020086,0,0,0.46910325,-4.3520943,189.86298)"
+       d="m 153.33686,268.70544 a 33.770618,13.690791 0 1 1 -67.54124,0 33.770618,13.690791 0 1 1 67.54124,0 z"
+       sodipodi:ry="13.690791"
+       sodipodi:rx="33.770618"
+       sodipodi:cy="268.70544"
+       sodipodi:cx="119.56624"
+       id="path4053"
+       style="color:#000000;fill:#ff7f2a;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       sodipodi:type="arc" />
+    <path
+       inkscape:export-ydpi="89.120003"
+       inkscape:export-xdpi="89.120003"
+       inkscape:export-filename="/home/cabral/programacion/juego/svn-superjuego/demos/super pajaro/pajaro01.png"
+       inkscape:connector-curvature="0"
+       id="path4055"
+       d="m 45.394337,316.2029 14.139042,-0.19177"
+       style="fill:none;stroke:#000000;stroke-width:2.04746246;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+    <path
+       inkscape:export-ydpi="89.120003"
+       inkscape:export-xdpi="89.120003"
+       inkscape:export-filename="/home/cabral/programacion/juego/svn-superjuego/demos/super pajaro/pajaro01.png"
+       sodipodi:open="true"
+       sodipodi:end="5.0146538"
+       sodipodi:start="0.43917258"
+       transform="matrix(0.67240787,-0.11686256,0.09718986,0.55921443,-50.968418,178.44849)"
+       d="M 77.668118,263.51474 A 18.070923,14.521276 0 1 1 66.691466,243.47747"
+       sodipodi:ry="14.521276"
+       sodipodi:rx="18.070923"
+       sodipodi:cy="257.34042"
+       sodipodi:cx="61.312057"
+       id="path4057"
+       style="color:#000000;fill:#333333;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:4.38618754999999982;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       sodipodi:type="arc" />
+    <path
+       inkscape:export-ydpi="88.57"
+       inkscape:export-xdpi="88.57"
+       inkscape:export-filename="/home/cabral/programacion/juego/svn-superjuego/demos/super pajaro/pajaro02.png"
+       sodipodi:type="arc"
+       style="color:#000000;fill:#333333;stroke:#000000;stroke-width:6.49677419999999994;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       id="path4059"
+       sodipodi:cx="87.164703"
+       sodipodi:cy="253.18922"
+       sodipodi:rx="50.655926"
+       sodipodi:ry="41.528732"
+       d="m 137.82063,253.18922 a 50.655926,41.528732 0 1 1 -101.311852,0 50.655926,41.528732 0 1 1 101.311852,0 z"
+       transform="matrix(0.42020086,0,0,0.42020086,59.200214,203.49417)" />
+    <path
+       inkscape:export-ydpi="88.57"
+       inkscape:export-xdpi="88.57"
+       inkscape:export-filename="/home/cabral/programacion/juego/svn-superjuego/demos/super pajaro/pajaro02.png"
+       sodipodi:nodetypes="cccc"
+       inkscape:connector-curvature="0"
+       id="path4061"
+       d="m 75.404062,316.11115 5.734894,5.88508 c 3.008575,-0.0748 7.753889,-2.98052 10.782759,-7.42674 z"
+       style="fill:#000000;stroke:none" />
+    <path
+       inkscape:export-ydpi="88.57"
+       inkscape:export-xdpi="88.57"
+       inkscape:export-filename="/home/cabral/programacion/juego/svn-superjuego/demos/super pajaro/pajaro02.png"
+       sodipodi:type="arc"
+       style="color:#000000;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       id="path4063"
+       sodipodi:cx="95.379173"
+       sodipodi:cy="236.76028"
+       sodipodi:rx="16.885309"
+       sodipodi:ry="15.05987"
+       d="m 112.26448,236.76028 a 16.885309,15.05987 0 1 1 -33.770616,0 16.885309,15.05987 0 1 1 33.770616,0 z"
+       transform="matrix(0.42020086,0,0,0.42020086,59.200214,203.49417)" />
+    <path
+       inkscape:export-ydpi="88.57"
+       inkscape:export-xdpi="88.57"
+       inkscape:export-filename="/home/cabral/programacion/juego/svn-superjuego/demos/super pajaro/pajaro02.png"
+       sodipodi:type="arc"
+       style="color:#000000;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       id="path4065"
+       sodipodi:cx="127.32436"
+       sodipodi:cy="238.12936"
+       sodipodi:rx="14.147151"
+       sodipodi:ry="15.51623"
+       d="m 141.47151,238.12936 a 14.147151,15.51623 0 1 1 -28.2943,0 14.147151,15.51623 0 1 1 28.2943,0 z"
+       transform="matrix(0.42020086,0,0,0.39225834,59.200214,210.58165)" />
+    <path
+       inkscape:export-ydpi="88.57"
+       inkscape:export-xdpi="88.57"
+       inkscape:export-filename="/home/cabral/programacion/juego/svn-superjuego/demos/super pajaro/pajaro02.png"
+       sodipodi:type="arc"
+       style="color:#000000;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       id="path4067"
+       sodipodi:cx="92.641022"
+       sodipodi:cy="239.9548"
+       sodipodi:rx="4.1072373"
+       sodipodi:ry="3.6508775"
+       d="m 96.748259,239.9548 a 4.1072373,3.6508775 0 1 1 -8.214475,0 4.1072373,3.6508775 0 1 1 8.214475,0 z"
+       transform="matrix(0.42020086,0,0,0.42020086,59.391977,202.15182)" />
+    <path
+       inkscape:export-ydpi="88.57"
+       inkscape:export-xdpi="88.57"
+       inkscape:export-filename="/home/cabral/programacion/juego/svn-superjuego/demos/super pajaro/pajaro02.png"
+       transform="matrix(0.37767538,0,0,0.37235969,79.152007,214.68623)"
+       d="m 96.748259,239.9548 a 4.1072373,3.6508775 0 1 1 -8.214475,0 4.1072373,3.6508775 0 1 1 8.214475,0 z"
+       sodipodi:ry="3.6508775"
+       sodipodi:rx="4.1072373"
+       sodipodi:cy="239.9548"
+       sodipodi:cx="92.641022"
+       id="path4069"
+       style="color:#000000;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       sodipodi:type="arc" />
+    <path
+       inkscape:export-ydpi="88.57"
+       inkscape:export-xdpi="88.57"
+       inkscape:export-filename="/home/cabral/programacion/juego/svn-superjuego/demos/super pajaro/pajaro02.png"
+       sodipodi:type="arc"
+       style="color:#000000;fill:#ff7f2a;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       id="path4071"
+       sodipodi:cx="119.56624"
+       sodipodi:cy="268.70544"
+       sodipodi:rx="33.770618"
+       sodipodi:ry="13.690791"
+       d="m 153.33686,268.70544 a 33.770618,13.690791 0 1 1 -67.54124,0 33.770618,13.690791 0 1 1 67.54124,0 z"
+       transform="matrix(0.42020086,0,0,0.46910325,59.967266,189.87275)" />
+    <path
+       inkscape:export-ydpi="88.57"
+       inkscape:export-xdpi="88.57"
+       inkscape:export-filename="/home/cabral/programacion/juego/svn-superjuego/demos/super pajaro/pajaro02.png"
+       sodipodi:nodetypes="cc"
+       style="fill:none;stroke:#000000;stroke-width:2.04746246;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       d="m 103.98759,316.21266 c 6.03087,-0.73714 9.86824,-0.17928 19.86516,-0.19176"
+       id="path4073"
+       inkscape:connector-curvature="0" />
+    <path
+       inkscape:export-ydpi="88.57"
+       inkscape:export-xdpi="88.57"
+       inkscape:export-filename="/home/cabral/programacion/juego/svn-superjuego/demos/super pajaro/pajaro02.png"
+       sodipodi:open="true"
+       sodipodi:type="arc"
+       style="color:#000000;fill:#333333;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:5.71548367000000024;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       id="path4075"
+       sodipodi:cx="61.312057"
+       sodipodi:cy="257.34042"
+       sodipodi:rx="17.960413"
+       sodipodi:ry="14.521276"
+       d="M 77.568095,263.51474 A 17.960413,14.521276 0 1 1 62.801845,242.86919"
+       transform="matrix(0.67240787,-0.07782676,0.09718986,0.37241911,13.350943,221.32814)"
+       sodipodi:start="0.43917258"
+       sodipodi:end="4.7954328" />
+    <path
+       style="color:#000000;fill:url(#radialGradient4198);fill-opacity:1;stroke:#000000;stroke-width:2.66188979;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;filter:url(#filter4204);enable-background:accumulate"
+       d="m 54.46076,385.34258 c -11.716784,0 -21.199269,7.11839 -21.199269,15.90433 0,1.90116 0.442047,3.71852 1.25778,5.4086 -6.248059,2.05657 -10.611071,6.77247 -10.611071,12.27337 0,4.44291 2.837847,8.38353 7.226504,10.8172 -2.690393,2.19759 -4.367919,5.19558 -4.367919,8.51004 0,6.73315 6.859093,12.19774 15.29915,12.19774 3.038519,0 5.853132,-0.70928 8.232726,-1.92896 3.970193,4.56708 10.711316,7.58339 18.363551,7.58339 10.729171,0 19.687019,-5.91087 21.702375,-13.74843 4.93989,-1.93088 8.3242,-5.90281 8.3242,-10.49572 0,-2.55045 -1.0602,-4.90118 -2.83571,-6.82695 1.58734,-2.4989 2.46982,-5.3385 2.46982,-8.33984 0,-3.55954 -1.25097,-6.87276 -3.4303,-9.68254 0.82705,-1.10849 1.28064,-2.36012 1.28064,-3.68766 0,-4.25473 -4.79114,-7.74137 -10.908361,-8.13182 0.07446,-0.30968 0.114338,-0.62409 0.114338,-0.94556 0,-3.77713 -5.292521,-6.82694 -11.845978,-6.82694 -2.351425,0 -4.559391,0.37901 -6.403231,1.05901 -3.535057,-1.97607 -7.921042,-3.13926 -12.669251,-3.13926 z"
+       id="path4137"
+       inkscape:connector-curvature="0" />
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer2"
+     inkscape:label="Capa"
+     style="display:none">
+    <rect
+       style="color:#000000;fill:none;stroke:#000000;stroke-width:1.45041215;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       id="rect3814"
+       width="62.549591"
+       height="62.549587"
+       x="0.72520608"
+       y="0.72520667" />
+    <rect
+       y="0.72520667"
+       x="64.725204"
+       height="62.549587"
+       width="62.549591"
+       id="rect3838"
+       style="color:#000000;fill:none;stroke:#000000;stroke-width:1.45041215;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+    <rect
+       y="62.725204"
+       x="0.72520608"
+       height="62.549587"
+       width="62.549591"
+       id="rect3925"
+       style="color:#000000;fill:none;stroke:#000000;stroke-width:1.45041215;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+    <rect
+       style="color:#000000;fill:none;stroke:#000000;stroke-width:1.45041215;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       id="rect3927"
+       width="62.549591"
+       height="62.549587"
+       x="64.725204"
+       y="62.725204" />
+    <rect
+       style="color:#000000;fill:none;stroke:#000000;stroke-width:1.45041215;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       id="rect3963"
+       width="62.549591"
+       height="62.549587"
+       x="0.72520608"
+       y="124.72519" />
+    <rect
+       y="124.72519"
+       x="64.725204"
+       height="62.549587"
+       width="62.549591"
+       id="rect3965"
+       style="color:#000000;fill:none;stroke:#000000;stroke-width:1.45041215;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+    <rect
+       y="186.72519"
+       x="0.72520608"
+       height="62.549587"
+       width="62.549591"
+       id="rect4001"
+       style="color:#000000;fill:none;stroke:#000000;stroke-width:1.45041215;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+    <rect
+       style="color:#000000;fill:none;stroke:#000000;stroke-width:1.45041215;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       id="rect4003"
+       width="62.549591"
+       height="62.549587"
+       x="64.725204"
+       y="186.72519" />
+    <rect
+       style="color:#000000;fill:none;stroke:#000000;stroke-width:1.45041215;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       id="rect4039"
+       width="62.549591"
+       height="62.549587"
+       x="0.72520608"
+       y="248.72519" />
+    <rect
+       y="248.72519"
+       x="64.725204"
+       height="62.549587"
+       width="62.549591"
+       id="rect4041"
+       style="color:#000000;fill:none;stroke:#000000;stroke-width:1.45041215;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+    <rect
+       y="310.72519"
+       x="0.72520608"
+       height="62.549587"
+       width="62.549591"
+       id="rect4077"
+       style="color:#000000;fill:none;stroke:#000000;stroke-width:1.45041215;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+    <rect
+       style="color:#000000;fill:none;stroke:#000000;stroke-width:1.45041215;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       id="rect4079"
+       width="62.549591"
+       height="62.549587"
+       x="64.725204"
+       y="310.72519" />
+  </g>
+</svg>

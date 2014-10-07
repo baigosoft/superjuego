@@ -1,0 +1,88 @@
+SDL_Surface* BlackOutline(const char* t, int font_size, const SDL_Color* c)
+{
+
+	SDL_Surface* out = NULL;
+	SDL_Surface* black_letters = NULL;
+	SDL_Surface* white_letters = NULL;
+	SDL_Surface* bg = NULL;
+	SDL_Rect dstrect;
+
+	Uint32 color_key;
+
+
+
+	TTF_Font* font = get_font(font_size);
+
+	if (!font)
+	{
+		fprintf(stderr, "BlackOutline(): could not load needed font returning.\n");
+		return NULL;
+	}
+
+
+	if (!t || !c)
+	{
+		fprintf(stderr, "BlackOutline(): invalid ptr parameter, returning.\n");
+		return NULL;
+	}
+
+	if (t[0] == '\0')
+	{
+		LOG("BlackOutline(): empty string, returning\n");
+		return NULL;
+	}
+
+	black_letters = TTF_RenderUTF8_Blended(font, t, black);
+
+	if (!black_letters)
+	{
+		fprintf (stderr, "Warning - BlackOutline() could not create image for %s\n", t);
+		return NULL;
+	}
+
+	bg = SDL_CreateRGBSurface(SDL_SWSURFACE,
+	(black_letters->w) + 5,
+	(black_letters->h) + 5,
+	32,
+	rmask, gmask, bmask, amask);
+
+	/* Use color key for eventual transparency: */
+	color_key = SDL_MapRGB(bg->format, 01, 01, 01);
+	SDL_FillRect(bg, NULL, color_key);
+
+	/* Now draw black outline/shadow 2 pixels on each side: */
+	dstrect.w = black_letters->w;
+	dstrect.h = black_letters->h;
+
+	/* NOTE: can make the "shadow" more or less pronounced by */
+	/* changing the parameters of these loops. */
+	for (dstrect.x = 1; dstrect.x < 4; dstrect.x++)
+	for (dstrect.y = 1; dstrect.y < 3; dstrect.y++)
+	SDL_BlitSurface(black_letters , NULL, bg, &dstrect );
+
+	SDL_FreeSurface(black_letters);
+
+	/* --- Put the color version of the text on top! --- */
+
+	white_letters = TTF_RenderUTF8_Blended(font, t, *c);
+
+
+	if (!white_letters)
+	{
+		fprintf (stderr, "Warning - BlackOutline() could not create image for %s\n", t);
+		return NULL;
+	}
+
+	dstrect.x = 1;
+	dstrect.y = 1;
+	SDL_BlitSurface(white_letters, NULL, bg, &dstrect);
+	SDL_FreeSurface(white_letters);
+
+	/* --- Convert to the screen format for quicker blits --- */
+	SDL_SetColorKey(bg, SDL_SRCCOLORKEY|SDL_RLEACCEL, color_key);
+	out = SDL_DisplayFormatAlpha(bg);
+	SDL_FreeSurface(bg);
+
+	return out;
+
+} 

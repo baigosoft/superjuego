@@ -1,0 +1,39 @@
+pasos para sacar una linea de forma grafica:
+detectar la linea que está llena
+guardamos numero de linea
+hacemos la transicion para que desaparezca
+bajamos todas las lineas que esten arriba de la linea que desaparecio hasta esa posicion
+
+
+
+		//keys=SDL_GetKeyState(NULL);		
+
+/*
+			if (keys[SDLK_z]) 
+			{	
+				b->current_rotation++;
+				if(b->current_rotation > 3)b->current_rotation = 0;
+				if(check_collision_lateral(b) == 1)b->current_rotation--;
+				if(b->current_rotation < 0)b->current_rotation = 3;		
+			}
+		
+			if (keys[SDLK_LEFT]) 
+			{
+				b->piece_column--;
+				if((check_collision_lateral(b) > 0)||(check_collision_bottom(b) == 1)) b->piece_column++;
+				
+			}
+
+			if (keys[SDLK_RIGHT]) 
+			{
+				b->piece_column++;
+				if((check_collision_lateral(b) > 0)||(check_collision_bottom(b) == 1)) b->piece_column--;
+			
+			}
+			if (keys[SDLK_DOWN]) 
+			{
+				b->piece_row++;
+				
+			}
+				
+*/
