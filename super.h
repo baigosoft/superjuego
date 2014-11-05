@@ -9,9 +9,11 @@
 #include "collision.h"
 #include "sprite.h"
 #include "tile.h"
-#include "camera.h"
+#include "primitives.h"
 #include "font.h"
-
+#include "audio.h"
+#include "input.h"
+#include "timer.h"
 
 
 

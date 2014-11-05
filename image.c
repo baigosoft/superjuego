@@ -176,10 +176,18 @@ void SE_image_segment_draw_fx(SE_image *img,float xtex,float ytex,float wtex,flo
 
 }
 
+void SE_image_segment_draw_wh(SE_image *img,float xtex,float ytex,float wtex,float htex,float posx,float posy,float posz,float width,float height)
+{
+
+	SE_image_segment_draw_fx(img,xtex,ytex,wtex,htex,posx,posy,posz,width,height,1,1,0,0,0,1,1,1,1);
+
+}
+
+
 void SE_image_segment_draw(SE_image *img,float xtex,float ytex,float wtex,float htex,float posx,float posy,float posz)
 {
 
-	SE_image_segment_draw(img,xtex,ytex,wtex,htex,posx,posy,posz,wtex,htex,1,1,0,0,0,1,1,1,1);
+	SE_image_segment_draw_fx(img,xtex,ytex,wtex,htex,posx,posy,posz,wtex,htex,1,1,0,0,0,1,1,1,1);
 
 }
 
@@ -189,41 +197,48 @@ void SE_image_draw_fx(SE_image *img,float posx,float posy,float posz,float width
 {
 	
 
-	SE_image_segment_draw(img,0,0,img->width,img->height,posx,posy,posz,width_image,height_image,zoomx,zoomy,rotx,roty,rotz,r,g,b,alpha);
+	SE_image_segment_draw_fx(img,0,0,img->width,img->height,posx,posy,posz,width_image,height_image,zoomx,zoomy,rotx,roty,rotz,r,g,b,alpha);
+
+}
+
+void SE_image_draw_wh(SE_image *img,float posx,float posy,float posz,float width,float height)
+{
+
+	SE_image_draw_fx(img,posx,posy,posz,width,height,1,1,0,0,0,1,1,1,1);
 
 }
 
 void SE_image_draw(SE_image *img,float posx,float posy,float posz)
 {
 
-	SE_image_full_draw(img,posx,posy,posz,img->width,img->height,1,1,0,0,0,1,1,1,1);
+	SE_image_draw_fx(img,posx,posy,posz,img->width,img->height,1,1,0,0,0,1,1,1,1);
 
 }
 
 void SE_image_segment_draw_transf(SE_image *img,SE_transf *tr,float xtex,float ytex,float wtex,float htex)
 {
 
-	SE_image_segment_draw(img,
-						  xtex,ytex,wtex,htex,
-						  tr->x,tr->y,tr->z,
-					      tr->width,tr->height,
-						  tr->zoomx,tr->zoomy,
-						  tr->rotx,tr->roty,tr->rotz,
-						  tr->r,tr->g,tr->b,
-						  tr->alpha);
+	SE_image_segment_draw_fx(img,
+							 xtex,ytex,wtex,htex,
+							 tr->x,tr->y,tr->z,
+							 tr->width,tr->height,
+							 tr->zoomx,tr->zoomy,
+							 tr->rotx,tr->roty,tr->rotz,
+							 tr->r,tr->g,tr->b,
+							 tr->alpha);
 
 }
 
 void SE_image_draw_transf(SE_image *img,SE_transf *tr)
 {
 
-	SE_image_full_draw(img,
-					   tr->x,tr->y,tr->z,
-					   tr->width,tr->height,
-					   tr->zoomx,tr->zoomy,
-					   tr->rotx,tr->roty,tr->rotz,
-					   tr->r,tr->g,tr->b,
-					   tr->alpha);
+	SE_image_draw_fx(img,
+					 tr->x,tr->y,tr->z,
+					 tr->width,tr->height,
+					 tr->zoomx,tr->zoomy,
+					 tr->rotx,tr->roty,tr->rotz,
+					 tr->r,tr->g,tr->b,
+					 tr->alpha);
 
 }
 

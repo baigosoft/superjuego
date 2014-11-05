@@ -270,10 +270,18 @@ void SE_animator_draw_fx(SE_animator *ator,
 
 }
 
-void SE_animator_draw(SE_animator *ator,float posx,float posy,float posz,float width,float height)
+void SE_animator_draw_wh(SE_animator *ator,float posx,float posy,float posz,float width,float height)
 {
 
 	SE_animator_draw_fx(ator,posx,posy,posz,width,height,1,1,0,0,0,1,1,1,1);
+
+
+}
+
+void SE_animator_draw(SE_animator *ator,float posx,float posy,float posz)
+{
+
+	SE_animator_draw_fx(ator,posx,posy,posz,SE_ani_width(ator->ani),SE_ani_height(ator->ani),1,1,0,0,0,1,1,1,1);
 
 
 }

@@ -116,7 +116,11 @@ void SE_animator_draw_fx(SE_animator *ator,
 						 float width,float height,float zoomx,float zoomy,
 						 float rotationx,float rotationy,float rotationz,
 						 float red,float green,float blue,float alpha);
-void SE_animator_draw(SE_animator *ator,float posx,float posy,float posz,float width,float height);
+
+void SE_animator_draw_wh(SE_animator *ator,float posx,float posy,float posz,float width,float height);
+
+void SE_animator_draw(SE_animator *ator,float posx,float posy,float posz);
+
 void SE_animator_draw_transf(SE_animator *ator,SE_transf *tr);
 
 void SE_animator_clean(SE_animator *ator);

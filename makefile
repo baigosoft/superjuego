@@ -5,8 +5,7 @@ LFLAGS = -Wall $(DEBUG) -shared
 LIBS = `sdl-config --libs` -lm  -lSDL_image -lpng -lGL -lGLU 
 prefix=/usr/lib
 
-OBJECTS = render.o image.o animation.o sprite.o tile.o collision.o tilecamera.o font.o utils.o
-
+OBJECTS = render.o image.o animation.o sprite.o tile.o collision.o font.o primitives.o utils.o audio.o timer.o input.o 
 
 all: $(OBJECTS)
 	$(CC) $(LFLAGS) $(OBJECTS) -o libsjuego.so $(LIBS)

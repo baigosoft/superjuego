@@ -39,6 +39,10 @@ void SE_image_segment_draw_fx(SE_image *img,
 						   float r,float g,float b,
 						   float alpha);
 
+/*draw a rectangular segment of an image, with position and dimentions parameters*/
+void SE_image_segment_draw_wh(SE_image *img,float xtex,float ytex,float wtex,float htex,float posx,float posy,float posz,float width,float height);
+
+/*draw a rectangular segment of an image, with position parameters*/
 void SE_image_segment_draw(SE_image *img,float xtex,float ytex,float wtex,float htex,float posx,float posy,float posz);
 
 /*draw a full area of an image, with a lot of parameters*/
@@ -50,6 +54,8 @@ void SE_image_draw_fx(SE_image *img,
 					  float r,float g,float b,
 					  float alpha);
 
+/*draw a full area of an image, with position and dimentions parameters*/
+void SE_image_draw_wh(SE_image *img,float posx,float posy,float posz,float width,float height);
 
 /*draw a full area of an image, with position parameters */
 void SE_image_draw(SE_image *img,float posx,float posy,float posz);

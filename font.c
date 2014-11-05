@@ -15,19 +15,56 @@ SE_font *SE_font_create(SE_image *img,int columns, int rows, int fontw, int font
 	fnt->w = fontw;
 	fnt->h = fonth;
 	fnt->space = 10;
+	fnt->letterspc = 0;
+	fnt->lineh = 0;
 
 	return fnt;
 
 }
 
 
-void SE_font_settings(SE_font *fnt,int space)
+void SE_font_space_set(SE_font *fnt,int value)
 {
 
-	fnt->space = space;
+	fnt->space = value;
 
 }
 
+int SE_font_space(SE_font *fnt)
+{
+
+	return fnt->space;
+
+}
+
+
+void SE_font_letterspacing_set(SE_font *fnt,int value)
+{
+
+	fnt->letterspc = value;
+
+}
+
+int SE_font_letterspacing(SE_font *fnt)
+{
+
+	return fnt->letterspc;
+
+}
+
+void SE_font_lineheight_set(SE_font *fnt,int value)
+{
+
+	fnt->lineh = value;
+
+}
+
+int SE_font_lineheight(SE_font *fnt)
+{
+
+	return fnt->lineh;
+
+}
 
 void SE_font_draw_fx(SE_font *fnt, char *text,float posx,float posy,float posz,float width,float height,float zoomx,float zoomy,float rotx,float roty,float rotz,float red,float green,float blue,float alpha)
 {
@@ -52,17 +89,16 @@ float y = posy;
 			x += fnt->space;
 		}else if(text[i] == '\n'){
 			x = posx;
-			y += htex;
+			y += htex + (fnt->lineh);
 		}else{
 			ascii = (unsigned char)text[i];
 			xtex = (ascii % col) * wtex;
 			ytex = (ascii / col) * htex;
 
 			SE_image_segment_draw_fx(fnt->textimage,xtex,ytex,wtex,htex,x,y,0,width,height,zoomx,zoomy,rotx,roty,rotz,red,green,blue,alpha);
-/*void SE_image_segment_draw(SE_image *img,float xtex,float ytex,float wtex,float htex,float posx,float posy,float posz,float zoomx,float zoomy,float rotx,float roty,float rotz,float r,float g,float b,float alpha);*/
 
-			x += wtex;
-//			printf("%d",x);
+			x += wtex + (fnt->letterspc);
+
 			
 		}
 		
