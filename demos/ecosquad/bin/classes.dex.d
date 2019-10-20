@@ -1,0 +1,20 @@
+/home/cabral/proyectos/superjuego2/stable/demos/ecosquad/bin/classes.dex : \
+/home/cabral/proyectos/superjuego2/stable/demos/ecosquad/bin/classes/com/arcadenea/ecosquad/R.class \
+/home/cabral/proyectos/superjuego2/stable/demos/ecosquad/bin/classes/com/arcadenea/ecosquad/BuildConfig.class \
+/home/cabral/proyectos/superjuego2/stable/demos/ecosquad/bin/classes/com/arcadenea/ecosquad/R$string.class \
+/home/cabral/proyectos/superjuego2/stable/demos/ecosquad/bin/classes/com/arcadenea/ecosquad/R$attr.class \
+/home/cabral/proyectos/superjuego2/stable/demos/ecosquad/bin/classes/org/libsdl/app/SDLActivity$SDLCommandHandler.class \
+/home/cabral/proyectos/superjuego2/stable/demos/ecosquad/bin/classes/org/libsdl/app/R.class \
+/home/cabral/proyectos/superjuego2/stable/demos/ecosquad/bin/classes/org/libsdl/app/SDLActivity$1.class \
+/home/cabral/proyectos/superjuego2/stable/demos/ecosquad/bin/classes/org/libsdl/app/SDLSurface.class \
+/home/cabral/proyectos/superjuego2/stable/demos/ecosquad/bin/classes/org/libsdl/app/SDLInputConnection.class \
+/home/cabral/proyectos/superjuego2/stable/demos/ecosquad/bin/classes/org/libsdl/app/R$drawable.class \
+/home/cabral/proyectos/superjuego2/stable/demos/ecosquad/bin/classes/org/libsdl/app/DummyEdit.class \
+/home/cabral/proyectos/superjuego2/stable/demos/ecosquad/bin/classes/org/libsdl/app/BuildConfig.class \
+/home/cabral/proyectos/superjuego2/stable/demos/ecosquad/bin/classes/org/libsdl/app/SDLActivity$ShowTextInputTask.class \
+/home/cabral/proyectos/superjuego2/stable/demos/ecosquad/bin/classes/org/libsdl/app/R$string.class \
+/home/cabral/proyectos/superjuego2/stable/demos/ecosquad/bin/classes/org/libsdl/app/SDLMain.class \
+/home/cabral/proyectos/superjuego2/stable/demos/ecosquad/bin/classes/org/libsdl/app/SDLActivity.class \
+/home/cabral/proyectos/superjuego2/stable/demos/ecosquad/bin/classes/org/libsdl/app/R$layout.class \
+/home/cabral/proyectos/superjuego2/stable/demos/ecosquad/bin/classes/org/libsdl/app/R$attr.class \
+/home/cabral/proyectos/superjuego2/stable/demos/ecosquad/bin/dexedLibs/annotations-21111122b92d43cdf6be26afb4fa02f1.jar \

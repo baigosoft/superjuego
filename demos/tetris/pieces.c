@@ -198,32 +198,32 @@ void draw_tile(int numtile,float posx,float posy,float posz,int width,int height
 
 	switch(numtile)
 	{
-		case 0:
+		case 1:
 			SE_image_segment_draw_fx(images,0,0,16,16,posx,posy,posz,width,height,1,1,0,0,0,1,1,1,alpha);
 			break;	
-		case 1:
+		case 2:
 			SE_image_segment_draw_fx(images,16,0,16,16,posx,posy,posz,width,height,1,1,0,0,0,1,1,1,alpha);
 			break;
-		case 2:
+		case 3:
 			SE_image_segment_draw_fx(images,32,0,16,16,posx,posy,posz,width,height,1,1,0,0,0,1,1,1,alpha);
 			break;
-		case 3:
+		case 4:
 			SE_image_segment_draw_fx(images,48,0,16,16,posx,posy,posz,width,height,1,1,0,0,0,1,1,1,alpha);
 			break;	
-		case 4:
+		case 5:
 			SE_image_segment_draw_fx(images,64,0,16,16,posx,posy,posz,width,height,1,1,0,0,0,1,1,1,alpha);
 			break;
-		case 5:
-			SE_image_segment_draw_fx(images,96,0,16,16,posx,posy,posz,width,height,1,1,0,0,0,1,1,1,alpha);
-			break;	
 		case 6:
-			SE_image_segment_draw_fx(images,112,0,16,16,posx,posy,posz,width,height,1,1,0,0,0,1,1,1,alpha);
+			SE_image_segment_draw_fx(images,80,0,16,16,posx,posy,posz,width,height,1,1,0,0,0,1,1,1,alpha);
 			break;	
 		case 7:
-			SE_image_segment_draw_fx(images,128,0,16,16,posx,posy,posz,width,height,1,1,0,0,0,1,1,1,alpha);
+			SE_image_segment_draw_fx(images,96,0,16,16,posx,posy,posz,width,height,1,1,0,0,0,1,1,1,alpha);
+			break;	
+		case 8:
+			SE_image_segment_draw_fx(images,112,0,16,16,posx,posy,posz,width,height,1,1,0,0,0,1,1,1,alpha);
 			break;
 		default:
-			SE_image_segment_draw_fx(images,0,0,16,16,posx,posy,posz,width,height,1,1,0,0,0,1,1,1,alpha);
+			SE_image_segment_draw_fx(images,112,0,16,16,posx,posy,posz,width,height,1,1,0,0,0,1,1,1,alpha);
 			break;	
 	}
 

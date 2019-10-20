@@ -1,7 +1,0 @@
--colisiones por frame (para juegos de lucha)
--integracion con chipmunk
--integracion con ffmpeg
--lua
--crear formatos para cargar imagenes, animaciones, tilemaps
--un recolector de basura o algo asi
--editores

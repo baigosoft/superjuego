@@ -1,5 +1,17 @@
 #include "tile.h"
 
+/*TILE*/
+
+void SE_tile_img_add(SE_tile *tl,SE_image *img,float xtex,float ytex,float wtex,float htex);
+void SE_tile_ani_add(SE_tile *tl,SE_ani *ani);
+int SE_tile_type(SE_tile *tl);
+void SE_tile_draw(SE_tile *tl,float posx,float posy,float posz);
+
+/*TILESET*/
+
+void SE_tileset_draw(SE_tileset *ts,int num_tile,float posx,float posy,float posz);
+
+/*TILE*/
 
 int SE_calc_xy(int x,int y,int numtilesx,int numtilesy)
 {	
@@ -9,7 +21,7 @@ int SE_calc_xy(int x,int y,int numtilesx,int numtilesy)
 
 }
 
-void SE_tile_img_segment_add(SE_tile *tl,SE_image *img,float xtex,float ytex,float wtex,float htex)
+void SE_tile_img_add(SE_tile *tl,SE_image *img,float xtex,float ytex,float wtex,float htex)
 {
 
 		tl->tile_type = IMAGE;
@@ -20,7 +32,6 @@ void SE_tile_img_segment_add(SE_tile *tl,SE_image *img,float xtex,float ytex,flo
 		tl->htex = htex;
 
 }
-
 
 void SE_tile_ani_add(SE_tile *tl,SE_ani *ani)
 {
@@ -57,79 +68,57 @@ void SE_tile_draw(SE_tile *tl,float posx,float posy,float posz)
 
 
 
-SE_tileset *SE_tileset_init(float width_tile,float height_tile)
+SE_tileset *SE_tileset_init(int numtileset,float width_tile,float height_tile)
 {
 
 	SE_tileset *ts;
 	ts = (SE_tileset*)malloc(sizeof(SE_tileset));
-	ts->tiles = NULL;
-	ts->numtileset = 0;
-
+	ts->tiles = (SE_tile*)malloc(numtileset * sizeof(SE_tile));
+	ts->numtileset = numtileset;
+	ts->wtile = width_tile;
+	ts->htile = height_tile;
 	return ts;	
 	
 }
 
 
 
-void SE_tileset_img_segment_add(SE_tileset *ts,SE_image *img,float xtex,float ytex,float wtex,float htex)
+void SE_tileset_img_segment_add(SE_tileset *ts,SE_image *img,int num_tile,float xtex,float ytex)
 {
 
-	if(ts->numtileset == 0)
-	{
-		ts->numtileset++;
-		ts->tiles = (SE_tile*)malloc(sizeof(SE_tile));
-		ts->tiles->tile_type = 0;
-		ts->tiles->tileimg = NULL;
-		ts->tiles->tileani = NULL;
-
-		SE_tile_img_segment_add(ts->tiles,img,xtex,ytex,wtex,htex);
-
-	}else if(ts->numtileset > 0){
-				
-		ts->numtileset++;
-		ts->tiles = (SE_tile*)realloc(ts->tiles,ts->numtileset * sizeof(SE_tile));
-		ts->tiles[ts->numtileset - 1].tile_type = 0;
-		ts->tiles[ts->numtileset - 1].tileimg = NULL;
-		ts->tiles[ts->numtileset - 1].tileani = NULL;
-
-		SE_tile_img_segment_add(&ts->tiles[ts->numtileset - 1],img,xtex,ytex,wtex,htex);
-
-	}
+	SE_tile_img_add(&ts->tiles[num_tile],img,xtex,ytex,ts->wtile,ts->htile);
 
 }
 
-void SE_tileset_img_add(SE_tileset *ts,SE_image *img)
+void SE_tileset_create_from_img(SE_tileset *ts,SE_image *img,int numimagex,int numimagey)
 {
 
-	SE_tileset_img_segment_add(ts,img,0,0,img->width,img->height);
+	int i,j;
+	int count = 0;
+	float w = ts->wtile;
+	float h = ts->htile;
+
+	for(j=0;j<numimagey;j++)
+	{			
+		for(i=0;i<numimagex;i++)
+		{
+			SE_tileset_img_segment_add(ts,img,count,i*w,j*h);
+			count++;
+		}
+	}
+}
+
+void SE_tileset_img_add(SE_tileset *ts,SE_image *img,int num_tile)
+{
+
+	SE_tileset_img_segment_add(ts,img,num_tile,0,0);
 
 }
 
-void SE_tileset_ani_add(SE_tileset *ts,SE_ani *ani)
+void SE_tileset_ani_add(SE_tileset *ts,SE_ani *ani,int num_tile)
 {
 
-	if(ts->numtileset == 0)
-	{
-		ts->numtileset++;
-		ts->tiles = (SE_tile*)malloc(sizeof(SE_tile));
-		ts->tiles->tile_type = 0;
-		ts->tiles->tileimg = NULL;
-		ts->tiles->tileani = NULL;
-
-		SE_tile_ani_add(ts->tiles,ani);
-
-	}else if(ts->numtileset > 0){
-				
-		ts->numtileset++;
-		ts->tiles = (SE_tile*)realloc(ts->tiles,ts->numtileset * sizeof(SE_tile));
-		ts->tiles[ts->numtileset - 1].tile_type = 0;
-		ts->tiles[ts->numtileset - 1].tileimg = NULL;
-		ts->tiles[ts->numtileset - 1].tileani = NULL;
-
-		SE_tile_ani_add(&ts->tiles[ts->numtileset - 1],ani);
-
-	}
-
+	SE_tile_ani_add(&ts->tiles[num_tile],ani);
 
 }
 
@@ -145,6 +134,8 @@ void SE_tileset_clean(SE_tileset *ts)
 
 	free(ts->tiles);	
 	free(ts);
+
+	printf("SE_tileset:se elimino puntero de tileset\n");
  
 }
 
@@ -163,11 +154,17 @@ SE_tilemap *SE_tilemap_init(SE_tileset *tset,int numtileset,float width_tile,flo
 
 	tm->numtilex = numtilex;
 	tm->numtiley = numtiley;
+
+	tm->tile_collision = 0; 
+
 	numtiles = numtilex * numtiley;
 	
 
-	tm->maptile = (int*)calloc(numtiles,sizeof(int));
-	tm->mapcoll = (int*)calloc(numtiles,sizeof(int));
+	//tm->maptile = (int*)calloc(numtiles,sizeof(int));
+	//tm->mapcoll = (int*)calloc(numtiles,sizeof(int));
+
+	tm->maptile = (int*)malloc(numtiles * sizeof(int));
+	tm->mapcoll = (int*)malloc(numtiles * sizeof(int));
 
 	for(i=0;i<numtiles;i++)
 	{
@@ -183,6 +180,19 @@ SE_tilemap *SE_tilemap_init(SE_tileset *tset,int numtileset,float width_tile,flo
 }
 
 
+void SE_tilemap_clean(SE_tilemap *tm)
+{
+
+	free(tm->maptile);
+	free(tm->mapcoll);
+	free(tm);
+
+	printf("SE_tilemap:se elimino puntero de tilemap\n");
+	
+
+}
+
+
 void SE_tilemap_tileset_set(SE_tilemap *tm,SE_tileset *tset)
 {
 
@@ -191,7 +201,7 @@ void SE_tilemap_tileset_set(SE_tilemap *tm,SE_tileset *tset)
 
 }
 
-void SE_tilemap_loaddata(SE_tilemap *tm,char *path)
+void SE_tilemap_data_load(SE_tilemap *tm,const char *path)
 {
 	FILE *arch;
 	char line[30];
@@ -227,7 +237,7 @@ void SE_tilemap_loaddata(SE_tilemap *tm,char *path)
 
 }
 
-void SE_tilemap_maptile_load(SE_tilemap *tm,char *path)
+void SE_tilemap_maptile_load(SE_tilemap *tm,const char *path)
 {
 
 	FILE *arch;	
@@ -257,7 +267,7 @@ void SE_tilemap_maptile_load(SE_tilemap *tm,char *path)
 }
 
 
-void SE_tilemap_maptile_bin_load(SE_tilemap *tm,char *path)
+void SE_tilemap_maptile_bin_load(SE_tilemap *tm,const char *path)
 {
 
 	FILE *arch;	
@@ -285,7 +295,7 @@ void SE_tilemap_maptile_bin_load(SE_tilemap *tm,char *path)
 				
 }
 
-void SE_tilemap_mapcoll_load(SE_tilemap *tm,char *path)
+void SE_tilemap_mapcoll_load(SE_tilemap *tm,const char *path)
 {
 
 	FILE *arch;	
@@ -314,7 +324,7 @@ void SE_tilemap_mapcoll_load(SE_tilemap *tm,char *path)
 			
 }
 
-void SE_tilemap_mapcoll_bin_load(SE_tilemap *tm,char *path)
+void SE_tilemap_mapcoll_bin_load(SE_tilemap *tm,const char *path)
 {
 
 	FILE *arch;	
@@ -344,7 +354,7 @@ void SE_tilemap_mapcoll_bin_load(SE_tilemap *tm,char *path)
 void SE_tilemap_draw(SE_tilemap *tm,float posx,float posy,float posz)
 {
 
-	int t;
+	int t = 0;
 	int i;
 	int j;
 	int w = tm->wtile;
@@ -353,8 +363,8 @@ void SE_tilemap_draw(SE_tilemap *tm,float posx,float posy,float posz)
 	int ntilex = tm->numtilex;
 	int ntiley = tm->numtiley;
 
-	float x;
-	float y;
+	float x = 0;
+	float y = 0;
 
 
 	for(j=0;j<ntiley;j++)
@@ -366,9 +376,10 @@ void SE_tilemap_draw(SE_tilemap *tm,float posx,float posy,float posz)
 			x = (i*w) + posx;/*posicion del tile en x*/
 			y = (j*h) + posy;/*posicion del tile en y*/			
 			
-			/*void SE_tileset_draw(SE_tileset *ts,int num_tile_image,float posx,float posy,float posz)*/
-			SE_tileset_draw(tm->tset,t,x,y,posz);
-			
+			if(((x >= -w) && (x <= (screen_width + w))) || ((y >= -h) && (y <= (screen_height + h))))
+			{
+				SE_tileset_draw(tm->tset,t,x,y,posz);
+			}
 			
 		}
 	}
@@ -376,23 +387,27 @@ void SE_tilemap_draw(SE_tilemap *tm,float posx,float posy,float posz)
 }
 
 
-int SE_tilemap_collision(SE_tilemap *tm,SE_box *box,float tilemap_posx,float tilemap_posy,float box_posx,float box_posy)
+
+int SE_tilemap_collision(SE_tilemap *tm,float tm_posx,float tm_posy,SE_box *box,float box_posx,float box_posy)
 {
 
 	SE_box temp,temp2;
 
-	temp.x = tilemap_posx;
-	temp.y = tilemap_posy;
+	temp.x = tm_posx;
+	temp.y = tm_posy;
 	temp.w = tm->wtile;
 	temp.h = tm->htile;
 
-	temp2.x = box->x;
-	temp2.y = box->y;
+	temp2.x = box->x + box_posx;
+	temp2.y = box->y + box_posy;
 	temp2.w = box->w;
 	temp2.h = box->h;
 
 	int ntilex = tm->numtilex;
 	int ntiley = tm->numtiley;
+
+	int w = tm->wtile;
+	int h = tm->htile;
 
 	float x;
 	float y;
@@ -408,239 +423,29 @@ int SE_tilemap_collision(SE_tilemap *tm,SE_box *box,float tilemap_posx,float til
 	{
 		for(i=0;i<ntilex;i++)
 		{	
-			t = tm->maptile[SE_calc_xy(i,j,ntilex,ntiley)];/*valor del tile en la posicion*/
-			x = ((float)i*temp.w);
-			y = ((float)j*temp.h);			
-			
-			if(t > 0)
-			{		
-				value = SE_box_check_position(&temp,&temp2,x,y,box_posx,box_posy);
-				if(value > 0) return value;				
-			}			
+			t = tm->mapcoll[SE_calc_xy(i,j,ntilex,ntiley)];/*valor del tile en la posicion*/
+
+			temp.x = i*temp.w + tm_posx;
+			temp.y = j*temp.h + tm_posy;			
+
+			if(((temp.x >= -w) && (temp.x <= (screen_width + w))) || ((temp.y >= -h) && (temp.y <= (screen_height + h))))	
+			{
+				if(t > 0)
+				{	
+				
+					value = SE_coll_check(&temp,&temp2);
+					if(value > 0)
+					{
+						tm->tile_collision = t;
+						//printf("%d\n",value); 
+						return value;
+					}			
+				}			
+			}
 		}
 	}
 	
 	return 0;
 
-
-}
-
-
-
-SE_tilearea *SE_tilearea_init(float posx,float posy,float posz,int xinimap,int yinimap,int wmap,int hmap)
-{
-
-	SE_tilearea *trea;
-	trea = (SE_tilearea*)malloc(sizeof(SE_tilearea));
-	trea->x = posx;
-	trea->y = posy;
-	trea->z = posz;
-	trea->xinimap = xinimap;
-	trea->yinimap = yinimap;
-	trea->wmap = wmap;
-	trea->hmap = hmap;	
-
-	return trea;
-
-}
-
-
-void SE_tilearea_clean(SE_tilearea *trea)
-{
-
-	free(trea);
-
-}
-
-void SE_tilearea_positionx_set(SE_tilearea *trea,float posx)
-{
-
-	trea->x = posx;
-
-}
-
-void SE_tilearea_positiony_set(SE_tilearea *trea,float posy)
-{
-
-	trea->y = posy;
-
-}
-
-void SE_tilearea_positionz_set(SE_tilearea *trea,float posz)
-{
-
-	trea->z = posz;
-
-}
-
-void SE_tilearea_position_set(SE_tilearea *trea,float posx,float posy,float posz)
-{
-
-	trea->x = posx;
-	trea->y = posy;
-	trea->z = posz;
-
-}
-
-
-void SE_tilearea_map_position_set(SE_tilearea *trea,int xinimap,int yinimap)
-{
-
-	trea->xinimap = xinimap;
-	trea->yinimap = yinimap;
-
-}
-
-void SE_tilearea_map_dimentions_set(SE_tilearea *trea,int wmap,int hmap)
-{
-
-	trea->wmap = wmap;
-	trea->hmap = hmap;
-
-}
-
-void SE_tilearea_draw(SE_tilearea *trea,SE_tilemap *tm)
-{
-
-	int t;
-	int i,j;
-
-	int xmap = 0;
-	int ymap = 0;
-
-	int w = tm->wtile;
-	int h = tm->htile;
-
-	float posx;
-	float posy;	
-	
-	if(trea->wmap > tm->numtilex)
-	{
-		trea->wmap = tm->numtilex;
-	}
-	if(trea->hmap > tm->numtiley)
-	{
-		trea->hmap = tm->numtiley;
-	}
-	if(trea->xinimap < 0)
-	{
-		trea->xinimap = 0;
-	}
-	if((trea->xinimap + trea->wmap) > tm->numtilex)
-	{
-		trea->xinimap = tm->numtilex - trea->wmap;
-	}
-	if(trea->yinimap < 0)
-	{
-		trea->yinimap = 0;
-	}
-	if((trea->yinimap + trea->hmap) > tm->numtiley)
-	{
-		trea->yinimap = tm->numtiley - trea->hmap;
-	}
-
-
-	for(j = 0;j < trea->hmap;j++)
-	{
-		for(i = 0;i < trea->wmap;i++)
-		{	
-			xmap = i + trea->xinimap;
-			ymap = j + trea->yinimap;			
-		
-			t = tm->maptile[SE_calc_xy(xmap,ymap,tm->numtilex,tm->numtiley)];/*valor del tile en la posicion*/
-			posx = (i*w) + trea->x;/*posicion del tile en x*/
-			posy = (j*h) + trea->y;/*posicion del tile en y*/			
-			
-			SE_tileset_draw(tm->tset,t,posx,posy,trea->z);
-			
-			
-		}
-	}
-
-
-
-
-}
-
-
-int SE_tilecamera_tilearea_collision(SE_tilearea *trea,SE_tilemap *tm,SE_box *box,float box_posx,float box_posy)
-{
-
-	int xmap = 0;
-	int ymap = 0;
-
-	int w = tm->wtile;
-	int h = tm->htile;
-
-	SE_box temp,temp2;
-
-	float posx;
-	float posy;
-	
-	int t = 0;
-
-	int value = 0;
-
-	int i,j;
-
-	temp.x = trea->x;
-	temp.y = trea->y;
-	temp.w = tm->wtile;
-	temp.h = tm->htile;
-
-	temp2.x = box->x;
-	temp2.y = box->y;
-	temp2.w = box->w;
-	temp2.h = box->h;
-
-	if(trea->wmap > tm->numtilex)
-	{
-		trea->wmap = tm->numtilex;
-	}
-	if(trea->hmap > tm->numtiley)
-	{
-		trea->hmap = tm->numtiley;
-	}
-	if(trea->xinimap < 0)
-	{
-		trea->xinimap = 0;
-	}
-	if((trea->xinimap + trea->wmap) > tm->numtilex)
-	{
-		trea->xinimap = tm->numtilex - trea->wmap;
-	}
-	if(trea->yinimap < 0)
-	{
-		trea->yinimap = 0;
-	}
-	if((trea->yinimap + trea->hmap) > tm->numtiley)
-	{
-		trea->yinimap = tm->numtiley - trea->hmap;
-	}
-
-
-
-		
-	for(j=0;j < trea->hmap;j++)
-	{
-		for(i=0;i < trea->wmap;i++)
-		{	
-			xmap = i + trea->xinimap;
-			ymap = j + trea->yinimap;
-			
-			t = tm->mapcoll[SE_calc_xy(xmap,ymap,tm->numtilex,tm->numtiley)];/*valor del tile en la posicion*/
-	
-			temp.x = i*w + trea->x;
-			temp.y = j*w + trea->y;		
-			
-			if(t > 0)
-			{		
-				value = SE_box_check_position(&temp,&temp2,xmap,ymap,box_posx,box_posy);
-				if(value > 0) return value;				
-			}			
-		}
-	}
-	
-	return 0;
 
 }

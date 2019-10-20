@@ -1,0 +1,2 @@
+g++ -Wall `sdl-config --cflags` `pkg-config --cflags lua5.1 libavformat libavcodec libswscale libavutil`  -I./ -I/home/cabral/proyectos/superjuego/nuevo/linux -I/home/cabral/proyectos/superjuego/nuevo/include -c -g -fpermissive -c /home/cabral/proyectos/superjuego/nuevo/linux/movie.c -o /home/cabral/proyectos/superjuego/nuevo/linux/movie.o
+makefile:24: fallo en las instrucciones para el objetivo '/home/cabral/proyectos/superjuego/nuevo/linux/movie.o'

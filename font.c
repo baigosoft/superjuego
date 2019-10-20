@@ -66,7 +66,7 @@ int SE_font_lineheight(SE_font *fnt)
 
 }
 
-void SE_font_draw_fx(SE_font *fnt, char *text,float posx,float posy,float posz,float width,float height,float zoomx,float zoomy,float rotx,float roty,float rotz,float red,float green,float blue,float alpha)
+void SE_font_draw_fx(SE_font *fnt,const char *text,float posx,float posy,float posz,float width,float height,float zoomx,float zoomy,float rotx,float roty,float rotz,float red,float green,float blue,float alpha)
 {
 
 int totalc = strlen(text);
@@ -105,10 +105,24 @@ float y = posy;
 	}
 }
 
-void SE_font_draw(SE_font *fnt, char *text,float posx,float posy,float posz)
+void SE_font_draw(SE_font *fnt,const char *text,float posx,float posy,float posz)
 {
 
 	SE_font_draw_fx(fnt,text,posx,posy,posz,fnt->w,fnt->h,1,1,0,0,0,1,1,1,1);
+
+}
+
+void SE_font_draw_transf(SE_font *fnt,SE_transf *tr,const char *text)
+{
+
+	SE_font_draw_fx(fnt,
+					text,
+					tr->x,tr->y,tr->z,
+					tr->width,tr->height,
+					tr->zoomx,tr->zoomy,
+					tr->rotx,tr->roty,tr->rotz,
+					tr->r,tr->g,tr->b,tr->alpha);
+
 
 }
 

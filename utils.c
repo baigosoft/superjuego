@@ -34,7 +34,7 @@ int SE_utils_powerof2(int number)
 }
 
 
-void SE_utils_log(char *message)
+void SE_utils_log(const char *message)
 {
 	printf("LOG:%s\n",message);
 }

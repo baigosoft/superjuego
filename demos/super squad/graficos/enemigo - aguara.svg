@@ -13,7 +13,7 @@
    height="297mm"
    id="svg3442"
    version="1.1"
-   inkscape:version="0.48.3.1 r9886"
+   inkscape:version="0.48.5 r10040"
    sodipodi:docname="enemigo - aguara.svg">
   <defs
      id="defs3444" />
@@ -24,14 +24,14 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.49497475"
-     inkscape:cx="618.87267"
-     inkscape:cy="705.76824"
+     inkscape:zoom="1.979899"
+     inkscape:cx="138.4633"
+     inkscape:cy="557.547"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
-     inkscape:window-width="1364"
-     inkscape:window-height="695"
+     inkscape:window-width="1366"
+     inkscape:window-height="722"
      inkscape:window-x="0"
      inkscape:window-y="25"
      inkscape:window-maximized="1" />
@@ -1322,5 +1322,436 @@
        inkscape:export-ydpi="155.92999"
        inkscape:transform-center-x="286.78572"
        inkscape:transform-center-y="-17.5" />
+    <path
+       inkscape:export-ydpi="155.92999"
+       inkscape:export-xdpi="155.92999"
+       inkscape:export-filename="/home/cabral/programacion/juego/superjuego/temp/demos/eco squad/aguara.png"
+       sodipodi:nodetypes="ccccc"
+       inkscape:connector-curvature="0"
+       id="path3173"
+       d="m 236.2914,518.59879 38.9881,-9.11077 c 7.67414,3.82639 6.5135,10.96583 5.36406,18.10107 l -41.35538,10.18902 z"
+       style="fill:#000000;stroke:#000000;stroke-width:0.839095px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+    <g
+       inkscape:export-ydpi="155.92999"
+       inkscape:export-xdpi="155.92999"
+       inkscape:export-filename="/home/cabral/programacion/juego/superjuego/temp/demos/eco squad/aguara.png"
+       id="g3175"
+       transform="matrix(0.83909497,0,0,0.83909497,-273.75847,277.47463)">
+      <path
+         style="fill:#000000;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         d="m 472.85714,238.07647 c 0.60119,-7.43678 4.79181,-12.56626 12.11748,-11.93366 l 25.73967,14.07652 5.12254,49.87745 -23.38324,2.38795 z"
+         id="path3178"
+         inkscape:connector-curvature="0"
+         sodipodi:nodetypes="cccccc" />
+      <path
+         style="fill:#333333;stroke:none"
+         d="m 500.02551,291.21224 c -8.239,-19.06142 -14.92258,-39.41901 -15.15229,-65.15483 -6.53483,1.08196 -9.53551,2.7553 -12.02992,11.79532 6.67357,17.47994 12.89336,35.41364 19.10098,53.35952 z"
+         id="path3180"
+         inkscape:connector-curvature="0"
+         sodipodi:nodetypes="ccccc" />
+    </g>
+    <g
+       inkscape:export-ydpi="155.92999"
+       inkscape:export-xdpi="155.92999"
+       inkscape:export-filename="/home/cabral/programacion/juego/superjuego/temp/demos/eco squad/aguara.png"
+       id="g3182"
+       transform="matrix(0.83909497,0,0,0.83909497,-273.75847,277.47463)">
+      <path
+         style="fill:#000000;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         d="M 559.28571,239.50504 485,225.93361 l 6.42857,23.57143 86.42857,25 z"
+         id="path3184"
+         inkscape:connector-curvature="0" />
+      <path
+         style="fill:#333333;stroke:none"
+         d="m 483.35799,226.05741 2.02031,10.10152 c 27.10576,1.33368 54.21151,9.93046 81.31727,17.67767 l -8.61693,-13.57578 z"
+         id="path3186"
+         inkscape:connector-curvature="0"
+         sodipodi:nodetypes="ccccc" />
+    </g>
+    <g
+       inkscape:export-ydpi="155.92999"
+       inkscape:export-xdpi="155.92999"
+       inkscape:export-filename="/home/cabral/programacion/juego/superjuego/temp/demos/eco squad/aguara.png"
+       id="g3188"
+       transform="matrix(0.83909497,0,0,0.83909497,-273.75847,277.47463)">
+      <path
+         style="fill:#000000;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         d="m 590.71429,313.79075 c 9.34709,-1.05467 16.94404,0.80756 30,-6.42857 l -15,-68.57143 -49.28572,5.71429 z"
+         id="path3190"
+         inkscape:connector-curvature="0"
+         sodipodi:nodetypes="ccccc" />
+      <path
+         style="fill:#333333;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         d="m 564.49492,261.54022 16.8111,2.43872 c 4.57941,16.79989 9.09073,33.61114 21.55112,49.09753 l -12.68383,0.41842 z"
+         id="path3192"
+         inkscape:connector-curvature="0"
+         sodipodi:nodetypes="ccccc" />
+    </g>
+    <path
+       inkscape:export-ydpi="155.92999"
+       inkscape:export-xdpi="155.92999"
+       inkscape:export-filename="/home/cabral/programacion/juego/superjuego/temp/demos/eco squad/aguara.png"
+       sodipodi:nodetypes="cccccc"
+       inkscape:connector-curvature="0"
+       id="path3194"
+       d="m 137.85199,517.59694 20.82312,-3.4933 2.69709,33.86348 -45.55087,0 c 7.43069,-10.19547 16.1595,-13.90037 25.17285,-16.18255 z"
+       style="fill:#ffffff;stroke:#000000;stroke-width:1.67818999;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+    <path
+       inkscape:export-ydpi="155.92999"
+       inkscape:export-xdpi="155.92999"
+       inkscape:export-filename="/home/cabral/programacion/juego/superjuego/temp/demos/eco squad/aguara.png"
+       sodipodi:nodetypes="ccccc"
+       inkscape:connector-curvature="0"
+       id="path3196"
+       d="m 139.87712,428.80372 c 10.52454,-5.16703 18.50624,-12.39012 29.03077,-18.6475 l -11.86659,74.59002 -20.13082,-1.27141 z"
+       style="fill:#aa0000;stroke:#000000;stroke-width:0.839095px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+    <path
+       inkscape:export-ydpi="155.92999"
+       inkscape:export-xdpi="155.92999"
+       inkscape:export-filename="/home/cabral/programacion/juego/superjuego/temp/demos/eco squad/aguara.png"
+       sodipodi:nodetypes="cccccc"
+       inkscape:connector-curvature="0"
+       id="path3202"
+       d="m 272.25261,511.40655 22.77543,-14.98384 -3.59611,48.54764 -29.96769,0.59935 c 5.19441,-8.20664 10.3888,-10.00119 15.5832,-11.98707 z"
+       style="fill:#ffffff;stroke:#000000;stroke-width:1.67818999;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+    <path
+       inkscape:export-ydpi="155.92999"
+       inkscape:export-xdpi="155.92999"
+       inkscape:export-filename="/home/cabral/programacion/juego/superjuego/temp/demos/eco squad/aguara.png"
+       inkscape:connector-curvature="0"
+       id="path3205"
+       d="m 178.15411,404.72162 -37.15993,23.37479 38.35863,59.93535 70.12437,-0.59935 26.37155,-56.93859 -28.76896,-25.17285 z"
+       style="fill:#aa0000;stroke:#000000;stroke-width:0.839095px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+    <path
+       inkscape:export-ydpi="155.92999"
+       inkscape:export-xdpi="155.92999"
+       inkscape:export-filename="/home/cabral/programacion/juego/superjuego/temp/demos/eco squad/aguara.png"
+       sodipodi:nodetypes="ccccccc"
+       inkscape:connector-curvature="0"
+       id="path3207"
+       d="m 185.05774,422.09811 6.10002,-22.32516 c 14.85971,10.55378 27.2594,1.42729 40.69795,0.61183 l 11.43031,23.96898 -34.32837,67.80911 -18.6475,-2.11903 z"
+       style="fill:#ffffff;stroke:#000000;stroke-width:0.839095px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+    <path
+       inkscape:export-ydpi="155.92999"
+       inkscape:export-xdpi="155.92999"
+       inkscape:export-filename="/home/cabral/programacion/juego/superjuego/temp/demos/eco squad/aguara.png"
+       sodipodi:nodetypes="cccccc"
+       style="fill:#800000;stroke:#000000;stroke-width:0.839095px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 233.86386,391.74151 6.53783,5.37653 0.9328,12.70691 -18.74303,-0.90785 2.57296,-10.08619 z"
+       id="path3211"
+       inkscape:connector-curvature="0" />
+    <path
+       inkscape:export-ydpi="155.92999"
+       inkscape:export-xdpi="155.92999"
+       inkscape:export-filename="/home/cabral/programacion/juego/superjuego/temp/demos/eco squad/aguara.png"
+       sodipodi:nodetypes="ccccc"
+       inkscape:connector-curvature="0"
+       id="path3213"
+       d="m 247.86714,406.18623 c 8.76357,-1.3621 18.75619,1.57749 29.77966,8.12505 l 10.189,59.33599 -25.7722,-4.19547 z"
+       style="fill:#aa0000;stroke:#000000;stroke-width:0.839095px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+    <path
+       inkscape:export-ydpi="155.92999"
+       inkscape:export-xdpi="155.92999"
+       inkscape:export-filename="/home/cabral/programacion/juego/superjuego/temp/demos/eco squad/aguara.png"
+       inkscape:connector-curvature="0"
+       id="path3215"
+       d="m 164.06929,412.81289 3.59613,14.68416 -7.7916,5.39418 -8.9903,-13.48545 z"
+       style="fill:#000000;stroke:#000000;stroke-width:0.839095px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+    <g
+       inkscape:export-ydpi="155.92999"
+       inkscape:export-xdpi="155.92999"
+       inkscape:export-filename="/home/cabral/programacion/juego/superjuego/temp/demos/eco squad/aguara.png"
+       id="g3217"
+       transform="matrix(0.83909497,0,0,0.83909497,-273.75847,277.47463)">
+      <g
+         id="g3219"
+         transform="translate(-42.107864,-74.642848)">
+        <path
+           sodipodi:nodetypes="ccscccccscssszc"
+           inkscape:connector-curvature="0"
+           id="path3221"
+           d="M 561.04605,295.16857 454.45903,265.84696 c -13.82862,8.33167 -23.30829,2.46408 -33.46406,-3.04958 -5.63634,-3.06001 -14.07703,4.83897 -19.5664,1.70766 -5.51894,-0.17769 -10.3021,-9.45777 0.71429,-14.28571 l 53.32632,-5.34664 7.38796,6.06092 100.20921,28.60733 c 11.43795,2.34667 24.32008,-0.25042 10.32226,-7.15851 -11.49546,-5.67315 -32.52392,-26.09672 6.72035,-15.93631 22.71097,7.86018 21.57416,14.75459 40.13517,5.4978 86.20141,-42.99058 67.61717,135.87127 -10.82843,70.67081 -15.48264,-12.86847 -25.07312,-8.99487 -33.88929,-9.67475 -55.7633,-4.30031 -31.68683,-26.80874 -19.84148,-18.27346 11.84535,8.53528 17.25765,-5.23632 5.36112,-9.49795 z"
+           style="fill:#ffffff;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+        <path
+           sodipodi:nodetypes="cscccccsc"
+           inkscape:connector-curvature="0"
+           id="path3223"
+           d="m 594.46362,269.18683 c 5.48507,7.43287 15.55328,15.07746 29.27693,7.4795 7.49432,-4.14915 16.80687,-9.95574 32.21611,-6.97442 -11.29665,14.98393 -21.66995,35.68215 -11.91262,50.66608 -30.73706,-1.79987 -52.37952,-23.27163 -71.93005,-22.88689 l 2.52539,-12.62691 c 5.45113,-0.26143 11.39771,-0.0825 10.9854,-5.55583 -0.31715,-3.64558 -3.16915,-3.56686 -4.38909,-5.09986 -15.04037,-18.89997 4.3574,-13.0949 13.22793,-5.00167 z"
+           style="fill:#ffeeaa;stroke:none" />
+        <path
+           sodipodi:nodetypes="ccccc"
+           inkscape:connector-curvature="0"
+           id="path3225"
+           d="m 452.26541,262.53177 6.66316,-11.9553 120,32.5 -3.63642,14.47697 z"
+           style="fill:#decd87;stroke:none" />
+        <rect
+           transform="matrix(0.97507825,0.22186123,-0.22186123,0.97507825,0,0)"
+           ry="3.6921835"
+           rx="2.4637723"
+           y="143.7765"
+           x="640.38287"
+           height="24.99324"
+           width="6.064671"
+           id="rect3227"
+           style="color:#000000;fill:#ffe680;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+        <rect
+           style="color:#000000;fill:#ffe680;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+           id="rect3229"
+           width="6.064671"
+           height="24.99324"
+           x="663.91705"
+           y="141.62521"
+           rx="2.4637723"
+           ry="3.6921835"
+           transform="matrix(0.97378581,0.22746689,-0.22746689,0.97378581,0,0)" />
+        <rect
+           transform="matrix(0.97329484,0.22955861,-0.22955861,0.97329484,0,0)"
+           ry="3.6921835"
+           rx="2.4637723"
+           y="131.03081"
+           x="682.19629"
+           height="38.57143"
+           width="13.928572"
+           id="rect3231"
+           style="color:#000000;fill:#808080;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+        <path
+           inkscape:connector-curvature="0"
+           id="path3233"
+           d="M 625.35714,318.79075 597.5,318.07647 l -13.21429,-11.78572 -2.85714,2.85715 12.85714,11.07142 32.14286,1.78572 z"
+           style="fill:#808080;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+        <path
+           inkscape:connector-curvature="0"
+           id="path3235"
+           d="m 402.57981,254.37283 -0.78588,-5.50123 -3.53651,0.58942 -0.98236,-4.71534 8.64478,-1.96472 0,4.51886 -2.16119,0.78589 0.78589,5.30476 z"
+           style="fill:#b3b3b3;stroke:#000000;stroke-width:0.5501225px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+        <path
+           style="fill:#b3b3b3;stroke:#000000;stroke-width:0.5501225px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           d="m 412.4387,253.07561 -0.78589,-5.50123 -3.53651,0.58943 -0.98236,-4.71534 8.64478,-1.96473 0,4.51887 -2.16119,0.78588 0.78589,5.30476 z"
+           id="path3237"
+           inkscape:connector-curvature="0" />
+        <path
+           inkscape:connector-curvature="0"
+           id="path3239"
+           d="m 421.77868,252.29728 -0.78588,-5.50123 -3.53651,0.58942 -0.98236,-4.71534 8.64478,-1.96472 0,4.51886 -2.16119,0.78589 0.78589,5.30476 z"
+           style="fill:#b3b3b3;stroke:#000000;stroke-width:0.5501225px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+        <path
+           style="fill:#b3b3b3;stroke:#000000;stroke-width:0.5501225px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           d="m 431.11867,251.2595 -0.78588,-5.50123 -3.53651,0.58943 -0.98236,-4.71534 8.64478,-1.96473 0,4.51887 -2.16119,0.78589 0.78589,5.30475 z"
+           id="path3241"
+           inkscape:connector-curvature="0" />
+        <path
+           inkscape:connector-curvature="0"
+           id="path3243"
+           d="m 438.64255,250.74061 -0.78588,-5.50123 -3.53651,0.58942 -0.98236,-4.71533 8.64478,-1.96473 0,4.51887 -2.16119,0.78588 0.78589,5.30476 z"
+           style="fill:#b3b3b3;stroke:#000000;stroke-width:0.5501225px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+        <path
+           style="fill:#b3b3b3;stroke:#000000;stroke-width:0.5501225px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           d="m 447.98254,249.44339 -0.78588,-5.50123 -3.53651,0.58943 -0.98236,-4.71534 8.64478,-1.96473 0,4.51887 -2.16119,0.78589 0.78589,5.30475 z"
+           id="path3245"
+           inkscape:connector-curvature="0" />
+      </g>
+      <g
+         id="g3247">
+        <path
+           inkscape:connector-curvature="0"
+           id="path3249"
+           d="m 406.78571,173.43361 9.28572,3.21429 174.64286,47.85714"
+           style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+        <path
+           inkscape:connector-curvature="0"
+           id="path3251"
+           d="m 397.14286,175.21932 192.5,51.78572"
+           style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+        <path
+           inkscape:connector-curvature="0"
+           id="path3253"
+           d="m 389.28571,175.57647 24.28572,6.42857 172.85714,48.21428"
+           style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+        <path
+           inkscape:connector-curvature="0"
+           id="path3255"
+           d="m 379.28571,177.36218 33.92858,6.42857 175,50"
+           style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+        <path
+           inkscape:connector-curvature="0"
+           id="path3257"
+           d="m 369.28571,178.07647 43.21429,7.5 175.35714,50"
+           style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+        <path
+           inkscape:connector-curvature="0"
+           id="path3259"
+           d="m 360.877,179.59038 49.49747,7.57615 177.02924,51.26524"
+           style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+      </g>
+    </g>
+    <path
+       inkscape:export-ydpi="155.92999"
+       inkscape:export-xdpi="155.92999"
+       inkscape:export-filename="/home/cabral/programacion/juego/superjuego/temp/demos/eco squad/aguara.png"
+       sodipodi:nodetypes="ccccc"
+       inkscape:connector-curvature="0"
+       id="path3261"
+       d="m 228.62316,487.00729 37.7895,-24.79296 19.6313,9.74351 -48.89063,26.87727 z"
+       style="fill:#aa0000;stroke:#000000;stroke-width:0.839095px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+    <path
+       inkscape:export-ydpi="155.92999"
+       inkscape:export-xdpi="155.92999"
+       inkscape:export-filename="/home/cabral/programacion/juego/superjuego/temp/demos/eco squad/aguara.png"
+       sodipodi:nodetypes="ccccccccc"
+       inkscape:connector-curvature="0"
+       id="path3263"
+       d="m 230.92704,487.46859 -10.51818,-0.23147 -1.44037,4.73261 1.98554,1.14512 -3.62337,5.5768 4.7945,9.68533 13.28415,-4.21155 2.68515,-7.94972 c -0.11921,-4.03939 -1.36811,-7.51953 -7.16742,-8.74712 z"
+       style="fill:#aa4400;stroke:#000000;stroke-width:0.839095px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+    <path
+       inkscape:export-ydpi="155.92999"
+       inkscape:export-xdpi="155.92999"
+       inkscape:export-filename="/home/cabral/programacion/juego/superjuego/temp/demos/eco squad/aguara.png"
+       sodipodi:nodetypes="ccccc"
+       inkscape:connector-curvature="0"
+       id="path3265"
+       d="m 221.72121,490.8435 c -4.05816,-0.77653 -7.73963,-0.18423 -11.46775,0.23859 3.98099,3.16283 6.885,6.83585 10.11573,6.1054 1.34988,-1.09426 2.40483,-2.78431 3.4041,-4.58681 z"
+       style="fill:#ffcc00;stroke:#000000;stroke-width:0.839095px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+    <path
+       inkscape:export-ydpi="155.92999"
+       inkscape:export-xdpi="155.92999"
+       inkscape:export-filename="/home/cabral/programacion/juego/superjuego/temp/demos/eco squad/aguara.png"
+       sodipodi:nodetypes="ccccc"
+       inkscape:connector-curvature="0"
+       id="path3267"
+       d="m 115.50823,456.98689 c 5.15301,-1.11882 12.52131,-6.18723 23.30937,0.21191 l 16.95229,31.36171 -22.46178,-4.23807 z"
+       style="fill:#aa0000;stroke:#000000;stroke-width:0.839095px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+    <path
+       inkscape:export-ydpi="155.92999"
+       inkscape:export-xdpi="155.92999"
+       inkscape:export-filename="/home/cabral/programacion/juego/superjuego/temp/demos/eco squad/aguara.png"
+       sodipodi:nodetypes="ccccc"
+       inkscape:connector-curvature="0"
+       id="path3269"
+       d="m 116.42069,457.76441 c 2.88917,-3.38583 8.4227,4.17954 10.93821,5.99353 3.44252,7.44964 4.76668,15.46417 13.78513,21.4269 l -7.49193,-1.04888 z"
+       style="fill:#ff0000;stroke:none" />
+    <path
+       inkscape:export-ydpi="155.92999"
+       inkscape:export-xdpi="155.92999"
+       inkscape:export-filename="/home/cabral/programacion/juego/superjuego/temp/demos/eco squad/aguara.png"
+       sodipodi:nodetypes="cccccc"
+       inkscape:connector-curvature="0"
+       id="path3271"
+       d="m 118.4128,459.32848 -1.84506,-11.87725 6.56901,-2.11903 9.11185,3.60236 4.66188,9.74756 c -4.55906,3.71296 -8.4755,7.31333 -18.49768,0.64636 z"
+       style="fill:#aa4400;stroke:#000000;stroke-width:0.839095px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+    <path
+       inkscape:export-ydpi="155.92999"
+       inkscape:export-xdpi="155.92999"
+       inkscape:export-filename="/home/cabral/programacion/juego/superjuego/temp/demos/eco squad/aguara.png"
+       sodipodi:nodetypes="cccccc"
+       inkscape:connector-curvature="0"
+       id="path3273"
+       d="m 185.94571,395.13197 -14.59016,0.29085 -2.5039,15.29234 23.38727,2.39741 7.49192,-12.58642 z"
+       style="fill:#aa0000;stroke:#000000;stroke-width:0.839095px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+    <path
+       inkscape:export-ydpi="155.92999"
+       inkscape:export-xdpi="155.92999"
+       inkscape:export-filename="/home/cabral/programacion/juego/superjuego/temp/demos/eco squad/aguara.png"
+       sodipodi:nodetypes="ccccc"
+       inkscape:connector-curvature="0"
+       id="path3275"
+       d="m 240.11938,491.86298 4.23807,0.4238 c 2.92004,6.92218 2.67163,45.6101 0,52.53228 l -4.23807,0.35109 c 5.00559,-8.44944 1.86917,-47.14931 0,-53.30717 z"
+       style="fill:#800000;stroke:#000000;stroke-width:0.839095px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+    <path
+       inkscape:export-ydpi="155.92999"
+       inkscape:export-xdpi="155.92999"
+       inkscape:export-filename="/home/cabral/programacion/juego/superjuego/temp/demos/eco squad/aguara.png"
+       sodipodi:nodetypes="ccccc"
+       style="fill:#800000;stroke:#000000;stroke-width:0.839095px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 253.35422,486.22535 3.99529,1.47596 c 0.063,7.90227 -4.14519,48.91823 -8.81843,53.66298 l -4.48808,-0.0881 c 4.05428,-3.54418 9.23057,-46.79745 9.31122,-55.05085 z"
+       id="path3277"
+       inkscape:connector-curvature="0" />
+    <path
+       inkscape:export-ydpi="155.92999"
+       inkscape:export-xdpi="155.92999"
+       inkscape:export-filename="/home/cabral/programacion/juego/superjuego/temp/demos/eco squad/aguara.png"
+       sodipodi:nodetypes="ccccc"
+       inkscape:connector-curvature="0"
+       id="path3279"
+       d="m 265.1049,481.3198 4.17281,-0.85351 c -1.54096,9.17868 -6.75947,45.12958 -2.82505,50.39727 l -3.69927,1.64753 c -4.41277,-3.67562 1.96945,-41.92169 2.35151,-51.19129 z"
+       style="fill:#800000;stroke:#000000;stroke-width:0.839095px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+    <path
+       inkscape:export-ydpi="155.92999"
+       inkscape:export-xdpi="155.92999"
+       inkscape:export-filename="/home/cabral/programacion/juego/superjuego/temp/demos/eco squad/aguara.png"
+       sodipodi:nodetypes="ccccccc"
+       inkscape:connector-curvature="0"
+       id="path3281"
+       d="m 120.61617,447.87508 c -4.11568,-0.1497 -7.06398,-1.75861 -9.58966,-3.8958 l -2.09774,-6.59289 c -1.49838,-0.40935 -2.99677,-0.57157 -4.49515,0.59935 l 0.59935,6.29321 c 3.2837,3.84606 7.01926,7.33064 12.28675,9.58966 z"
+       style="fill:#aa4400;stroke:#000000;stroke-width:0.839095px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+    <path
+       inkscape:export-ydpi="155.92999"
+       inkscape:export-xdpi="155.92999"
+       inkscape:export-filename="/home/cabral/programacion/juego/superjuego/temp/demos/eco squad/aguara.png"
+       sodipodi:nodetypes="ccccc"
+       inkscape:connector-curvature="0"
+       id="path3283"
+       d="m 127.80841,452.6699 c 2.73505,-2.37343 5.15301,-4.1127 7.49192,-5.69386 3.23568,0.54839 4.04407,1.7865 3.8958,3.29645 l -7.49192,4.79483 c -1.73855,0.29451 -3.81229,0.14698 -3.8958,-2.39742 z"
+       style="fill:#aa4400;stroke:#000000;stroke-width:0.839095px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+    <path
+       inkscape:export-ydpi="155.92999"
+       inkscape:export-xdpi="155.92999"
+       inkscape:export-filename="/home/cabral/programacion/juego/superjuego/temp/demos/eco squad/aguara.png"
+       sodipodi:nodetypes="ccccc"
+       inkscape:connector-curvature="0"
+       id="path3285"
+       d="m 120.31649,451.77087 -0.59936,-8.9903 c 1.53555,-0.79454 3.16217,-1.08816 5.09451,0.29967 l 0,8.99031 c -1.49838,1.34154 -2.99677,0.23886 -4.49515,-0.29968 z"
+       style="fill:#aa4400;stroke:#000000;stroke-width:0.839095px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+    <path
+       inkscape:export-ydpi="155.92999"
+       inkscape:export-xdpi="155.92999"
+       inkscape:export-filename="/home/cabral/programacion/juego/superjuego/temp/demos/eco squad/aguara.png"
+       style="fill:#800000;stroke:#000000;stroke-width:0.839095px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 278.26674,473.64123 4.17281,-0.85351 c -1.54096,9.17868 -6.75947,45.12958 -2.82505,50.39727 l -3.69928,1.64753 c -4.41276,-3.67562 1.96946,-41.92169 2.35152,-51.19129 z"
+       id="path3287"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccccc" />
+    <g
+       inkscape:export-filename="/home/cabral/programacion/juego/superjuego/temp/demos/eco squad/aguara.png"
+       inkscape:export-ydpi="155.92999"
+       inkscape:export-xdpi="155.92999"
+       transform="matrix(0.83909497,0,0,0.83909497,-271.21563,281.7127)"
+       id="g3289">
+      <path
+         style="fill:#550000;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         d="m 638.81804,136.78488 c -6.07603,-76.360048 -171.85236,-58.309838 -89.28571,20.71428 30.63485,29.32047 60.82512,57.7151 77.14285,87.85715 l -16.42857,-54.28571 31.42857,41.42857 -17.14285,-37.85715 c 10.53558,10.89195 19.90665,13.6323 32.14285,36.42858 3.79236,-17.61905 0.68468,-35.2381 -5,-52.85715 12.58085,11.98116 24.32329,25.63913 35,41.42857 l -13.57143,-39.28571 22.14286,12.14286 c -14.072,-18.57143 -54.94701,-37.09485 -56.42857,-55.71429 z"
+         id="path3291"
+         inkscape:connector-curvature="0"
+         sodipodi:nodetypes="sscccccccccs" />
+      <path
+         style="fill:#2b0000;stroke:none"
+         d="m 625.71429,243.79076 c -8.37212,-18.42557 -14.00605,-41.31422 -24.24239,-62.58667 l 9.24239,10.80095 z"
+         id="path3293"
+         inkscape:connector-curvature="0"
+         sodipodi:nodetypes="cccc" />
+      <path
+         style="fill:#2b0000;stroke:none"
+         d="m 640.53572,230.93361 c -7.04836,-14.88095 -13.32198,-29.76191 -24.46429,-44.64286 l 8.39286,8.39286 z"
+         id="path3295"
+         inkscape:connector-curvature="0"
+         sodipodi:nodetypes="cccc" />
+      <path
+         style="fill:#2b0000;stroke:none"
+         d="m 651.60714,178.07647 -11.42857,-12.32143 c 8.41748,21.52439 13.57162,43.52716 16.25,65.89286 3.93575,-15.0857 0.70704,-33.75363 -4.82143,-53.57143 z"
+         id="path3297"
+         inkscape:connector-curvature="0"
+         sodipodi:nodetypes="cccc" />
+      <path
+         style="fill:#2b0000;stroke:none"
+         d="m 672.67857,179.46172 -9.92603,-4.4516 c 11.4897,14.03539 16.17912,28.87525 23.31889,43.78063 z"
+         id="path3299"
+         inkscape:connector-curvature="0"
+         sodipodi:nodetypes="cccc" />
+      <path
+         style="fill:#800000;stroke:none"
+         d="m 613.21429,113.43361 -5.00001,8.92857 -13.57142,-9.28571 -2.14286,22.5 -18.92857,-13.92857 -5.71429,15.35714 -24.28571,-15.35714 c 11.56627,11.85885 23.08632,23.73312 30,37.14285 l 1.07143,-31.07143 20.71428,20 1.78572,-26.78571 15,12.14286 4.28571,-8.92858 15.35714,5.35715 z"
+         id="path3301"
+         inkscape:connector-curvature="0"
+         sodipodi:nodetypes="ccccccccccccccc" />
+    </g>
   </g>
 </svg>

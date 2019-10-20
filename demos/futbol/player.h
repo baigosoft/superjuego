@@ -5,23 +5,23 @@
 typedef struct
 {
 
-	int player_number;
-	int player_ini_x,int player_ini_y;
-	int player_x,player_y;
-	int player_area_width,player_area_height;
-	int player_height;	
-	int player_status;
+	char name[150];
+	int p_pos;/*player team's position.0=gk,1=cd,2=cd,3=ld,4=rd,5=cm,6=cm,7=lm,8=rm,9=la,10=ra*/
+	int p_num;/*player team's number*/
+	int p_ini_x,int p_ini_y;/*player initial position in field*/
+	int p_x,p_y;/*current position in field*/
+	int p_box_width,p_box_height;/*player's box of motion in field*/
+	int player_height;/*player's height*/	
+	int player_status;/*player's current status */
 
 
-}player;
+}JF_player;
 
 
-player *player_init();
-void player_edit(player *pl,int player_number,int player_ini_x,int player_ini_y,int player_area_width,int player_area_height,int player_height);
-void player_x(player *pl,int pos_field_x);
-void player_y(player *pl,int pos_field_y);
-void player_status(player *pl,int status);
-void player_clean(player *pl);
+JF_player *JF_player_init();
+void JF_player_edit(JF_player *pl,char *name,int position,int number,int ini_x,int ini_y,int box_w,int box_y,int height,int status);
+void JF_player_status(JF_player *pl,int status);
+void JF_player_clean(JF_player *pl);
 
 
 

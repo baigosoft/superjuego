@@ -1,0 +1,36 @@
+TARGET = demofuente.elf
+
+DREAMCAST=1
+
+include ../../config.mk
+
+CFLAGS = -I$(SE_BASE) -I$(SE_BASE)/dc -I$(SE_BASE)/include -DDREAMCAST
+
+all: rm-elf $(TARGET)
+
+OBJS += main.o 
+
+include $(KOS_BASE)/Makefile.rules
+
+clean:
+	-rm -f $(TARGET) $(OBJS)
+
+rm-elf:
+	-rm -f $(TARGET) romdisk.img $(OBJS)
+
+$(TARGET): $(OBJS) romdisk.o
+	$(KOS_CC) $(KOS_CFLAGS) $(KOS_LDFLAGS) $(CFLAGS) -o $(TARGET) $(KOS_START) \
+		$(OBJS) $(OBJEXTRA) romdisk.o -lparallax -lgl -lpng -ljpeg -lkmg -lz -lkosutils -ltremor -lm $(KOS_LIBS)
+
+romdisk.img:
+	$(KOS_GENROMFS) -f romdisk.img -d romdisk -v
+
+romdisk.o: romdisk.img
+	$(KOS_BASE)/utils/bin2o/bin2o romdisk.img romdisk romdisk.o
+
+run: $(TARGET)
+	$(KOS_LOADER) $(TARGET)
+
+dist:
+	-rm -f $(OBJS)
+	$(KOS_STRIP) $(TARGET)

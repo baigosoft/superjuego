@@ -1,0 +1,2 @@
+g++ -Wall `sdl-config --cflags` `pkg-config --cflags lua5.1` -I./ -I/home/cabral/programacion/juego/superjuegonuevo/superjuego/linux -I/home/cabral/programacion/juego/superjuegonuevo/superjuego/include -c -g  -c board.c -o board.o
+makefile:23: recipe for target 'board.o' failed

@@ -2,12 +2,8 @@
 #include <stdlib.h>
 #include <math.h>
 #include <SDL/SDL.h>
-#include "../../render.h"
-#include "../../image.h"
-#include "../../animation.h"
-#include "../../collision.h"
-#include "../../sprite.h"
-#include "../../font.h"
+#include "super.h"
+
 
 
 
@@ -238,7 +234,7 @@ int insertariniciales()
 						contpos++;
 						if(contpos > 2)
 						{						
-							contpos = 0;
+							return 1;
 						}
 						break;
 					case SDLK_1:
@@ -362,8 +358,8 @@ void dibujartubos()
 		posy = t->arraytubo[i]->posy;
 		posy_2 = posy + h_tubo + espacioy;
 		posz = t->arraytubo[i]->posz;
-		SE_sprite_draw(t->arraytubo[i]->stubo1,posx,posy,posz,w_tubo,h_tubo);
-		SE_sprite_draw(t->arraytubo[i]->stubo2,posx,posy_2,posz,w_tubo,h_tubo);
+		SE_sprite_draw_wh(t->arraytubo[i]->stubo1,posx,posy,posz,w_tubo,h_tubo);
+		SE_sprite_draw_wh(t->arraytubo[i]->stubo2,posx,posy_2,posz,w_tubo,h_tubo);
 
 		if((jug->posx) == (posx + w_tubo))
 		{
@@ -415,7 +411,7 @@ void cargarfuente()
 {
 
 	fuente = SE_font_create(imgfuente,16,16,32,32);
-	SE_font_settings(fuente,20);
+	SE_font_letterspacing_set(fuente,20);
 
 }
 
@@ -434,21 +430,27 @@ void cargartubos()
 	int i;
 	int numtubos = t->numtubos;
 
-	tubo1_ani = SE_ani_init(128,305);
+	/*tubo1_ani = SE_ani_init(128,305,1);
 	SE_ani_addframe_segment(tubo1_ani,imagenes,30,128,0,106,512);
 
-	tubo2_ani = SE_ani_init(128,305);
-	SE_ani_addframe_segment(tubo2_ani,imagenes,30,234,0,106,512);
+	tubo2_ani = SE_ani_init(128,305,1);
+	SE_ani_addframe_segment(tubo2_ani,imagenes,30,234,0,106,512);*/
 
 	for(i=0;i<numtubos;i++)
 	{
 
-		t->arraytubo[i]->stubo1 = SE_sprite_init(tubo1_ani);
-		t->arraytubo[i]->stubo2 = SE_sprite_init(tubo2_ani);
-		SE_sprite_box_add(t->arraytubo[i]->stubo1,20,0,70,512);
-		SE_sprite_box_add(t->arraytubo[i]->stubo1,0,450,106,62);
-		SE_sprite_box_add(t->arraytubo[i]->stubo2,0,0,106,62);
-		SE_sprite_box_add(t->arraytubo[i]->stubo2,20,0,70,512);
+		//t->arraytubo[i]->stubo1 = SE_sprite_init(tubo1_ani);
+		//t->arraytubo[i]->stubo2 = SE_sprite_init(tubo2_ani);
+		t->arraytubo[i]->stubo1 = SE_sprite_init(IMG);
+		t->arraytubo[i]->stubo2 = SE_sprite_init(IMG);
+		SE_sprite_img_segment_add(t->arraytubo[i]->stubo1,imagenes,128,0,106,512);
+		SE_sprite_img_segment_add(t->arraytubo[i]->stubo2,imagenes,234,0,106,512);
+		SE_sprite_box_init(t->arraytubo[i]->stubo1,2);
+		SE_sprite_box_init(t->arraytubo[i]->stubo2,2);
+		SE_sprite_box_set(t->arraytubo[i]->stubo1,0,20,0,70,512);
+		SE_sprite_box_set(t->arraytubo[i]->stubo1,1,0,450,106,62);
+		SE_sprite_box_set(t->arraytubo[i]->stubo2,0,0,0,106,62);
+		SE_sprite_box_set(t->arraytubo[i]->stubo2,0,20,0,70,512);
 		
 	}	
 
@@ -458,12 +460,15 @@ void cargartubos()
 void cargarjugador()
 {
 
-	pajaro_ani = SE_ani_init(64,64);
-	SE_ani_addframe_segment(pajaro_ani,imagenes,20,0,0,64,64);	
-	SE_ani_addframe_segment(pajaro_ani,imagenes,20,64,0,64,64);	
+	pajaro_ani = SE_ani_init(64,64,2);
+	SE_ani_addframe_segment(pajaro_ani,imagenes,0,20,0,0,64,64);	
+	SE_ani_addframe_segment(pajaro_ani,imagenes,1,20,64,0,64,64);	
 
-	jug->spajaro = SE_sprite_init(pajaro_ani);		
-	SE_sprite_box_add(jug->spajaro,11,13,44,37);
+	//jug->spajaro = SE_sprite_init(pajaro_ani);
+	jug->spajaro = SE_sprite_init(ANI);
+	SE_sprite_ani_add(jug->spajaro,pajaro_ani);
+	SE_sprite_box_init(jug->spajaro,1);				
+	SE_sprite_box_set(jug->spajaro,0,11,13,44,37);
 		
 }
 
@@ -496,8 +501,8 @@ int controlarcolision()
 		posy_2 = posy + h_tubo + espacioy;
 		posz = t->arraytubo[i]->posz;
 
-		res1 = SE_sprite_checkcollision_multi(jug->spajaro,t->arraytubo[i]->stubo1,jug->posx,jug->posy,posx,posy);
-		res2 = SE_sprite_checkcollision_multi(jug->spajaro,t->arraytubo[i]->stubo2,jug->posx,jug->posy,posx,posy_2);
+		res1 = SE_sprite_collision(jug->spajaro,t->arraytubo[i]->stubo1,jug->posx,jug->posy,posx,posy);
+		res2 = SE_sprite_collision(jug->spajaro,t->arraytubo[i]->stubo2,jug->posx,jug->posy,posx,posy_2);
 
 
 		if((res1 > 0)||(res2 > 0))
@@ -604,8 +609,8 @@ void dibujarfondo()
 {
 
 	int i;
-	SE_image_segment_draw(imagenes,365,193,147,119,100,100,0,147,119,1,1,0,0,0,1,1,1,1);/*nube 1*/
-	SE_image_segment_draw(imagenes,365,193,147,119,400,200,0,147,119,1,1,0,0,0,1,1,1,1);/*nube 2*/
+	SE_image_segment_draw_fx(imagenes,365,193,147,119,100,100,0,147,119,1,1,0,0,0,1,1,1,1);/*nube 1*/
+	SE_image_segment_draw_fx(imagenes,365,193,147,119,400,200,0,147,119,1,1,0,0,0,1,1,1,1);/*nube 2*/
 
 	if(estado != JUEGO_PARADO)
 	{	
@@ -614,7 +619,7 @@ void dibujarfondo()
 
 	for(i=0;i<6;i++)
 	{
-		SE_image_segment_draw(imagenes,383,350,128,161,xfondo + i*128,yfondo,0,128,161,1,1,0,0,0,1,1,1,1);/*edificio*/
+		SE_image_segment_draw_fx(imagenes,383,350,128,161,xfondo + i*128,yfondo,0,128,161,1,1,0,0,0,1,1,1,1);/*edificio*/
 	}
 
 	if(xfondo < -128)xfondo = 0;
@@ -624,7 +629,8 @@ void dibujarfondo()
 void dibujarlogo()
 {
 
-	SE_image_segment_draw(imagenes,346,64,166,121,160,110,0,166,121,2,2,0,0,0,0,0.4,1,1);
+	SE_image_segment_draw_fx(imagenes,346,64,166,121,160,110,0,166,121,2,2,0,0,0,0,0.4,1,1);
+	SE_font_draw(fuente,"2017 ARCADENEA",100,400,0);	
 
 }
 
@@ -766,14 +772,13 @@ void draw_scene()
 
 	if((estado == JUEGO_INICIADO)&&(intro_estado == 0))
 	{
-		SE_image_segment_draw(imagenes,400,0,112,59,250,180,0,166,121,1,1,0,0,0,1,1,1,1);
+		SE_image_segment_draw_fx(imagenes,400,0,112,59,250,180,0,166,121,1,1,0,0,0,1,1,1,1);
 	}
 
 
 	if((estado == JUEGO_INICIADO)&&(intro_estado == 1))
 	{
 		dibujarlogo();
-		SE_font_draw(fuente,"2014 ARCADENEA",100,400,0);	
 	}
 
 	if((estado == JUEGO_INICIADO)&&(intro_estado == 2))

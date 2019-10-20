@@ -1,16 +1,27 @@
+TARGET=tretris
+TARGET_LINUX=1
 CC = g++
 DEBUG = -g
-CFLAGS = -Wall `sdl-config --cflags` -I./ -c $(DEBUG)
+CFLAGS = -Wall `sdl-config --cflags` `pkg-config --cflags lua5.1 libavformat libavcodec libswscale libavutil`  -I./ -I$(SE_BASE)/linux -I$(SE_BASE)/include -c $(DEBUG) -fpermissive
 LFLAGS = -Wall $(DEBUG)
-LIBS = `sdl-config --libs` -lm  -lSDL_image -lpng -lGL -lGLU 
+LIBS = `sdl-config --libs` `pkg-config --libs lua5.1 libavformat libavcodec libswscale libavutil` -lm  -lSDL_image -lSDL_mixer -lpng -lGL -lGLU -llua5.1 -ldl 
 
-OBJECTS = files.o pieces.o board.o game.o main.o ../../render.o ../../image.o ../../animation.o ../../sprite.o ../../collision.o  ../../utils.o 
+#-lavdevice -lavformat -lavfilter -lavcodec -lswresample -lswscale -lavutil -lbz2 -lm -lz -lpthread -lpostproc
 
-all: $(OBJECTS)
-	$(CC) $(LFLAGS) $(OBJECTS) -o test05 $(LIBS)
+include ../../config.mk
+
+all: $(TARGET)
+
+OBJS +=   files.o pieces.o board.o game.o main.o
+
+rm-elf:
+	-rm -f $(TARGET) $(OBJS)
+
+$(TARGET): $(OBJS)
+	$(CC) $(LFLAGS) $(OBJS) -o $(TARGET) $(LIBS)
 
 %.o: %.c
 	$(CC) $(CFLAGS) -c $< -o $@
 
 clean:
-	rm -f *.o test05
+	rm -f *.o $(TARGET) $(OBJS)

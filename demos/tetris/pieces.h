@@ -4,8 +4,8 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-#include "../../render.h"
-#include "../../image.h"
+#include "super.h"
+
 #include "files.h"
 
 #define PIECE_BLOCKS 5

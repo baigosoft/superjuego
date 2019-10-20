@@ -1,0 +1,11 @@
+montage char01.png char02.png char03.png char04.png char05.png char06.png char07.png char08.png char09.png char10.png char11.png char12.png -background none -tile 1x -geometry +0+0 character1.png 
+
+montage tile00.png tile01.png tile02.png tile03.png tile04.png tile05.png tile06.png tile07.png tile08.png tile09.png tile10.png tile11.png tile12.png tile13.png tile14.png npc001.png npc002.png npc003.png npc004.png npc005.png npc006.png npc007.png npc008.png pati.png pancho.png banco0.png banco1.png -background none -tile x5 -geometry +0+0 tiles.png
+
+montage char201.png char202.png char203.png char204.png char205.png char206.png char207.png char208.png char209.png char210.png char211.png char212.png -background none -tile 1x -geometry +0+0 character2.png
+
+montage ok.png fail.png -background none -tile 1x -geometry +0+0 okfail.png 
+
+**convert**
+convert -crop 16x32@ huge_file.png  tile_%d.png
+

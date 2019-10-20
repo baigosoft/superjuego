@@ -1,8 +1,8 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <SDL/SDL.h>
-#include "../../render.h"
-#include "../../tile.h"
+#include "super.h"
+
 
 
 

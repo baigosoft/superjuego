@@ -1,5 +1,0 @@
--tilemap de enemigos u objetos
--formato para cargar animaciones 
--formato para cargar sprites
--lua
--editor

@@ -1,0 +1,23 @@
+TARGET = ecosquad.exe
+CC = i586-mingw32msvc-gcc
+DEBUG = -g
+CFLAGS = -Wall `sdl-config --cflags` -I$(SE_BASE)/include -I$(SE_BASE)/win32 -I/opt/sdlwin32/include -c $(DEBUG)
+LFLAGS = -Wall $(DEBUG)
+LIBS = -lmingw32 `/opt/sdlwin32/bin/i586-mingw32msvc-sdl-config --libs` -lSDL_image -lSDL_mixer -lpng13 -lopengl32 -lglu32 -lopengl32 -lglu32 
+
+include ../../config.mk
+
+
+OBJS += main.o char.o enemy.o menu.o zone.o title.o
+
+all: rm-elf $(OBJS)
+	$(CC) $(LFLAGS) $(OBJS) -o $(TARGET) $(LIBS)
+
+%.o: %.c
+	$(CC) $(CFLAGS) -c $< -o $@
+
+clean:
+	rm -f *.o $(TARGET) $(OBJS)
+
+rm-elf:
+	-rm -f $(TARGET) $(OBJS)

@@ -1,0 +1,8 @@
+#Lista de Equipos
+#Nombre de equipo; path equipo; path escudo
+Equipo1;equipo1.txt;equipo1.png;
+Equipo2;equipo2.txt;equipo2.png;
+Equipo3;equipo3.txt;equipo3.png;
+Equipo4;equipo4.txt;equipo4.png;
+Equipo5;equipo5.txt;equipo5.png;
+Equipo6;equipo6.txt;equipo6.png;

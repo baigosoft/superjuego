@@ -1,0 +1,13 @@
+#Equipo2
+#Player_name;player_position;player_num;player_height
+Arquero;0;1;190;
+Defensor1;1;180;
+Defensor2;2;175;
+Defensor3;3;160;
+Defensor4;4;170;
+Mediocampista1;5;150;
+Mediocampista2;6;180;
+Mediocampista3;7;190;
+Mediocampista4;8;160;
+Delantero1;9;180;
+Delatero2;10;170;

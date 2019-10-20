@@ -1,0 +1,68 @@
+MAIN!!!!
+Cargando textura: assets/images/bgtitle.png
+Cargando textura: assets/images/eco.png
+warning: image width is not a power of 2
+Cargando textura: assets/images/tjess.png
+warning: image width is not a power of 2
+warning: image height is not a power of 2
+Cargando textura: assets/images/tkiko.png
+Cargando textura: assets/images/font256.png
+Cargando textura: assets/images/face_jess.png
+Cargando textura: assets/images/life.png
+Cargando textura: assets/images/youwin.png
+Cargando textura: assets/images/youlose.png
+Cargando textura: assets/images/fondo.png
+Cargando textura: assets/images/tile00.png
+Cargando textura: assets/images/tile01.png
+Cargando textura: assets/images/tile02.png
+Se ha creado con exito el tilemap
+Cargando textura: assets/images/minita.png
+Cargando textura: assets/images/carpincho01.png
+Cargando textura: assets/images/carpincho02.png
+Cargando textura: assets/images/disp01_01.png
+Cargando textura: assets/images/disp01_02.png
+Cargando textura: assets/images/disp01_03.png
+Cargando textura: assets/images/disp02_01.png
+Cargando textura: assets/images/disp02_02.png
+Cargando textura: assets/images/bgmenu.png
+Cargando textura: assets/images/arrowl.png
+warning: image height is not a power of 2
+Cargando textura: assets/images/arrowr.png
+warning: image height is not a power of 2
+Cargando textura: assets/images/j_portr.png
+warning: image width is not a power of 2
+Cargando textura: assets/images/k_portr.png
+warning: image width is not a power of 2
+Cargando textura: assets/images/p1.png
+Cargando textura: assets/images/mapzone.png
+Cargando textura: assets/images/tilebgzone.png
+Cargando textura: assets/images/font256.png
+Se ha creado con exito el tilemap
+Cargando textura: assets/images/face_jess.png
+Cargando textura: assets/images/life.png
+Cargando textura: assets/images/youwin.png
+Cargando textura: assets/images/youlose.png
+Cargando textura: assets/images/fondo.png
+Cargando textura: assets/images/tile00.png
+Cargando textura: assets/images/tile01.png
+Cargando textura: assets/images/tile02.png
+Se ha creado con exito el tilemap
+Cargando textura: assets/images/minita.png
+Cargando textura: assets/images/carpincho01.png
+Cargando textura: assets/images/carpincho02.png
+Cargando textura: assets/images/disp01_01.png
+Cargando textura: assets/images/disp01_02.png
+Cargando textura: assets/images/disp01_03.png
+Cargando textura: assets/images/disp02_01.png
+Cargando textura: assets/images/disp02_02.png
+Cargando textura: assets/images/bgmenu.png
+Cargando textura: assets/images/arrowl.png
+warning: image height is not a power of 2
+Cargando textura: assets/images/arrowr.png
+warning: image height is not a power of 2
+Cargando textura: assets/images/j_portr.png
+warning: image width is not a power of 2
+Cargando textura: assets/images/k_portr.png
+warning: image width is not a power of 2
+Cargando textura: assets/images/p1.png
+0000

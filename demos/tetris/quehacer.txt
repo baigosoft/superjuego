@@ -1,0 +1,11 @@
+lista de tareas para el tetris:
+===============================
+-mejorar colisiones (haciendo)
+-corregir bugs (haciendo)
+-computar puntaje y lineas
+-determinar game over
+-hacer intro (haciendo)
+-soporte 2 jugadores o más
+-high score y scoreboard
+-hacerlo mas lindo
+-soporte online

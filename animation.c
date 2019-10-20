@@ -1,9 +1,37 @@
 #include "animation.h"
+/*FRAME*/
+
+
+void SE_frame_init(SE_frame *fr);
+
+void SE_frame_image_add(SE_frame *fr,SE_image *img,int delay,float x_tex,float y_tex,float width_tex,float height_tex);
+
+int SE_frame_delay(SE_frame *fr);
+
+void SE_frame_delay_set(SE_frame *fr,int delay);
+
+void SE_frame_draw(SE_frame *fr,float posx,float posy,float posz,float width,float height,float zoomx,float zoomy,
+		   float rotationx,float rotationy,float rotationz,float red,float green,float blue,float alpha);
+
+void SE_ani_draw(SE_ani *ani,int frame_number, float posx,float posy,float posz,float width,float height,float zoomx,float zoomy,
+		   float rotationx,float rotationy,float rotationz,float red,float green,float blue,float alpha);
 
 
 /*FRAME*/
 
-void SE_frame_image_add_segment(SE_frame *fr,SE_image *img,float x_tex,float y_tex,float width_tex,float height_tex)
+void SE_frame_init(SE_frame *fr)
+{
+
+	fr->image = NULL;
+	fr->xt = 0;
+	fr->yt = 0;
+	fr->wt = 1;
+	fr->ht = 1;
+	fr->delay = 0;
+
+}
+
+void SE_frame_image_add(SE_frame *fr,SE_image *img,int delay,float x_tex,float y_tex,float width_tex,float height_tex)
 {
 
 	fr->image = img;
@@ -11,15 +39,20 @@ void SE_frame_image_add_segment(SE_frame *fr,SE_image *img,float x_tex,float y_t
 	fr->yt = y_tex;
 	fr->wt = width_tex;
 	fr->ht = height_tex;
+	fr->delay = delay;
 
 }
 
-void SE_frame_image_add(SE_frame *fr,SE_image *img)
+
+
+int SE_frame_delay(SE_frame *fr)
 {
 
-	SE_frame_image_add_segment(fr,img,0,0,img->width,img->height);
+	return fr->delay;
 
 }
+
+
 
 void SE_frame_delay_set(SE_frame *fr,int delay)
 {
@@ -47,17 +80,28 @@ void SE_frame_draw(SE_frame *fr,float posx,float posy,float posz,float width,flo
 
 /*ANIMATION*/
 
-SE_ani* SE_ani_init(float width,float height)
+SE_ani* SE_ani_init(float width,float height,int numframes)
 {
 
+	int i;
+	
 	SE_ani *ani;
 
 	ani = (SE_ani*)malloc(sizeof(SE_ani));
 
-	ani->numframes = 0;
-
 	ani->width = width;
 	ani->height = height;
+
+	ani->numframes = numframes;
+
+	ani->fr = (SE_frame*)malloc(numframes * sizeof(SE_frame));
+
+	for(i=0;i < numframes;i++)
+	{
+
+		SE_frame_init(&ani->fr[i]);
+
+	}		
 
 	
 	return ani;
@@ -84,45 +128,52 @@ float SE_ani_height(SE_ani *ani)
 void SE_ani_frame_delay_set(SE_ani *ani,int frame_number,int delay)
 {
 
-	if(ani->numframes == 1)	
+	SE_frame_delay_set(&ani->fr[frame_number],delay);
+
+}
+
+
+void SE_ani_addframe_segment(SE_ani *ani,SE_image *img,int frame_number,int delay,float xtex,float ytex,float wtex,float htex)
+{
+	
+	if(ani->fr[frame_number].image == NULL)
 	{
-		SE_frame_delay_set(ani->fr,delay);
-
-	}else if(ani->numframes > 1){
-
-		SE_frame_delay_set(&ani->fr[frame_number],delay);
-
+		SE_frame_image_add(&ani->fr[frame_number],img,delay,xtex,ytex,wtex,htex);
+		printf("se ha cargado con exito imagen en animacion\n");
+		fflush(stdout);
+	}else{
+		printf("ya se ha cargado imagen anteriormente en puntero\n");
+		fflush(stdout);
 	}
 
 }
 
 
-void SE_ani_addframe_segment(SE_ani *ani,SE_image *img,int delay,float xtex,float ytex,float wtex,float htex)
+void SE_ani_addframe(SE_ani *ani,SE_image *img,int frame_number,int delay)
 {
-	
-	if(ani->numframes == 0)
-	{	
-		ani->numframes++;			
-		ani->fr = (SE_frame*)malloc(sizeof(SE_frame));
-		SE_frame_image_add_segment(ani->fr,img,xtex,ytex,wtex,htex);
-		SE_ani_frame_delay_set(ani,0,delay);
-		
-	}else if(ani->numframes > 0){
-	
-		ani->numframes++;	
-		ani->fr = (SE_frame*)realloc(ani->fr,ani->numframes * sizeof(SE_frame));
-		SE_frame_image_add_segment(&ani->fr[ani->numframes - 1],img,xtex,ytex,wtex,htex);
-		SE_ani_frame_delay_set(ani,(ani->numframes - 1),delay);
 
-	}
-
+	SE_ani_addframe_segment(ani,img,frame_number,delay,0,0,img->width,img->height);
 
 }
 
-void SE_ani_addframe(SE_ani *ani,SE_image *img,int delay)
+void SE_ani_create_from_img(SE_ani *ani,SE_image *img,int numimagex,int numimagey,int delay)
 {
 
-	SE_ani_addframe_segment(ani,img,delay,0,0,img->width,img->height);
+	int i,j;
+	int count = 0;		
+
+	float w = ani->width;
+	float h = ani->height;
+
+	for(j=0;j<numimagey;j++)
+	{			
+		for(i=0;i<numimagex;i++)
+		{
+			SE_ani_addframe_segment(ani,img,count,delay,i*w,j*h,w,h);
+			count++;
+		}
+	}
+
 
 }
 
@@ -131,18 +182,7 @@ void SE_ani_draw(SE_ani *ani,int frame_number, float posx,float posy,float posz,
 		   float rotationx,float rotationy,float rotationz,float red,float green,float blue,float alpha)
 {
 
-	if((ani->numframes) == 1)
-	{
-
-		SE_frame_draw(ani->fr,posx,posy,posz,width,height,zoomx,zoomy,rotationx,rotationy,rotationz,red,green,blue,alpha);
-
-	}else if((ani->numframes) > 1){
-
-		SE_frame_draw(&ani->fr[frame_number],posx,posy,posz,width,height,
-				zoomx,zoomy,rotationx,rotationy,rotationz,
-				red,green,blue,alpha);
-
-	}
+	SE_frame_draw(&ani->fr[frame_number],posx,posy,posz,width,height,zoomx,zoomy,rotationx,rotationy,rotationz,red,green,blue,alpha);
 
 }
 
@@ -153,10 +193,7 @@ void SE_ani_clean(SE_ani *ani)
 	free(ani->fr);
 	free(ani);
 
-	if(ani != 0)
-	{
-		printf("error, no se pudo borrar puntero de animacion");
-	}
+	printf("SE_ani:se elimino puntero de animation\n");
 	
 } 
 
@@ -207,16 +244,11 @@ void SE_animator_stop(SE_animator *ator)
 	ator->status = STOP;
 }
 
-void SE_animator_initframe_set(SE_animator *ator,int initframe)
+void SE_animator_initend_set(SE_animator *ator,int initframe,int endframe)
 {
 
 	ator->initframe = initframe;
 	ator->currentframe = initframe;
-
-}
-
-void SE_animator_endframe_set(SE_animator *ator,int endframe)
-{
 
 	if(endframe > (ator->numframes - 1))
 	{
@@ -230,6 +262,7 @@ void SE_animator_endframe_set(SE_animator *ator,int endframe)
 	}
 
 }
+
 
 void SE_animator_reset(SE_animator *ator)
 {
@@ -304,6 +337,7 @@ void SE_animator_clean(SE_animator *ator)
 {
 
 	free(ator);
+	printf("SE_animator:se elimino puntero de animator\n");
 
 }
 

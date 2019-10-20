@@ -1,19 +1,20 @@
 #ifndef FIELD_H_
 #define FIELD_H_
 
+
+
+
 typedef struct
 {
 
-	int field_width,field_height;/*dimensiones del campo de juego en cm*/
-	int field_goal_width,field_goal_height;
-	int field_goal_pos;		
+	int field_w,field_h;/*dimensiones del campo de juego en cm*/
 
-}field;
+}JF_field;
 
 
 
-field *field_init(int field_width,int field_height);
-void field_clean(field *fd);
+JF_field *JF_field_init(int field_width,int field_height);
+void JF_field_clean(JF_field *fd);
 
 
 

@@ -1,0 +1,37 @@
+TARGET = ecosquad.elf
+CFLAGS = -I./ -I$(SE_BASE)/dc -I$(SE_BASE)/include -DDREAMCAST
+
+DREAMCAST=1
+
+all: $(TARGET)
+
+include ../../config.mk
+
+OBJS += main.o char.o enemy.o menu.o zone.o title.o
+
+
+
+include $(KOS_BASE)/Makefile.rules
+
+clean:
+	-rm -f $(TARGET) $(OBJS)
+
+rm-elf:
+	-rm -f $(TARGET) romdisk.img romdisk.o $(OBJS)
+
+$(TARGET): $(OBJS) romdisk.o
+	$(KOS_CC) $(KOS_CFLAGS) $(KOS_LDFLAGS) $(CFLAGS) -o $(TARGET) $(KOS_START) \
+		$(OBJS) $(OBJEXTRA) romdisk.o -lparallax -lgl -lpng -ljpeg -lkmg -lz -lkosutils -ltremor -lm $(KOS_LIBS)
+
+romdisk.img:
+	$(KOS_GENROMFS) -f romdisk.img -d romdisk -v
+
+romdisk.o: romdisk.img
+	$(KOS_BASE)/utils/bin2o/bin2o romdisk.img romdisk romdisk.o
+
+run: $(TARGET)
+	$(KOS_LOADER) $(TARGET)
+
+dist:
+	-rm -f $(OBJS)
+	$(KOS_STRIP) $(TARGET)

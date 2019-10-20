@@ -1,0 +1,44 @@
+TARGET=libecosquad.so
+ANDROID=1
+ANDROID_NDK=/home/cabral/proyectos/android/android-ndk-r8e
+LD_LIBRARY_PATH=/home/cabral/proyectos/superjuego2/stable/android/android-project/libs/armeabi
+
+PREFIX=${ANDROID_NDK}/toolchains/arm-linux-androideabi-4.4.3/prebuilt/linux-x86/bin/arm-linux-androideabi-
+CC=${PREFIX}gcc
+CXX=${PREFIX}g++
+AS=${PREFIX}gcc
+LD=${PREFIX}gcc
+AR=${PREFIX}ar cru
+RANLIB=${PREFIX}ranlib
+STRIP=${PREFIX}strip
+OBJCOPY=${PREFIX}objcopy
+
+DEBUG = -g
+CFLAGS = -DANDROID -fPIC -Wall `sdl-config --cflags` -I./ -I$(SE_BASE)/linux -I$(SE_BASE)/include -I/usr/include -I/usr/include/i386-linux-gnu -c $(DEBUG) -I$(SE_BASE)/android/android-project/jni/SDL/include -I/home/cabral/proyectos/android/android-ndk-r8e/platforms/android-9/arch-arm/usr/include/ --sysroot /home/cabral/proyectos/android/android-ndk-r8e/platforms/android-9/arch-arm/  -L$(SE_BASE)/android/android-project/libs/armeabi/
+
+CPPLAGS = -fPIC -Wall `sdl-config --cflags` -I./ -I$(SE_BASE)/linux -I$(SE_BASE)/include -I/usr/include -I/usr/include/i386-linux-gnu -c $(DEBUG) -I$(SE_BASE)/android/android-project/jni/SDL/include --sysroot /home/cabral/proyectos/android/android-ndk-r8e/platforms/android-9/arch-arm/ 
+
+LFLAGS = -Wall $(DEBUG) --sysroot /home/cabral/proyectos/android/android-ndk-r8e/platforms/android-9/arch-arm/ -L/home/cabral/proyectos/superjuego2/stable/android/android-project/libs/armeabi/ -L-I/home/cabral/proyectos/android/android-ndk-r8e/platforms/android-9/arch-arm/usr/lib/
+LIBS = `sdl-config --libs`  -lSDL_image -lSDL_mixer -lEGL -lGLESv2 -lmikmod -llog
+
+
+include ../../config.mk
+
+all: $(TARGET)
+
+OBJS += $(SE_BASE)/android/android-project/jni/SDL/src/main/android/SDL_android_main.o main.o char.o enemy.o menu.o zone.o title.o 
+
+rm-elf:
+	-rm -f $(TARGET) $(OBJS)
+
+$(TARGET): $(OBJS)
+	$(CC) $(LFLAGS) $(OBJS) -shared -Wl,-soname,$(TARGET)  -o $(TARGET) $(LIBS)
+
+%.o: %.c
+	$(CC) $(CFLAGS) -c $< -o $@
+
+%.o: %.cpp
+	$(CXX) $(CFLAGS) -c $< -o $@
+
+clean:
+	rm -f $(OBJS) $(TARGET)

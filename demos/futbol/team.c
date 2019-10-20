@@ -1,17 +1,17 @@
+#include "team.h"
 
 
-
-team *team_init()
+JF_team *JF_team_init(const char *name)
 {
 
-	team *te;
-	te = (team*)malloc(sizeof(team));
-	te->team_players = (player**)malloc(11*sizeof(player*));
+	JF_team *te;
+	te->t_name = name;
+	te->t_players = (JF_player*)malloc(NUMPLAYERS*sizeof(JF_player));
 	int i;
-	for(i=0;i<11;i++)
+	for(i=0;i<NUMPLAYERS;i++)
 	{
 
-		te->team_players[i] = player_init();
+		te->t_players[i] = JF_player_init();
 
 	}
 	
@@ -19,38 +19,20 @@ team *team_init()
 
 }
 
-void team_player_edit(team *te,int order_number,int player_number,int player_ini_x,int player_ini_y,int player_area_width,int player_area_height,int player_height)
+
+
+
+void JF_team_edit(JF_team *te,const char *name)
 {
 
-	player_edit(te->team_players[order_number],player_number,player_ini_x,player_ini_y,player_area_width,player_area_height,player_height);	
+	te->t_name = name;
 
 }
 
-void team_player_x(team *te,int order_number,int pos_field_x)
+void JF_team_clean(JF_team* te)
 {
-
-	player_x(te->team_players[order_number],pos_field_x);
-
-}
-
-void team_player_y(team *te,int order_number,int pos_field_y)
-{
-
-	player_y(te->team_players[order_number],pos_field_y);
-
-}
-
-void team_clean(team* te)
-{
-
-	int i;
-	for(i=0;i<11;i++)
-	{
-
-		free(te->team_players[i];
-
-	}
-	free(te->team_players);
+	
+	free(te->t_players);
 	free(te);
 
 }

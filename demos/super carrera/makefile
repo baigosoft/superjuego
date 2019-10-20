@@ -1,10 +1,10 @@
 CC = g++
 DEBUG = -g
-CFLAGS = -Wall `sdl-config --cflags` -I./ -c $(DEBUG)
+CFLAGS = -Wall `sdl-config --cflags` -I./ -I./../.. -c $(DEBUG)
 LFLAGS = -Wall $(DEBUG)
 LIBS = `sdl-config --libs` -lm  -lSDL_image -lpng -lGL -lGLU 
 
-OBJECTS = main.o ../../render.o ../../animation.o ../../tile.o ../../utils.o 
+OBJECTS = main.o ../../render.o ../../image.o ../../animation.o ../../sprite.o ../../tile.o ../../collision.o ../../font.o ../../primitives.o ../../utils.o ../../audio.o ../../timer.o ../../input.o 
 
 all: $(OBJECTS)
 	$(CC) $(LFLAGS) $(OBJECTS) -o test01 $(LIBS)

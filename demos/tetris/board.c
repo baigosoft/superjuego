@@ -19,8 +19,8 @@ board *init_board(int columns,int rows,int tile_width,int tile_height)
 
 	board *b;
 	b = (board*)malloc(sizeof(board));
-	b->x = 0;
-	b->y = 0;
+	b->x = 240;
+	b->y = 64;
 	b->z = 0;
 	b->columns = columns;
 	b->rows = rows;
@@ -35,11 +35,14 @@ board *init_board(int columns,int rows,int tile_width,int tile_height)
 	}	
 
 	b->current_piece = 0;
+	b->next_piece = 0;
+	b->inserted = 0;	
 	b->current_rotation = 0;
 	b->piece_column = 0;
 	b->piece_row = 0;
 	b->pos_fill = 0;
 	b->score = 0;
+	b->lines = 0;
 	b->status = 1;
 	b->cycles = 0;
 	b->colour = 1;
@@ -60,10 +63,17 @@ void board_set_position(board *b,float posx,float posy,float posz)
 }
 
 
-void piece_set_current(board *b,int current_piece)
+void piece_set_current(board *b)
 {
-
-	b->current_piece = current_piece;
+	
+	if(b->status == INIT)
+	{
+		b->current_piece = rand()%7;
+		b->next_piece = rand()%7;				
+	}else if(b->status == START){
+		b->current_piece = b->next_piece;
+		b->next_piece = rand()%7;
+	}	
 
 }
 
@@ -87,137 +97,6 @@ void board_set_status(board *b,int status)
 
 	b->status = status;
 
-}
-
-int check_collision_lateral(board *b)
-{
-
-	int i,j,k,l;
-
-	int piece_number = b->current_piece;
-	int rotation = b->current_rotation;
-
-	int column_board = b->piece_column;
-	int row_board = b->piece_row;
-
-	int x_piece = column_board;
-	int y_piece = row_board;
-
-	int piece_pos = 0;
-	int piece_value = 0;
-
-	int board_pos = 0;
-	int board_value = 0;
-
-	int columns = b->columns;
-	int rows = b->rows;
-
-	int width = b->tile_width;
-	int height = b->tile_height;
-
-	int cont = 0;
-
-	/*si la pieza supera las paredes*/		
-	for(j=0;j<5;j++)
-	{		
-		for(i=0;i<5;i++)
-		{
-			piece_pos = calc_pos(i,j,5);
-			piece_value = pieces[piece_number][rotation][piece_pos];
-
-			/*la pieza sobrepasa costado izquierdo*/
-			if((piece_value > 0) && (x_piece < 0 ))
-			{
-				return 1;
-			}
-
-			/*la pieza sobrepasa costado derecho*/
-			if((piece_value > 0) && (x_piece >= columns))
-			{
-				return 2;
-			}			
-			
-			x_piece++; 
-		}
-
-		y_piece++;
-		x_piece = column_board; 
-
-	}
-	return 0;
-				
-	
-}
-
-int check_collision_bottom(board *b)
-{
-
-	int i,j,k,l;
-
-	int piece_number = b->current_piece;
-	int rotation = b->current_rotation;
-
-	int column_board = b->piece_column;
-	int row_board = b->piece_row;
-
-	int x_piece = column_board;
-	int y_piece = row_board;
-
-	int piece_pos = 0;
-	int piece_value = 0;
-
-	int board_pos = 0;
-	int board_value = 0;
-
-	int columns = b->columns;
-	int rows = b->rows;
-
-	int width = b->tile_width;
-	int height = b->tile_height;
-
-	int cont = 0;
-
-	/*si la pieza supera las paredes*/		
-	for(j=0;j<5;j++)
-	{		
-		for(i=0;i<5;i++)
-		{
-			piece_pos = calc_pos(i,j,5);
-			piece_value = pieces[piece_number][rotation][piece_pos];
-			
-			/*la pieza sobrepasa el final*/
-			if((piece_value > 0) && (y_piece >= (rows)))
-			{
-				return 1;
-			}
-				
-			/*la pieza se solapa con las piezas insertadas en el tablero*/
-			for(l=0;l < rows;l++)
-			{
-				for(k=0;k<columns;k++)
-				{
-					if((x_piece == k) && (y_piece == l))
-					{
-						board_pos = calc_pos(k,l,columns);
-						board_value = b->array_board[board_pos];
-						if((piece_value > 0) && (board_value > 0))
-						{
-							return 1;
-						}
-					}		
-				}
-			}
-
-		
-			x_piece++; 
-		}
-
-		y_piece++;
-		x_piece = column_board; 
-
-	}
-	return 0;
-				
 }
 
 int check_collision_piece(board *b)
@@ -249,43 +128,55 @@ int check_collision_piece(board *b)
 	int cont = 0;
 
 	/*si la pieza supera las paredes*/		
-	for(j=0;j<5;j++)
+	for(j=0;j < PIECE_BLOCKS;j++)
 	{		
-		for(i=0;i<5;i++)
+		for(i=0;i < PIECE_BLOCKS;i++)
 		{
-			piece_pos = calc_pos(i,j,5);
+			piece_pos = calc_pos(i,j,PIECE_BLOCKS);
 			piece_value = pieces[piece_number][rotation][piece_pos];
-			
-			/*la pieza se solapa con las piezas insertadas en el tablero*/
-			for(l=0;l < rows;l++)
+
+			if(piece_value > 0)
 			{
-				for(k=0;k<columns;k++)
+
+				/*la pieza sobrepasa costado izquierdo o costado derecho o el final*/
+				if((x_piece < 0 ) || (x_piece >= columns) || (y_piece >= rows))
 				{
-					if((x_piece == k) && (y_piece == l))
-					{
-						board_pos = calc_pos(k,l,columns);
-						board_value = b->array_board[board_pos];
-						if((piece_value > 0) && (board_value > 0))
-						{
-							return 1;
-						}
-					}		
+					return 1;
 				}
+
+				/*la pieza se solapa con las piezas insertadas en el tablero*/
+				for(l=0;l < rows;l++)
+				{
+					for(k=0;k < columns;k++)
+					{
+						if((x_piece == k) && (y_piece == l))
+						{
+							board_pos = calc_pos(k,l,columns);
+							board_value = b->array_board[board_pos];
+							if(board_value > 0)
+							{
+								return 1;
+							}
+						}		
+					}
+				}			
+
 			}
+
+			x_piece++; 			
 			
-			x_piece++; 
 		}
 
+	
 		y_piece++;
-		x_piece = column_board; 
+		x_piece = b->piece_column;
 
 	}
+	
+	/*si no hay colision con las paredes*/
 	return 0;
 				
-
-
-
-
+	
 }
 
 void insert_piece(board *b)
@@ -379,7 +270,36 @@ void delete_empty_lines(board *b)
 
 }
 
-void draw_piece(board *b)
+void draw_piece(int piece,int rotation,int piece_column,int piece_row,int width,int height,float posx,float posy,float posz)
+{
+
+	int i,j;
+
+	float x_piece,y_piece;
+
+	int v = 0;
+	int pos = 0;
+
+
+	for(j=0;j < PIECE_BLOCKS;j++)
+	{
+		for(i=0;i < PIECE_BLOCKS;i++)
+		{
+	
+				pos = calc_pos(i,j,5);
+				v = pieces[piece][rotation][pos];
+				x_piece = (piece_column + i)*width + posx;
+				y_piece = (piece_row + j)*height + posy;
+				if(v > 0)
+				{												
+					draw_tile(v,x_piece,y_piece,posz,width,height,1);
+				}
+		}	
+	}
+	
+}
+
+void draw_current_piece(board *b)
 {
 
 	int i,j;
@@ -399,27 +319,22 @@ void draw_piece(board *b)
 	float posy = b->y;
 	float posz = b->z;
 
-	int v = 0;
-	int pos = 0;
+	draw_piece(current_piece,current_rotation,piece_column,piece_row,width,height,posx,posy,posz);	
 
-	if(b->status == READY)
-	{
-		for(j=0;j < PIECE_BLOCKS;j++)
-		{
-			for(i=0;i < PIECE_BLOCKS;i++)
-			{
-	
-				pos = calc_pos(i,j,5);
-				v = pieces[current_piece][current_rotation][pos];
-				x_piece = (piece_column + i)*width + posx;
-				y_piece = (piece_row + j)*height + posy;
-				if(v > 0)
-				{												
-					draw_tile(v,x_piece,y_piece,posz,width,height,1);
-				}
-			}	
-		}
-	}
+}
+
+void draw_next_piece(board *b,float posx,float posy,float posz)
+{
+
+	int i,j;
+
+	int width = b->tile_width;
+	int height = b->tile_height;
+
+	int next_piece = b->next_piece;
+
+	draw_piece(next_piece,0,0,0,width,height,posx,posy,posz);	
+
 }
 
 void detect_fill_line(board *b)
@@ -432,6 +347,8 @@ void detect_fill_line(board *b)
 	int pos;
 
 	int cont = 0;
+
+	int contlines = 0;
 	
 	for(j=0;j < rows;j++)
 	{
@@ -447,12 +364,46 @@ void detect_fill_line(board *b)
        		if (i == columns) 
 			{	
 				
-				b->pos_fill = j;	
+				b->pos_fill = j;
+				printf("%d\n",contlines);
+				break;
+
+				
 
 			}
 	}
 
 }
+
+/*void calc_score(board *b)
+{
+
+
+
+
+	switch(countlines)
+	{
+		case 1:
+			b->lines += 1;
+			b->score += 10;		
+			break;
+		case 2:
+			b->lines += 2;
+			b->score += 30;		
+			break;
+		case 3:
+			b->lines += 3;
+			b->score += 50;		
+			break;
+		case 4:
+			b->lines += 4;
+			b->score += 100;		
+			break;
+		default:	
+			break;
+	}
+
+}*/
 
 int detect_gameover(board *b)
 {
@@ -470,11 +421,11 @@ int detect_gameover(board *b)
 		if((b->array_board[pos]) > 0)
 		{ 
 			return 1;
-		}else{
-			return 0;
-		}		
+		}	
 
 	}
+
+	return 0;
 
 }
 

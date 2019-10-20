@@ -1,0 +1,195 @@
+int check_collision_lateral(board *b)
+{
+
+	int i,j,k,l;
+
+	int piece_number = b->current_piece;
+	int rotation = b->current_rotation;
+
+	int x_piece = b->piece_column;
+	int y_piece = b->piece_row;
+
+	int piece_pos = 0;
+	int piece_value = 0;
+
+	int board_pos = 0;
+	int board_value = 0;
+
+	int columns = b->columns;
+	int rows = b->rows;
+
+	int width = b->tile_width;
+	int height = b->tile_height;
+
+	int cont = 0;
+
+	/*si la pieza supera las paredes*/		
+	for(j=0;j < PIECE_BLOCKS;j++)
+	{		
+		for(i=0;i < PIECE_BLOCKS;i++)
+		{
+			piece_pos = calc_pos(i,j,5);
+			piece_value = pieces[piece_number][rotation][piece_pos];
+
+			/*la pieza sobrepasa costado izquierdo*/
+			if((piece_value > 0) && (x_piece < 0 ))
+			{
+				return 1;
+			}
+
+			/*la pieza sobrepasa costado derecho*/
+			if((piece_value > 0) && (x_piece >= columns))
+			{
+				return 2;
+			}			
+			
+			x_piece++; 
+		}
+
+		y_piece++;
+		x_piece = b->piece_column;
+
+	}
+	return 0;
+				
+	
+}
+
+int check_collision_bottom(board *b)
+{
+
+	int i,j,k,l;
+
+	int piece_number = b->current_piece;
+	int rotation = b->current_rotation;
+
+	int column_board = b->piece_column;
+	int row_board = b->piece_row;
+
+	int x_piece = column_board;
+	int y_piece = row_board;
+
+	int piece_pos = 0;
+	int piece_value = 0;
+
+	int board_pos = 0;
+	int board_value = 0;
+
+	int columns = b->columns;
+	int rows = b->rows;
+
+	int width = b->tile_width;
+	int height = b->tile_height;
+
+	int cont = 0;
+
+	/*si la pieza supera las paredes*/		
+	for(j=0;j<5;j++)
+	{		
+		for(i=0;i<5;i++)
+		{
+			piece_pos = calc_pos(i,j,5);
+			piece_value = pieces[piece_number][rotation][piece_pos];
+			
+			/*la pieza sobrepasa el final*/
+			if((piece_value > 0) && (y_piece >= (rows)))
+			{
+				return 1;
+			}
+				
+			/*la pieza se solapa con las piezas insertadas en el tablero*/
+			for(l=0;l < rows;l++)
+			{
+				for(k=0;k<columns;k++)
+				{
+					if((x_piece == k) && (y_piece == l))
+					{
+						board_pos = calc_pos(k,l,columns);
+						board_value = b->array_board[board_pos];
+						if((piece_value > 0) && (board_value > 0))
+						{
+							return 1;
+						}
+					}		
+				}
+			}
+
+		
+			x_piece++; 
+		}
+
+		y_piece++;
+		x_piece = column_board; 
+
+	}
+	return 0;
+				
+}
+
+int check_collision_piece(board *b)
+{
+
+	int i,j,k,l;
+
+	int piece_number = b->current_piece;
+	int rotation = b->current_rotation;
+
+	int column_board = b->piece_column;
+	int row_board = b->piece_row;
+
+	int x_piece = column_board;
+	int y_piece = row_board;
+
+	int piece_pos = 0;
+	int piece_value = 0;
+
+	int board_pos = 0;
+	int board_value = 0;
+
+	int columns = b->columns;
+	int rows = b->rows;
+
+	int width = b->tile_width;
+	int height = b->tile_height;
+
+	int cont = 0;
+
+	/*si la pieza supera las paredes*/		
+	for(j=0;j<5;j++)
+	{		
+		for(i=0;i<5;i++)
+		{
+			piece_pos = calc_pos(i,j,5);
+			piece_value = pieces[piece_number][rotation][piece_pos];
+			
+			/*la pieza se solapa con las piezas insertadas en el tablero*/
+			for(l=0;l < rows;l++)
+			{
+				for(k=0;k<columns;k++)
+				{
+					if((x_piece == k) && (y_piece == l))
+					{
+						board_pos = calc_pos(k,l,columns);
+						board_value = b->array_board[board_pos];
+						if((piece_value > 0) && (board_value > 0))
+						{
+							return 1;
+						}
+					}		
+				}
+			}
+			
+			x_piece++; 
+		}
+
+		y_piece++;
+		x_piece = column_board; 
+
+	}
+	return 0;
+				
+
+
+
+
+}

@@ -10,16 +10,13 @@ typedef struct
 	int ball_x,ball_y,ball_z;
 
 
-}ball;
+}JF_ball;
 
 
-ball *ball_init();
-void ball_status_set(ball *b,int status);
-void ball_dimentions_set(ball *b,int width,int height);
-void ball_x(ball *b,int posx);
-void ball_y(ball *b,int posy);
-void ball_z(ball *b,int posz);
-void ball_clean(ball *b);
+JF_ball *JF_ball_init(int width,int height,int x,int y,int z);
+void JF_ball_status_set(JF_ball *b,int status);
+void JF_ball_dimentions_set(JF_ball *b,int width,int height);
+void JF_ball_clean(ball *b);
 
 
 

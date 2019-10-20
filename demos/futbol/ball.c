@@ -1,30 +1,30 @@
 #include "ball.h"
 
 
-ball *ball_init()
+JF_ball *JF_ball_init(int width,int height,int x,int y,int z)
 {
 
-	ball *b;
-	b = (ball*)malloc(sizeof(ball));
+	JF_ball *b;
+	b = (JF_ball*)malloc(sizeof(JF_ball));
 	b->ball_status = 0;
-	b->ball_width = 0;
-	b->ball_height = 0;
-	b->ball_x = 0;
-	b->ball_y = 0;
-	b->ball_z = 0;
+	b->ball_width = width;
+	b->ball_height = height;
+	b->ball_x = x;
+	b->ball_y = y;
+	b->ball_z = z;
 	
 	return b;
 
 }
 
-void ball_status_set(ball *b,int status)
+void JF_ball_status_set(JF_ball *b,int status)
 {
 
 	b->ball_status =  status;
 
 }
 
-void ball_dimentions_set(ball *b,int width,int height)
+void JF_ball_dimentions_set(JF_ball *b,int width,int height)
 {
 
 	b->ball_width = width;
@@ -32,28 +32,16 @@ void ball_dimentions_set(ball *b,int width,int height)
 
 }
 
-void ball_x(ball *b,int posx)
+void JF_ball_position_set(JF_ball *b,int x,int y,int z)
 {
 
-	b->ball_x = posx;
+	b->ball_x = x;
+	b->ball_y = y;
+	b->ball_z = z;
 
 }
 
-void ball_y(ball *b,int posy)
-{
-
-	b->ball_y = posy;
-
-}
-
-void ball_z(ball *b,int posz)
-{
-
-	b->ball_z = posz;
-
-}
-
-void ball_clean(ball *b)
+void JF_ball_clean(JF_ball *b)
 {
 
 	free(b);
